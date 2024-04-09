@@ -4,41 +4,41 @@
     "type": "Italian cuisine",
     "address": "Strada Bunicului 10, București",
     "rating": "4.3",
-    "img_src": "https://github.com/Indracatana/GroupGourmetResources/image/piotr-szulawski-DCmUhk54F6M-unsplash.jpg"
+    "img_src": "https://github.com/Indracatana/GroupGourmetResources/tree/main/image/piotr-szulawski-DCmUhk54F6M-unsplash.jpg"
   },
   {
     "name": "Fusion Delights",
     "type": "International cuisine",
     "address": "Bulevardul Soarelui 25, București",
     "rating": "4.7",
-    "img_src": "https://github.com/Indracatana/GroupGourmetResources/image/qui-nguyen-S6atLH5Rf0U-unsplash.jpg"
+    "img_src": "https://github.com/Indracatana/GroupGourmetResources/tree/main/image/qui-nguyen-S6atLH5Rf0U-unsplash.jpg"
   },
   {
     "name": "Riverside Retreat",
     "type": "Mediterranean cuisine",
     "address": "Strada Râului 3, București",
     "rating": "4.9",
-    "img_src": "https://github.com/Indracatana/GroupGourmetResources/image/rezha-ramadhan-sV8M_Lkg60Y-unsplash.jpg"
+    "img_src": "https://github.com/Indracatana/GroupGourmetResources/tree/main/image/rezha-ramadhan-sV8M_Lkg60Y-unsplash.jpg"
   },
   {
     "name": "The artist",
     "type": "Bistro",
     "address": "Piața Savorii 7, București",
     "rating": "4.5",
-    "img_src": "https://github.com/Indracatana/GroupGourmetResources/image/simon-karemann-p85-MG66GRY-unsplash.jpg"
+    "img_src": "https://github.com/Indracatana/GroupGourmetResources/tree/main/image/simon-karemann-p85-MG66GRY-unsplash.jpg"
   },
   {
     "name": "Secret Garden Bistro",
     "type": "American Cuisine",
     "address": "Strada Florilor 12, București",
     "rating": "4.6",
-    "img_src": "https://github.com/Indracatana/GroupGourmetResources/image/shawnanggg-nmpW_WwwVSc-unsplash.jpg"
+    "img_src": "https://github.com/Indracatana/GroupGourmetResources/tree/main/image/shawnanggg-nmpW_WwwVSc-unsplash.jpg"
   },
   {
     "name": "The Saint",
     "type": "Bar",
     "address": "Calea Victoriei 15, București",
     "rating": "4.3",
-    "img_src": "https://github.com/Indracatana/GroupGourmetResources/image/qui-nguyen-S6atLH5Rf0U-unsplash.jpg"
+    "img_src": "https://github.com/Indracatana/GroupGourmetResources/tree/main/image/qui-nguyen-S6atLH5Rf0U-unsplash.jpg"
   }
 ]
