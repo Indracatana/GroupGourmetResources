@@ -1,6 +1,6 @@
 [
   {
-    "restaurantId": "1",
+    "restaurant_id": "1",
     "name": "Pizzamania",
     "type": "Italian cuisine",
     "address": "Strada Bunicului 10, București",
@@ -10,7 +10,7 @@
     "working_hours": "Monday-Sunday: 11:00 AM - 10:00 PM"
   },
   {
-    "restaurantId": "2",
+    "restaurant_id": "2",
     "name": "Fusion Delights",
     "type": "International cuisine",
     "address": "Bulevardul Soarelui 25, București",
@@ -20,7 +20,7 @@
     "working_hours": "Tuesday-Sunday: 12:00 PM - 11:00 PM"
   },
   {
-    "restaurantId": "3",
+    "restaurant_id": "3",
     "name": "Riverside Retreat",
     "type": "Mediterranean cuisine",
     "address": "Strada Râului 3, București",
@@ -30,7 +30,7 @@
     "working_hours": "Monday-Saturday: 5:00 PM - 12:00 AM"
   },
   {
-    "restaurantId": "4",
+    "restaurant_id": "4",
     "name": "The artist",
     "type": "Bistro",
     "address": "Piața Savorii 7, București",
@@ -40,7 +40,7 @@
     "working_hours": "Monday-Friday: 11:30 AM - 10:00 PM\nSaturday-Sunday: 10:00 AM - 11:00 PM"
   },
   {
-    "restaurantId": "5",
+    "restaurant_id": "5",
     "name": "Secret Garden Bistro",
     "type": "American Cuisine",
     "address": "Strada Florilor 12, București",
@@ -50,7 +50,7 @@
     "working_hours": "Monday-Friday: 11:00 AM - 9:00 PM\nSaturday-Sunday: 9:00 AM - 10:00 PM"
   },
   {
-    "restaurantId": "6",
+    "restaurant_id": "6",
     "name": "The Saint",
     "type": "Bar",
     "address": "Calea Victoriei 15, București",
