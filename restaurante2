@@ -6,6 +6,7 @@
         "cuisine": "Romanian",
         "address": "Strada Stavropoleos 5, București",
         "rating": "4.5",
+
         "price_range": "High",
         "img_src": [
             "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1",
@@ -114,7 +115,7 @@
         "cuisine": "International",
         "address": "Strada Constantin Mille 4, București",
         "rating": "4.3",
-        "price_range": "Medium",`
+        "price_range": "Medium",
         "img_src": [
             "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_13",
             "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_14"
