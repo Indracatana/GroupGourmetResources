@@ -1,0 +1,1121 @@
+[
+    {
+        "restaurant_id": "1",
+        "name": "Caru' cu Bere",
+        "type": "Restaurant",
+        "cuisine": "Romanian",
+        "address": "Strada Stavropoleos 5, București",
+        "rating": "4.5",
+        "price_range": "High",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_2"
+        ],
+        "description": "A historic beerhouse serving traditional Romanian cuisine and a variety of beers. A must-visit landmark in Bucharest.",
+        "working_hours": "Monday-Sunday: 9:00 AM - 11:00 PM",
+        "nr_of_ratings": 540,
+        "latitude": 44.431348,
+        "longitude": 26.097367
+    },
+    {
+        "restaurant_id": "2",
+        "name": "Simbio",
+        "type": "Restaurant",
+        "cuisine": "International",
+        "address": "Strada Negustori 26, București",
+        "rating": "4.6",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_3",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_4"
+        ],
+        "description": "A cozy spot with a garden, offering a varied menu with international dishes. Perfect for a relaxed meal.",
+        "working_hours": "Monday-Sunday: 9:00 AM - 10:00 PM",
+        "nr_of_ratings": 310,
+        "latitude": 44.431248,
+        "longitude": 26.097267
+    },
+    {
+        "restaurant_id": "3",
+        "name": "Energiea",
+        "type": "Bistro",
+        "cuisine": "International",
+        "address": "Strada Ion Brezoianu 4, București",
+        "rating": "4.3",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_5",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_6"
+        ],
+        "description": "A modern bistro with a diverse menu, offering everything from burgers to vegan dishes. Perfect for a casual meal.",
+        "working_hours": "Monday-Friday: 10:00 AM - 10:00 PM\nSaturday-Sunday: 9:00 AM - 11:00 PM",
+        "nr_of_ratings": 410,
+        "latitude": 44.431148,
+        "longitude": 26.097167
+    },
+    {
+        "restaurant_id": "4",
+        "name": "Kane",
+        "type": "Restaurant",
+        "cuisine": "Contemporary",
+        "address": "Strada Dianei 9, București",
+        "rating": "4.7",
+        "price_range": "VeryHigh",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_7",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_8"
+        ],
+        "description": "An upscale restaurant offering contemporary dishes with a focus on local ingredients. A fine dining experience.",
+        "working_hours": "Monday-Saturday: 6:00 PM - 11:00 PM",
+        "nr_of_ratings": 200,
+        "latitude": 44.431048,
+        "longitude": 26.097067
+    },
+    {
+        "restaurant_id": "5",
+        "name": "Nor Sky Casual Restaurant",
+        "type": "Restaurant",
+        "cuisine": "International",
+        "address": "Calea Floreasca 246B, București",
+        "rating": "4.5",
+        "price_range": "High",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_9",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_10"
+        ],
+        "description": "A rooftop restaurant with stunning views of the city. Offering a variety of international dishes.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 320,
+        "latitude": 44.430948,
+        "longitude": 26.096967
+    },
+    {
+        "restaurant_id": "6",
+        "name": "Restaurant Hanu' lui Manuc",
+        "type": "Restaurant",
+        "cuisine": "Romanian",
+        "address": "Strada Franceză 62, București",
+        "rating": "4.4",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_11",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_12"
+        ],
+        "description": "Experience traditional Romanian cuisine in a historic setting. A popular spot for both locals and tourists.",
+        "working_hours": "Monday-Sunday: 11:00 AM - 11:00 PM",
+        "nr_of_ratings": 450,
+        "latitude": 44.430848,
+        "longitude": 26.096867
+    },
+    {
+        "restaurant_id": "7",
+        "name": "Alt Shift",
+        "type": "Restaurant",
+        "cuisine": "International",
+        "address": "Strada Constantin Mille 4, București",
+        "rating": "4.3",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_13",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_14"
+        ],
+        "description": "A trendy spot offering a mix of international dishes in a casual setting. Great for a night out with friends.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 1:00 AM",
+        "nr_of_ratings": 290,
+        "latitude": 44.430748,
+        "longitude": 26.096767
+    },
+    {
+        "restaurant_id": "8",
+        "name": "The Artist",
+        "type": "Restaurant",
+        "cuisine": "European",
+        "address": "Strada Nicolae Tonitza 13, București",
+        "rating": "4.8",
+        "price_range": "VeryHigh",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_15",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_16"
+        ],
+        "description": "A fine dining restaurant offering innovative European dishes. Each plate is a work of art.",
+        "working_hours": "Tuesday-Saturday: 6:00 PM - 10:00 PM",
+        "nr_of_ratings": 180,
+        "latitude": 44.430648,
+        "longitude": 26.096667
+    },
+    {
+        "restaurant_id": "9",
+        "name": "Mahala",
+        "type": "Restaurant",
+        "cuisine": "Romanian",
+        "address": "Calea Rahovei 147-153, București",
+        "rating": "4.4",
+        "price_range": "High",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_17",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_18"
+        ],
+        "description": "A contemporary take on traditional Romanian dishes. A chic setting with a great atmosphere.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 350,
+        "latitude": 44.430548,
+        "longitude": 26.096567
+    },
+    {
+        "restaurant_id": "10",
+        "name": "Lacrimi și Sfinți",
+        "type": "Restaurant",
+        "cuisine": "Romanian",
+        "address": "Strada Șepcari 16, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_19",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_20"
+        ],
+        "description": "Modern Romanian cuisine with a focus on organic and locally sourced ingredients. A must-visit for foodies.",
+        "working_hours": "Monday-Sunday: 11:00 AM - 11:00 PM",
+        "nr_of_ratings": 400,
+        "latitude": 44.430448,
+        "longitude": 26.096467
+    },
+    {
+        "restaurant_id": "11",
+        "name": "Shift Pub",
+        "type": "Bistro",
+        "cuisine": "International",
+        "address": "Strada General Eremia Grigorescu 17, București",
+        "rating": "4.4",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_21",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_22"
+        ],
+        "description": "A trendy bistro with a relaxed atmosphere, offering a variety of international dishes and cocktails.",
+        "working_hours": "Monday-Sunday: 11:00 AM - 12:00 AM",
+        "nr_of_ratings": 320,
+        "latitude": 44.438048,
+        "longitude": 26.096567
+    },
+    {
+        "restaurant_id": "12",
+        "name": "Lente",
+        "type": "Bistro",
+        "cuisine": "International",
+        "address": "Strada General Praporgescu 31, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_23",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_24"
+        ],
+        "description": "A cozy bistro with a garden, perfect for enjoying a variety of international dishes in a relaxed setting.",
+        "working_hours": "Monday-Sunday: 10:00 AM - 11:00 PM",
+        "nr_of_ratings": 280,
+        "latitude": 44.438948,
+        "longitude": 26.097467
+    },
+    {
+        "restaurant_id": "13",
+        "name": "Modelier",
+        "type": "Bistro",
+        "cuisine": "International",
+        "address": "Strada Duzilor 12, București",
+        "rating": "4.6",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_25",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_26"
+        ],
+        "description": "A popular bistro known for its burgers and relaxed vibe. A great spot for casual dining.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 310,
+        "latitude": 44.439848,
+        "longitude": 26.098367
+    },
+    {
+        "restaurant_id": "14",
+        "name": "J'ai Bistrot",
+        "type": "Bistro",
+        "cuisine": "International",
+        "address": "Calea Griviței 55, București",
+        "rating": "4.7",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_27",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_28"
+        ],
+        "description": "A charming bistro with a garden, offering a mix of international dishes and a cozy atmosphere.",
+        "working_hours": "Tuesday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 290,
+        "latitude": 44.440748,
+        "longitude": 26.099267
+    },
+    {
+        "restaurant_id": "15",
+        "name": "Bistro La Taifas",
+        "type": "Bistro",
+        "cuisine": "Romanian",
+        "address": "Strada Doamnei 9, București",
+        "rating": "4.3",
+        "price_range": "Low",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_29",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_30"
+        ],
+        "description": "A cozy Romanian bistro offering traditional dishes in a warm and welcoming setting.",
+        "working_hours": "Monday-Saturday: 10:00 AM - 10:00 PM",
+        "nr_of_ratings": 260,
+        "latitude": 44.441648,
+        "longitude": 26.100167
+    },
+    {
+        "restaurant_id": "16",
+        "name": "Biutiful by the Lake",
+        "type": "Bistro",
+        "cuisine": "International",
+        "address": "Șoseaua Nordului 7-9, București",
+        "rating": "4.6",
+        "price_range": "High",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_31",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_32"
+        ],
+        "description": "A stylish bistro by the lake, offering a variety of international dishes and a beautiful view.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 340,
+        "latitude": 44.442548,
+        "longitude": 26.101067
+    },
+    {
+        "restaurant_id": "17",
+        "name": "Frudisiac",
+        "type": "Bistro",
+        "cuisine": "Scandinavian",
+        "address": "Intrarea Bitolia 4, București",
+        "rating": "4.4",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_33",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_34"
+        ],
+        "description": "A Scandinavian-inspired bistro offering healthy and delicious dishes in a minimalist setting.",
+        "working_hours": "Monday-Sunday: 8:00 AM - 8:00 PM",
+        "nr_of_ratings": 280,
+        "latitude": 44.443448,
+        "longitude": 26.101967
+    },
+    {
+        "restaurant_id": "18",
+        "name": "Simbio",
+        "type": "Bistro",
+        "cuisine": "International",
+        "address": "Strada Negustori 26, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_35",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_36"
+        ],
+        "description": "A cozy bistro with a garden, perfect for enjoying a variety of international dishes in a relaxed setting.",
+        "working_hours": "Monday-Sunday: 9:00 AM - 10:00 PM",
+        "nr_of_ratings": 300,
+        "latitude": 44.444348,
+        "longitude": 26.102867
+    },
+    {
+        "restaurant_id": "19",
+        "name": "Tasting Room",
+        "type": "Bistro",
+        "cuisine": "International",
+        "address": "Strada Puțul lui Zamfir 36, București",
+        "rating": "4.6",
+        "price_range": "High",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_37",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_38"
+        ],
+        "description": "An elegant bistro offering a wide selection of wines and gourmet dishes in a sophisticated setting.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 340,
+        "latitude": 44.445248,
+        "longitude": 26.103767
+    },
+   {
+        "restaurant_id": "21",
+        "name": "Artichoke Coffee Shop",
+        "type": "Cafe",
+        "cuisine": "Cafe",
+        "address": "Strada C. A. Rosetti 47, București",
+        "rating": "4.6",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_41",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_42"
+        ],
+        "description": "A cozy coffee shop with a relaxing atmosphere, perfect for enjoying a cup of coffee or tea.",
+        "working_hours": "Monday-Sunday: 8:00 AM - 8:00 PM",
+        "nr_of_ratings": 150,
+        "latitude": 44.446148,
+        "longitude": 26.104667
+    },
+    {
+        "restaurant_id": "22",
+        "name": "M60",
+        "type": "Cafe",
+        "cuisine": "Cafe",
+        "address": "Strada Mendeleev 2, București",
+        "rating": "4.7",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_43",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_44"
+        ],
+        "description": "A modern coffee shop offering a variety of specialty coffees and a comfortable setting.",
+        "working_hours": "Monday-Sunday: 9:00 AM - 9:00 PM",
+        "nr_of_ratings": 180,
+        "latitude": 44.447048,
+        "longitude": 26.105567
+    },
+    {
+        "restaurant_id": "23",
+        "name": "Fabrica de cafea",
+        "type": "Cafe",
+        "cuisine": "Cafe",
+        "address": "Calea Victoriei 118, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_45",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_46"
+        ],
+        "description": "A popular cafe known for its high-quality coffee and comfortable ambiance.",
+        "working_hours": "Monday-Sunday: 7:00 AM - 10:00 PM",
+        "nr_of_ratings": 200,
+        "latitude": 44.448948,
+        "longitude": 26.106467
+    },
+    {
+        "restaurant_id": "24",
+        "name": "T-Zero Coffee Shop",
+        "type": "Cafe",
+        "cuisine": "Cafe",
+        "address": "Strada Lipscani 7, București",
+        "rating": "4.6",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_47",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_48"
+        ],
+        "description": "A trendy coffee shop in the heart of Bucharest, perfect for a quick coffee or a relaxing break.",
+        "working_hours": "Monday-Sunday: 8:00 AM - 8:00 PM",
+        "nr_of_ratings": 170,
+        "latitude": 44.449848,
+        "longitude": 26.107367
+    },
+    {
+        "restaurant_id": "25",
+        "name": "Origo",
+        "type": "Cafe",
+        "cuisine": "Cafe",
+        "address": "Strada Lipscani 9, București",
+        "rating": "4.7",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_49",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_50"
+        ],
+        "description": "A specialty coffee shop offering a wide range of coffee beverages and a cozy atmosphere.",
+        "working_hours": "Monday-Sunday: 8:00 AM - 10:00 PM",
+        "nr_of_ratings": 220,
+        "latitude": 44.450748,
+        "longitude": 26.108267
+    },
+    {
+        "restaurant_id": "26",
+        "name": "Coftale",
+        "type": "Cafe",
+        "cuisine": "Cafe",
+        "address": "Strada Ștefan Mihăileanu 42, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_51",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_52"
+        ],
+        "description": "A charming cafe offering high-quality coffee and a cozy environment for relaxation.",
+        "working_hours": "Monday-Sunday: 8:00 AM - 10:00 PM",
+        "nr_of_ratings": 180,
+        "latitude": 44.451648,
+        "longitude": 26.109167
+    },
+    {
+        "restaurant_id": "27",
+        "name": "Bean & Dots",
+        "type": "Cafe",
+        "cuisine": "Cafe",
+        "address": "Strada Horei 34, București",
+        "rating": "4.6",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_53",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_54"
+        ],
+        "description": "A hip coffee shop offering a variety of specialty coffees and a great place to work or relax.",
+        "working_hours": "Monday-Sunday: 9:00 AM - 9:00 PM",
+        "nr_of_ratings": 190,
+        "latitude": 44.452548,
+        "longitude": 26.110067
+    },
+    {
+        "restaurant_id": "28",
+        "name": "Fabrica de cafea",
+        "type": "Cafe",
+        "cuisine": "Cafe",
+        "address": "Calea Dorobanți 115, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_55",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_56"
+        ],
+        "description": "A popular cafe known for its high-quality coffee and comfortable ambiance.",
+        "working_hours": "Monday-Sunday: 7:00 AM - 10:00 PM",
+        "nr_of_ratings": 200,
+        "latitude": 44.453448,
+        "longitude": 26.110967
+    },
+    {
+        "restaurant_id": "29",
+        "name": "The Coffee Shop",
+        "type": "Cafe",
+        "cuisine": "Cafe",
+        "address": "Strada Franceză 44, București",
+        "rating": "4.7",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_57",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_58"
+        ],
+        "description": "A well-known coffee shop offering a variety of coffee drinks and a cozy place to relax.",
+        "working_hours": "Monday-Sunday: 8:00 AM - 9:00 PM",
+        "nr_of_ratings": 210,
+        "latitude": 44.454348,
+        "longitude": 26.111867
+    },
+    {
+        "restaurant_id": "30",
+        "name": "Black Habit",
+        "type": "Cafe",
+        "cuisine": "Cafe",
+        "address": "Strada Mântuleasa 10, București",
+        "rating": "4.6",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_59",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_60"
+        ],
+        "description": "A stylish cafe offering specialty coffees and a great atmosphere for working or relaxing.",
+        "working_hours": "Monday-Sunday: 9:00 AM - 9:00 PM",
+        "nr_of_ratings": 190,
+        "latitude": 44.455248,
+        "longitude": 26.112767
+    },[
+    {
+        "restaurant_id": "61",
+        "name": "Trattoria Il Calcio",
+        "type": "Restaurant",
+        "cuisine": "Italian",
+        "address": "Strada Benjamin Franklin 5, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_201",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_202"
+        ],
+        "description": "Authentic Italian cuisine with a cozy atmosphere and friendly service.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 300,
+        "latitude": 44.436141,
+        "longitude": 26.095272
+    },
+    {
+        "restaurant_id": "62",
+        "name": "Cucina di Casa",
+        "type": "Restaurant",
+        "cuisine": "Italian",
+        "address": "Calea Dorobanți 239, București",
+        "rating": "4.6",
+        "price_range": "High",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_203",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_204"
+        ],
+        "description": "Delicious Italian dishes made with fresh ingredients and traditional recipes.",
+        "working_hours": "Monday-Sunday: 11:00 AM - 10:00 PM",
+        "nr_of_ratings": 350,
+        "latitude": 44.447291,
+        "longitude": 26.106560
+    },[
+    {
+        "restaurant_id": "63",
+        "name": "Le Bistrot Français",
+        "type": "Restaurant",
+        "cuisine": "French",
+        "address": "Strada Nicolae Golescu 18, București",
+        "rating": "4.8",
+        "price_range": "VeryHigh",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_301",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_302"
+        ],
+        "description": "Elegant French bistro offering exquisite dishes and fine wines.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 250,
+        "latitude": 44.441205,
+        "longitude": 26.096504
+    },
+    {
+        "restaurant_id": "64",
+        "name": "L'Atelier",
+        "type": "Restaurant",
+        "cuisine": "French",
+        "address": "Strada Episcopiei 1-3, București",
+        "rating": "4.7",
+        "price_range": "High",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_303",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_304"
+        ],
+        "description": "Charming French restaurant with a focus on seasonal ingredients and creative dishes.",
+        "working_hours": "Tuesday-Sunday: 1:00 PM - 10:00 PM",
+        "nr_of_ratings": 280,
+        "latitude": 44.439569,
+        "longitude": 26.096613
+    }
+]
+[
+    {
+        "restaurant_id": "65",
+        "name": "5 Elemente",
+        "type": "Restaurant",
+        "cuisine": "Chinese",
+        "address": "Strada Mihai Eminescu 186, București",
+        "rating": "4.4",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_401",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_402"
+        ],
+        "description": "Authentic Chinese cuisine with a wide variety of dishes to choose from.",
+        "working_hours": "Monday-Sunday: 11:30 AM - 10:00 PM",
+        "nr_of_ratings": 320,
+        "latitude": 44.448095,
+        "longitude": 26.108871
+    },
+    {
+        "restaurant_id": "66",
+        "name": "Beijing Garden",
+        "type": "Restaurant",
+        "cuisine": "Chinese",
+        "address": "Calea Victoriei 100, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_403",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_404"
+        ],
+        "description": "Enjoy delicious Chinese food in a modern and comfortable setting.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 290,
+        "latitude": 44.445144,
+        "longitude": 26.096791
+    }
+]
+[
+    {
+        "restaurant_id": "67",
+        "name": "Zen Sushi",
+        "type": "Restaurant",
+        "cuisine": "Japanese",
+        "address": "Strada Lipscani 20, București",
+        "rating": "4.6",
+        "price_range": "High",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_501",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_502"
+        ],
+        "description": "Savor the flavors of Japan with expertly crafted sushi and sashimi.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 10:00 PM",
+        "nr_of_ratings": 310,
+        "latitude": 44.430987,
+        "longitude": 26.100583
+    },
+    {
+        "restaurant_id": "68",
+        "name": "Yuki",
+        "type": "Restaurant",
+        "cuisine": "Japanese",
+        "address": "Strada Puțul lui Zamfir 5, București",
+        "rating": "4.7",
+        "price_range": "VeryHigh",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_503",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_504"
+        ],
+        "description": "Experience traditional Japanese dining in an intimate and elegant setting.",
+        "working_hours": "Monday-Sunday: 11:30 AM - 10:30 PM",
+        "nr_of_ratings": 330,
+        "latitude": 44.447113,
+        "longitude": 26.109388
+    }
+]
+[
+    {
+        "restaurant_id": "41",
+        "name": "Maison des Crepes",
+        "type": "Brunch",
+        "cuisine": "French",
+        "address": "Strada Mihai Eminescu 38, București",
+        "rating": "4.7",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_81",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_82"
+        ],
+        "description": "A cozy brunch spot offering a variety of delicious crepes and French-inspired dishes.",
+        "working_hours": "Monday-Sunday: 9:00 AM - 4:00 PM",
+        "nr_of_ratings": 300,
+        "latitude": 44.451248,
+        "longitude": 26.122667
+    },
+    {
+        "restaurant_id": "42",
+        "name": "Frudisiac",
+        "type": "Brunch",
+        "cuisine": "International",
+        "address": "Intrarea Bitolia 4, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_83",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_84"
+        ],
+        "description": "A popular brunch place known for its healthy and fresh dishes with an international twist.",
+        "working_hours": "Monday-Sunday: 8:00 AM - 5:00 PM",
+        "nr_of_ratings": 280,
+        "latitude": 44.452148,
+        "longitude": 26.123567
+    },
+    {
+        "restaurant_id": "43",
+        "name": "M60",
+        "type": "Brunch",
+        "cuisine": "International",
+        "address": "Strada D. I. Mendeleev 2, București",
+        "rating": "4.6",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_85",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_86"
+        ],
+        "description": "A modern brunch café offering a variety of gourmet dishes and specialty coffee.",
+        "working_hours": "Monday-Sunday: 9:00 AM - 6:00 PM",
+        "nr_of_ratings": 320,
+        "latitude": 44.453048,
+        "longitude": 26.124467
+    },
+    {
+        "restaurant_id": "44",
+        "name": "Simbio",
+        "type": "Brunch",
+        "cuisine": "International",
+        "address": "Strada Negustori 26, București",
+        "rating": "4.8",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_87",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_88"
+        ],
+        "description": "A trendy brunch spot with a beautiful garden, offering a diverse menu and excellent coffee.",
+        "working_hours": "Monday-Sunday: 8:00 AM - 4:00 PM",
+        "nr_of_ratings": 350,
+        "latitude": 44.454948,
+        "longitude": 26.125367
+    },
+    {
+        "restaurant_id": "45",
+        "name": "Arome",
+        "type": "Brunch",
+        "cuisine": "International",
+        "address": "Strada Luigi Cazzavillan 25, București",
+        "rating": "4.4",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_89",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_90"
+        ],
+        "description": "A charming brunch place known for its cozy atmosphere and delicious homemade dishes.",
+        "working_hours": "Monday-Sunday: 9:00 AM - 5:00 PM",
+        "nr_of_ratings": 270,
+        "latitude": 44.455848,
+        "longitude": 26.126267
+    },
+    {
+        "restaurant_id": "46",
+        "name": "Funky Lounge Herastrau",
+        "type": "Brunch",
+        "cuisine": "International",
+        "address": "Șoseaua Nordului 1, București",
+        "rating": "4.6",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_91",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_92"
+        ],
+        "description": "A lively brunch spot with a beautiful terrace overlooking Herastrau Park.",
+        "working_hours": "Monday-Sunday: 10:00 AM - 6:00 PM",
+        "nr_of_ratings": 290,
+        "latitude": 44.456748,
+        "longitude": 26.127167
+    },
+    {
+        "restaurant_id": "47",
+        "name": "Rue du Pain",
+        "type": "Brunch",
+        "cuisine": "French",
+        "address": "Strada Povernei 26, București",
+        "rating": "4.7",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_93",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_94"
+        ],
+        "description": "A French-inspired brunch café offering freshly baked pastries and gourmet dishes.",
+        "working_hours": "Monday-Sunday: 8:00 AM - 4:00 PM",
+        "nr_of_ratings": 310,
+        "latitude": 44.457648,
+        "longitude": 26.128067
+    },
+    {
+        "restaurant_id": "48",
+        "name": "Panoramic Brunch & Bar",
+        "type": "Brunch",
+        "cuisine": "International",
+        "address": "Calea Victoriei 37B, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_95",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_96"
+        ],
+        "description": "A rooftop brunch spot offering stunning views of the city and a diverse menu.",
+        "working_hours": "Monday-Sunday: 9:00 AM - 6:00 PM",
+        "nr_of_ratings": 300,
+        "latitude": 44.458548,
+        "longitude": 26.128967
+    },
+    {
+        "restaurant_id": "49",
+        "name": "Osteria Gioia",
+        "type": "Brunch",
+        "cuisine": "Italian",
+        "address": "Strada Polonă 65, București",
+        "rating": "4.6",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_97",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_98"
+        ],
+        "description": "An Italian-inspired brunch spot known for its delicious pastas and pastries.",
+        "working_hours": "Monday-Sunday: 8:00 AM - 5:00 PM",
+        "nr_of_ratings": 320,
+        "latitude": 44.459448,
+        "longitude": 26.129867
+    },
+    {
+        "restaurant_id": "50",
+        "name": "Yolk - The Breakfast Cafe",
+        "type": "Brunch",
+        "cuisine": "American",
+        "address": "Strada Ion Ghica 3, București",
+        "rating": "4.7",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_99",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_100"
+        ],
+        "description": "An American-style brunch café offering hearty breakfasts and brunch dishes.",
+        "working_hours": "Monday-Sunday: 7:00 AM - 3:00 PM",
+        "nr_of_ratings": 330,
+        "latitude": 44.460348,
+        "longitude": 26.130767
+    }
+]
+[
+    {
+        "restaurant_id": "71",
+        "name": "Alioli",
+        "type": "Restaurant",
+        "cuisine": "Spanish",
+        "address": "Strada Paris 47A, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_701",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_702"
+        ],
+        "description": "Enjoy a taste of Spain with delicious tapas, paella, and more.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 250,
+        "latitude": 44.452867,
+        "longitude": 26.099715
+    },
+    {
+        "restaurant_id": "72",
+        "name": "Pata Negra",
+        "type": "Restaurant",
+        "cuisine": "Spanish",
+        "address": "Calea Victoriei 147, București",
+        "rating": "4.4",
+        "price_range": "High",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_703",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_704"
+        ],
+        "description": "A Spanish restaurant offering a variety of authentic dishes and a vibrant atmosphere.",
+        "working_hours": "Monday-Sunday: 11:00 AM - 10:00 PM",
+        "nr_of_ratings": 270,
+        "latitude": 44.447392,
+        "longitude": 26.096283
+    }
+]
+[
+    {
+        "restaurant_id": "73",
+        "name": "El Torito",
+        "type": "Restaurant",
+        "cuisine": "Mexican",
+        "address": "Strada Iancu Căpitanu 30, București",
+        "rating": "4.6",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_801",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_802"
+        ],
+        "description": "Delicious Mexican cuisine with a lively and colorful ambiance.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 300,
+        "latitude": 44.445122,
+        "longitude": 26.107365
+    },
+    {
+        "restaurant_id": "74",
+        "name": "Taqueria El Torito",
+        "type": "Restaurant",
+        "cuisine": "Mexican",
+        "address": "Calea Floreasca 246B, București",
+        "rating": "4.7",
+        "price_range": "High",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_803",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_804"
+        ],
+        "description": "Experience authentic Mexican flavors with our range of tacos, burritos, and more.",
+        "working_hours": "Monday-Sunday: 1:00 PM - 11:00 PM",
+        "nr_of_ratings": 350,
+        "latitude": 44.457574,
+        "longitude": 26.098993
+    }
+]
+[
+    {
+        "restaurant_id": "75",
+        "name": "Divan",
+        "type": "Restaurant",
+        "cuisine": "Turkish",
+        "address": "Calea Floreasca 111-113, București",
+        "rating": "4.6",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_901",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_902"
+        ],
+        "description": "Savor the rich flavors of Turkish cuisine with our wide selection of dishes.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 320,
+        "latitude": 44.455261,
+        "longitude": 26.106642
+    },
+    {
+        "restaurant_id": "76",
+        "name": "Saray",
+        "type": "Restaurant",
+        "cuisine": "Turkish",
+        "address": "Strada Vasile Lascăr 5, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_903",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_904"
+        ],
+         "description": "Enjoy traditional Turkish dishes in a warm and inviting atmosphere.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 10:00 PM",
+        "nr_of_ratings": 310,
+        "latitude": 44.437814,
+        "longitude": 26.108826
+    }
+][
+    {
+        "restaurant_id": "77",
+        "name": "Haveli",
+        "type": "Restaurant",
+        "cuisine": "Indian",
+        "address": "Strada Episcopiei 8, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1001",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1002"
+        ],
+        "description": "Delight in the exotic flavors of India with our carefully crafted dishes.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 10:00 PM",
+        "nr_of_ratings": 290,
+        "latitude": 44.441595,
+        "longitude": 26.096925
+    },
+    {
+        "restaurant_id": "78",
+        "name": "Taj Restaurant",
+        "type": "Restaurant",
+        "cuisine": "Indian",
+        "address": "Calea Dorobanți 61, București",
+        "rating": "4.6",
+        "price_range": "High",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1003",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1004"
+        ],
+        "description": "Experience the best of Indian cuisine with our wide range of traditional dishes.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 310,
+        "latitude": 44.446065,
+        "longitude": 26.105572
+    }
+]
+[
+    {
+        "restaurant_id": "79",
+        "name": "Four Seasons",
+        "type": "Restaurant",
+        "cuisine": "Lebanese",
+        "address": "Strada Mendeleev 32, București",
+        "rating": "4.4",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1101",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1102"
+        ],
+        "description": "Enjoy authentic Lebanese dishes in a vibrant and welcoming atmosphere.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 270,
+        "latitude": 44.445076,
+        "longitude": 26.097450
+    },
+    {
+        "restaurant_id": "80",
+        "name": "Zaitoone",
+        "type": "Restaurant",
+        "cuisine": "Lebanese",
+        "address": "Strada Nicolae Golescu 14, București",
+        "rating": "4.5",
+        "price_range": "High",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1103",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1104"
+        ],
+        "description": "A Lebanese restaurant offering a variety of flavorful dishes and an inviting ambiance.",
+        "working_hours": "Monday-Sunday: 11:00 AM - 10:00 PM",
+        "nr_of_ratings": 300,
+        "latitude": 44.441345,
+        "longitude": 26.096643
+    }
+]
+[
+    {
+        "restaurant_id": "81",
+        "name": "Sara Green",
+        "type": "Restaurant",
+        "cuisine": "Vegan",
+        "address": "Strada Ion Câmpineanu 21, București",
+        "rating": "4.8",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1201",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1202"
+        ],
+        "description": "Delicious vegan dishes made with fresh, organic ingredients.",
+        "working_hours": "Monday-Sunday: 10:00 AM - 10:00 PM",
+        "nr_of_ratings": 210,
+        "latitude": 44.439103,
+        "longitude": 26.096343
+    },
+    {
+        "restaurant_id": "82",
+        "name": "Rawdia",
+        "type": "Restaurant",
+        "cuisine": "Vegan",
+        "address": "Strada Pictor Arthur Verona 2, București",
+        "rating": "4.7",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1203",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1204"
+        ],
+        "description": "Experience the best of raw and vegan cuisine in a cozy and welcoming setting.",
+        "working_hours": "Monday-Sunday: 11:00 AM - 9:00 PM",
+        "nr_of_ratings": 220,
+        "latitude": 44.441743,
+        "longitude": 26.102193
+    }
+]
+[
+    {
+        "restaurant_id": "85",
+        "name": "Hard Rock Cafe",
+        "type": "Restaurant",
+        "cuisine": "American",
+        "address": "Șoseaua Kiseleff 32, București",
+        "rating": "4.6",
+        "price_range": "High",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1401",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1402"
+        ],
+        "description": "Classic American cuisine with a rock and roll vibe.",
+        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+        "nr_of_ratings": 500,
+        "latitude": 44.472992,
+        "longitude": 26.080778
+    },
+    {
+        "restaurant_id": "86",
+        "name": "Jack's Burger",
+        "type": "Restaurant",
+        "cuisine": "American",
+        "address": "Calea Victoriei 18, București",
+        "rating": "4.5",
+        "price_range": "Medium",
+        "img_src": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1403",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1404"
+        ],
+        "description": "Enjoy a variety of burgers and other American classics in a casual setting.",
+        "working_hours": "Monday-Sunday: 11:00 AM - 10:00 PM",
+        "nr_of_ratings": 460,
+        "latitude": 44.444519,
+        "longitude": 26.096523
+    }
+]
+
+
