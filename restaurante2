@@ -631,24 +631,6 @@
         "longitude": 26.128967
     },
     {
-        "restaurant_id": "49",
-        "name": "Osteria Gioia",
-        "type": "Restaurant",
-        "cuisine": "Italian",
-        "address": "Strada Polonă 65, București",
-        "rating": "4.6",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_97",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_98"
-        ],
-        "description": "An Italian-inspired brunch spot known for its delicious pastas and pastries.",
-        "working_hours": "Monday-Sunday: 8:00 AM - 5:00 PM",
-        "nr_of_ratings": 320,
-        "latitude": 44.459448,
-        "longitude": 26.129867
-    },
-    {
         "restaurant_id": "50",
         "name": "Yolk - The Breakfast Cafe",
         "type": "Brunch",
@@ -815,7 +797,7 @@
         "name": "Zaitoone",
         "type": "Restaurant",
         "cuisine": "Lebanese",
-        "address": "Strada Nicolae Golescu 14, București",
+        "address": "Str. Nicolae G. Caramfil 2, București",
         "rating": "4.5",
         "price_range": "High",
         "img_src": [
