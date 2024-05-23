@@ -796,7 +796,7 @@
         "name": "Divan",
         "type": "Restaurant",
         "cuisine": "Turkish",
-        "address": "Calea Floreasca 111-113, București",
+        "address": "Str. Barbu Văcărescu 241A, București",
         "rating": "4.6",
         "price_range": "Medium",
         "img_src": [
@@ -814,7 +814,7 @@
         "name": "Saray",
         "type": "Restaurant",
         "cuisine": "Turkish",
-        "address": "Strada Vasile Lascăr 5, București",
+        "address": "Strada Lipscani 21, București",
         "rating": "4.5",
         "price_range": "Medium",
         "img_src": [
@@ -832,7 +832,7 @@
         "name": "Haveli",
         "type": "Restaurant",
         "cuisine": "Indian",
-        "address": "Strada Episcopiei 8, București",
+        "address": " Strada Episcopul Radu 3, București",
         "rating": "4.5",
         "price_range": "Medium",
         "img_src": [
@@ -850,7 +850,7 @@
         "name": "Taj Restaurant",
         "type": "Restaurant",
         "cuisine": "Indian",
-        "address": "Calea Dorobanți 61, București",
+        "address": " Calea 13 Septembrie, București",
         "rating": "4.6",
         "price_range": "High",
         "img_src": [
@@ -904,7 +904,7 @@
         "name": "Sara Green",
         "type": "Restaurant",
         "cuisine": "Vegan",
-        "address": "Strada Ion Câmpineanu 21, București",
+        "address": "Bulevardul Lascăr Catargiu 43A, București 010665",
         "rating": "4.8",
         "price_range": "Medium",
         "img_src": [
@@ -958,7 +958,7 @@
         "name": "Jack's Burger",
         "type": "Restaurant",
         "cuisine": "American",
-        "address": "Calea Victoriei 18, București",
+        "address": "Calea Bucuresti 80, București",
         "rating": "4.5",
         "price_range": "Medium",
         "img_src": [
