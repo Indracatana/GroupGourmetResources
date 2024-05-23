@@ -341,8 +341,8 @@
         "latitude": 44.445248,
         "longitude": 26.103767
     },
-   {
-        "restaurant_id": "21",
+    {
+        "restaurant_id": "20",
         "name": "Artichoke Coffee Shop",
         "type": "Cafe",
         "cuisine": "Cafe",
@@ -520,7 +520,7 @@
         "nr_of_ratings": 190,
         "latitude": 44.455248,
         "longitude": 26.112767
-    },[
+    },
     {
         "restaurant_id": "61",
         "name": "Trattoria Il Calcio",
@@ -556,7 +556,7 @@
         "nr_of_ratings": 350,
         "latitude": 44.447291,
         "longitude": 26.106560
-    },[
+    },
     {
         "restaurant_id": "63",
         "name": "Le Bistrot Français",
@@ -592,9 +592,7 @@
         "nr_of_ratings": 280,
         "latitude": 44.439569,
         "longitude": 26.096613
-    }
-]
-[
+    },
     {
         "restaurant_id": "65",
         "name": "5 Elemente",
@@ -630,9 +628,7 @@
         "nr_of_ratings": 290,
         "latitude": 44.445144,
         "longitude": 26.096791
-    }
-]
-[
+    },
     {
         "restaurant_id": "67",
         "name": "Zen Sushi",
@@ -668,9 +664,7 @@
         "nr_of_ratings": 330,
         "latitude": 44.447113,
         "longitude": 26.109388
-    }
-]
-[
+    },
     {
         "restaurant_id": "41",
         "name": "Maison des Crepes",
@@ -850,9 +844,7 @@
         "nr_of_ratings": 330,
         "latitude": 44.460348,
         "longitude": 26.130767
-    }
-]
-[
+    },
     {
         "restaurant_id": "71",
         "name": "Alioli",
@@ -888,9 +880,7 @@
         "nr_of_ratings": 270,
         "latitude": 44.447392,
         "longitude": 26.096283
-    }
-]
-[
+    },
     {
         "restaurant_id": "73",
         "name": "El Torito",
@@ -926,9 +916,7 @@
         "nr_of_ratings": 350,
         "latitude": 44.457574,
         "longitude": 26.098993
-    }
-]
-[
+    },
     {
         "restaurant_id": "75",
         "name": "Divan",
@@ -964,8 +952,7 @@
         "nr_of_ratings": 310,
         "latitude": 44.437814,
         "longitude": 26.108826
-    }
-][
+    },
     {
         "restaurant_id": "77",
         "name": "Haveli",
@@ -1001,9 +988,7 @@
         "nr_of_ratings": 310,
         "latitude": 44.446065,
         "longitude": 26.105572
-    }
-]
-[
+    },
     {
         "restaurant_id": "79",
         "name": "Four Seasons",
@@ -1039,9 +1024,7 @@
         "nr_of_ratings": 300,
         "latitude": 44.441345,
         "longitude": 26.096643
-    }
-]
-[
+    },
     {
         "restaurant_id": "81",
         "name": "Sara Green",
@@ -1077,9 +1060,7 @@
         "nr_of_ratings": 220,
         "latitude": 44.441743,
         "longitude": 26.102193
-    }
-]
-[
+    },
     {
         "restaurant_id": "85",
         "name": "Hard Rock Cafe",
