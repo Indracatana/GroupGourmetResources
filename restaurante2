@@ -165,7 +165,7 @@
     {
         "restaurant_id": "11",
         "name": "Shift Pub",
-        "type": "Bistro",
+        "type": "Pub",
         "cuisine": "International",
         "address": "Strada General Eremia Grigorescu 17, București",
         "rating": "4.4",
@@ -255,7 +255,7 @@
     {
         "restaurant_id": "16",
         "name": "Biutiful by the Lake",
-        "type": "Bistro",
+        "type": "Restaurant",
         "cuisine": "International",
         "address": "Șoseaua Nordului 7-9, București",
         "rating": "4.6",
@@ -269,24 +269,6 @@
         "nr_of_ratings": 340,
         "latitude": 44.442548,
         "longitude": 26.101067
-    },
-    {
-        "restaurant_id": "17",
-        "name": "Frudisiac",
-        "type": "Bistro",
-        "cuisine": "International",
-        "address": "Intrarea Bitolia 4, București",
-        "rating": "4.4",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_33",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_34"
-        ],
-        "description": "A Scandinavian-inspired bistro offering healthy and delicious dishes in a minimalist setting.",
-        "working_hours": "Monday-Sunday: 8:00 AM - 8:00 PM",
-        "nr_of_ratings": 280,
-        "latitude": 44.443448,
-        "longitude": 26.101967
     },
     {
         "restaurant_id": "18",
@@ -903,7 +885,7 @@
     {
         "restaurant_id": "90",
         "name": "Mojo",
-        "type": "Pub",
+        "type": "Bar",
         "cuisine": "International",
         "address": "Strada Gabroveni 14, București",
         "rating": "4.6",
@@ -957,7 +939,7 @@
     {
         "restaurant_id": "94",
         "name": "Curtea Berarilor",
-        "type": "Pub",
+        "type": "Bistro",
         "cuisine": "International",
         "address": "Strada Șelari 9-11, București",
         "rating": "4.2",
