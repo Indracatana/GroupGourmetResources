@@ -1,6 +1,6 @@
 [
   {
-    "restaurant_id": "ChIJwXfea0D_sUARVKdY1hnDhco",
+    "restaurant_id": "1",
     "name": "Caru' cu Bere",
     "type": "Restaurant",
     "cuisine": "Romanian",
@@ -17,12 +17,12 @@
     ],
     "description": "A historic beerhouse serving traditional Romanian cuisine and a variety of beers. A must-visit landmark in Bucharest.",
     "working_hours": "Monday-Sunday: 9:00 AM - 11:00 PM",
-    "nr_of_ratings": 47207,
+    "nr_of_ratings": 47208,
     "latitude": 44.43202,
     "longitude": 26.098122
   },
   {
-    "restaurant_id": "ChIJo9jaOTr_sUARseQFRsISD0Y",
+    "restaurant_id": "2",
     "name": "Simbio",
     "type": "Restaurant",
     "cuisine": "International",
@@ -44,7 +44,7 @@
     "longitude": 26.111954
   },
   {
-    "restaurant_id": "ChIJaY6CmEH_sUARe59cp55TT5M",
+    "restaurant_id": "3",
     "name": "Energiea",
     "type": "Bistro",
     "cuisine": "International",
@@ -66,7 +66,7 @@
     "longitude": 26.094875
   },
   {
-    "restaurant_id": "ChIJP03LRrL4sUARQXXlq_0r4E8",
+    "restaurant_id": "4",
     "name": "Kane",
     "type": "Restaurant",
     "cuisine": "Contemporary",
@@ -88,7 +88,7 @@
     "longitude": 26.106188
   },
   {
-    "restaurant_id": "ChIJW89yqHACskAR39z1zswRWec",
+    "restaurant_id": "5",
     "name": "Nor Sky Casual Restaurant",
     "type": "Restaurant",
     "cuisine": "International",
@@ -110,7 +110,7 @@
     "longitude": 26.105
   },
   {
-    "restaurant_id": "ChIJt0wQJz7_sUARn0HgAc3cfDE",
+    "restaurant_id": "6",
     "name": "Restaurant Hanu' lui Manuc",
     "type": "Restaurant",
     "cuisine": "Romanian",
@@ -132,7 +132,7 @@
     "longitude": 26.101906
   },
   {
-    "restaurant_id": "ChIJ80wLNUH_sUARObMI3Nj0nN8",
+    "restaurant_id": "7",
     "name": "Alt Shift",
     "type": "Restaurant",
     "cuisine": "International",
@@ -154,7 +154,7 @@
     "longitude": 26.097197
   },
   {
-    "restaurant_id": "ChIJre1wwHL_sUARuzb4dG3zg3A",
+    "restaurant_id": "8",
     "name": "Mahala",
     "type": "Restaurant",
     "cuisine": "Romanian",
@@ -176,7 +176,7 @@
     "longitude": 26.087725
   },
   {
-    "restaurant_id": "ChIJq6oaSj7_sUARj7jF0lIBv60",
+    "restaurant_id": "9",
     "name": "Lacrimi și Sfinți",
     "type": "Restaurant",
     "cuisine": "Romanian",
@@ -198,7 +198,7 @@
     "longitude": 26.10289
   },
   {
-    "restaurant_id": "ChIJmXZCGEz_sUARnpzkDgw9PF0",
+    "restaurant_id": "10",
     "name": "Shift Pub",
     "type": "Pub",
     "cuisine": "International",
@@ -220,7 +220,7 @@
     "longitude": 26.101633
   },
   {
-    "restaurant_id": "ChIJQy94OSn_sUAR0SFsT5W8yac",
+    "restaurant_id": "11",
     "name": "Modelier",
     "type": "Bistro",
     "cuisine": "International",
@@ -237,12 +237,12 @@
     ],
     "description": "A popular bistro known for its burgers and relaxed vibe. A great spot for casual dining.",
     "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-    "nr_of_ratings": 4557,
+    "nr_of_ratings": 4558,
     "latitude": 44.436157,
     "longitude": 26.1281
   },
   {
-    "restaurant_id": "ChIJyzG-7wr_sUARSCAltL4IcwA",
+    "restaurant_id": "12",
     "name": "J'ai Bistrot",
     "type": "Bistro",
     "cuisine": "French",
@@ -264,7 +264,7 @@
     "longitude": 26.08565
   },
   {
-    "restaurant_id": "ChIJl-l7LVT_sUARfWrpE3L_dQk",
+    "restaurant_id": "13",
     "name": "Bistro La Taifas",
     "type": "Bistro",
     "cuisine": "Romanian",
@@ -286,7 +286,7 @@
     "longitude": 26.088264
   },
   {
-    "restaurant_id": "ChIJ826m3msCskARlS6O5oDnsk8",
+    "restaurant_id": "14",
     "name": "Biutiful by the Lake",
     "type": "Restaurant",
     "cuisine": "International",
@@ -308,7 +308,7 @@
     "longitude": 26.086805
   },
   {
-    "restaurant_id": "ChIJo9jaOTr_sUARseQFRsISD0Y",
+    "restaurant_id": "15",
     "name": "Simbio",
     "type": "Bistro",
     "cuisine": "International",
@@ -330,7 +330,7 @@
     "longitude": 26.111954
   },
   {
-    "restaurant_id": "ChIJleS8sKf4sUARZnHgRMs2kHA",
+    "restaurant_id": "16",
     "name": "Tasting Room",
     "type": "Bistro",
     "cuisine": "International",
@@ -352,7 +352,7 @@
     "longitude": 26.099709
   },
   {
-    "restaurant_id": "ChIJ-ZvzMUT_sUARqwr-vOGIOpY",
+    "restaurant_id": "17",
     "name": "Artichoke Coffee Shop",
     "type": "Cafe",
     "cuisine": "Cafe",
@@ -374,7 +374,7 @@
     "longitude": 26.09643
   },
   {
-    "restaurant_id": "ChIJOz8GtU__sUAR9DUcyKTI4yQ",
+    "restaurant_id": "18",
     "name": "M60",
     "type": "Cafe",
     "cuisine": "Cafe",
@@ -396,7 +396,7 @@
     "longitude": 26.09671
   },
   {
-    "restaurant_id": "ChIJQbgapEH_sUAR__vch8jUosQ",
+    "restaurant_id": "19",
     "name": "Origo",
     "type": "Brunch",
     "cuisine": "Brunch",
@@ -418,7 +418,7 @@
     "longitude": 26.095345
   },
   {
-    "restaurant_id": "ChIJVX7ZJXX_sUAROLkZGmqT3RE",
+    "restaurant_id": "20",
     "name": "Black Habit",
     "type": "Cafe",
     "cuisine": "Cafe",
@@ -440,7 +440,7 @@
     "longitude": 26.084383
   },
   {
-    "restaurant_id": "ChIJ18kE60f_sUARUUt7OD7LOVk",
+    "restaurant_id": "21",
     "name": "Trattoria Il Calcio",
     "type": "Restaurant",
     "cuisine": "Italian",
@@ -462,7 +462,7 @@
     "longitude": 26.098587
   },
   {
-    "restaurant_id": "ChIJu3SJgP7-sUARvsrpUMZQFu0",
+    "restaurant_id": "22",
     "name": "Cucina di Casa",
     "type": "Restaurant",
     "cuisine": "Italian",
@@ -484,7 +484,7 @@
     "longitude": 26.114525
   },
   {
-    "restaurant_id": "ChIJ6YajnE__sUARfCbsfrPpxUE",
+    "restaurant_id": "23",
     "name": "Le Bistrot Français",
     "type": "Restaurant",
     "cuisine": "French",
@@ -506,7 +506,7 @@
     "longitude": 26.097565
   },
   {
-    "restaurant_id": "ChIJ8whxQ1j_sUARne18lIhJq7I",
+    "restaurant_id": "24",
     "name": "Beijing Garden",
     "type": "Restaurant",
     "cuisine": "Chinese",
@@ -528,7 +528,7 @@
     "longitude": 26.08109
   },
   {
-    "restaurant_id": "ChIJRWCuS6v4sUARh4_R-C8pcrc",
+    "restaurant_id": "25",
     "name": "Zen Sushi",
     "type": "Restaurant",
     "cuisine": "Japanese",
@@ -550,7 +550,7 @@
     "longitude": 26.09344
   },
   {
-    "restaurant_id": "ChIJJ6no4QcCskARgnStL1IcqWU",
+    "restaurant_id": "26",
     "name": "Yuki",
     "type": "Restaurant",
     "cuisine": "Japanese",
@@ -572,7 +572,7 @@
     "longitude": 26.0952
   },
   {
-    "restaurant_id": "ChIJSbTCCk3_sUARWNGfbSLmyWA",
+    "restaurant_id": "27",
     "name": "Maison des Crepes",
     "type": "Brunch",
     "cuisine": "French",
@@ -594,7 +594,7 @@
     "longitude": 26.100752
   },
   {
-    "restaurant_id": "ChIJl7xw7wcCskARkuIimpzkiKI",
+    "restaurant_id": "28",
     "name": "Frudisiac",
     "type": "Brunch",
     "cuisine": "International",
@@ -616,7 +616,7 @@
     "longitude": 26.095097
   },
   {
-    "restaurant_id": "ChIJOz8GtU__sUAR9DUcyKTI4yQ",
+    "restaurant_id": "29",
     "name": "M60",
     "type": "Brunch",
     "cuisine": "International",
@@ -638,7 +638,7 @@
     "longitude": 26.09671
   },
   {
-    "restaurant_id": "ChIJo9jaOTr_sUARseQFRsISD0Y",
+    "restaurant_id": "30",
     "name": "Simbio",
     "type": "Brunch",
     "cuisine": "International",
@@ -660,7 +660,7 @@
     "longitude": 26.111954
   },
   {
-    "restaurant_id": "ChIJ7bGWPET_sUAR6kzk8y44o_s",
+    "restaurant_id": "31",
     "name": "Arome",
     "type": "Brunch",
     "cuisine": "International",
@@ -682,7 +682,7 @@
     "longitude": 26.0866
   },
   {
-    "restaurant_id": "ChIJRY5Op-QBskARN0ckBf2IimM",
+    "restaurant_id": "32",
     "name": "Panoramic Brunch & Bar",
     "type": "Brunch",
     "cuisine": "International",
@@ -704,7 +704,7 @@
     "longitude": 25.996227
   },
   {
-    "restaurant_id": "ChIJ_z-lXRL_sUARDcZ0KOi-gzg",
+    "restaurant_id": "33",
     "name": "Yolk - The Breakfast Cafe",
     "type": "Brunch",
     "cuisine": "American",
@@ -726,7 +726,7 @@
     "longitude": 26.10189
   },
   {
-    "restaurant_id": "ChIJq4LuYAr5sUARg4hUCc2fAuo",
+    "restaurant_id": "34",
     "name": "Alioli",
     "type": "Restaurant",
     "cuisine": "Spanish",
@@ -748,7 +748,7 @@
     "longitude": 26.095476
   },
   {
-    "restaurant_id": "ChIJ_w5pyln_sUARJ8Ua98Jb7Qc",
+    "restaurant_id": "35",
     "name": "Pata Negra",
     "type": "Restaurant",
     "cuisine": "Spanish",
@@ -770,7 +770,7 @@
     "longitude": 26.091553
   },
   {
-    "restaurant_id": "ChIJt91qGzP_sUARHVKkIrMa4tk",
+    "restaurant_id": "36",
     "name": "El Torito",
     "type": "Restaurant",
     "cuisine": "Mexican",
@@ -792,7 +792,7 @@
     "longitude": 26.121458
   },
   {
-    "restaurant_id": "ChIJ96zwI2v_sUARgBrhUXFDGDI",
+    "restaurant_id": "37",
     "name": "Taqueria El Torito",
     "type": "Restaurant",
     "cuisine": "Mexican",
@@ -814,7 +814,7 @@
     "longitude": 26.094606
   },
   {
-    "restaurant_id": "ChIJRQOOZ574sUARdtVCF76Fylo",
+    "restaurant_id": "38",
     "name": "Divan",
     "type": "Restaurant",
     "cuisine": "Turkish",
@@ -836,7 +836,7 @@
     "longitude": 26.109161
   },
   {
-    "restaurant_id": "ChIJVcW5YED_sUARu_4wkDkZLDs",
+    "restaurant_id": "39",
     "name": "Saray",
     "type": "Restaurant",
     "cuisine": "Turkish",
@@ -858,7 +858,7 @@
     "longitude": 26.098392
   },
   {
-    "restaurant_id": "ChIJdZptyjT_sUARGKpNnKdgEk8",
+    "restaurant_id": "40",
     "name": "Haveli",
     "type": "Restaurant",
     "cuisine": "Indian",
@@ -880,7 +880,7 @@
     "longitude": 26.117796
   },
   {
-    "restaurant_id": "ChIJS7dRc3r_sUARXTcDXalJKLw",
+    "restaurant_id": "41",
     "name": "Taj Restaurant",
     "type": "Restaurant",
     "cuisine": "Indian",
@@ -902,7 +902,7 @@
     "longitude": 26.07414
   },
   {
-    "restaurant_id": "ChIJE_2mf2cCskARA9_WhmKSGQc",
+    "restaurant_id": "42",
     "name": "Zaitoone",
     "type": "Restaurant",
     "cuisine": "Lebanese",
@@ -924,7 +924,7 @@
     "longitude": 26.092257
   },
   {
-    "restaurant_id": "ChIJ_UvNGlX_sUARtIUjrZBsZ-M",
+    "restaurant_id": "43",
     "name": "Sara Green",
     "type": "Restaurant",
     "cuisine": "Vegan",
@@ -941,12 +941,12 @@
     ],
     "description": "Delicious vegan dishes made with fresh, organic ingredients.",
     "working_hours": "Monday-Sunday: 10:00 AM - 10:00 PM",
-    "nr_of_ratings": 640,
+    "nr_of_ratings": 641,
     "latitude": 44.4504,
     "longitude": 26.089382
   },
   {
-    "restaurant_id": "ChIJN_T9e0ACskARHQr_fgTFJQk",
+    "restaurant_id": "44",
     "name": "Hard Rock Cafe",
     "type": "Restaurant",
     "cuisine": "American",
@@ -968,7 +968,7 @@
     "longitude": 26.076262
   },
   {
-    "restaurant_id": "ChIJKXTX6xb_sUARsT8JRpZ145g",
+    "restaurant_id": "45",
     "name": "The Harp Irish Pub",
     "type": "Pub",
     "cuisine": "International",
@@ -990,7 +990,7 @@
     "longitude": 26.103062
   },
   {
-    "restaurant_id": "ChIJLzzknj__sUARhbf_M0PQL4c",
+    "restaurant_id": "46",
     "name": "O'Hara's Irish Pub",
     "type": "Pub",
     "cuisine": "International",
@@ -1007,12 +1007,12 @@
     ],
     "description": "A popular pub with a great selection of beers and a friendly atmosphere.",
     "working_hours": "Monday-Sunday: 12:00 PM - 2:00 AM",
-    "nr_of_ratings": 1971,
+    "nr_of_ratings": 1973,
     "latitude": 44.43195,
     "longitude": 26.101051
   },
   {
-    "restaurant_id": "ChIJmXZCGEz_sUARnpzkDgw9PF0",
+    "restaurant_id": "47",
     "name": "Shift Pub",
     "type": "Pub",
     "cuisine": "International",
@@ -1034,7 +1034,7 @@
     "longitude": 26.101633
   },
   {
-    "restaurant_id": "ChIJ-7tVTT7_sUARJCjrbLA9V4s",
+    "restaurant_id": "48",
     "name": "Mojo",
     "type": "Bar",
     "cuisine": "International",
@@ -1056,7 +1056,7 @@
     "longitude": 26.10233
   },
   {
-    "restaurant_id": "ChIJIZKhvD__sUAR38V7N-Dns7o",
+    "restaurant_id": "49",
     "name": "Beer O'Clock",
     "type": "Pub",
     "cuisine": "International",
@@ -1078,7 +1078,7 @@
     "longitude": 26.101389
   },
   {
-    "restaurant_id": "ChIJT6vuJFD_sUARA8Z_itn_oek",
+    "restaurant_id": "50",
     "name": "Green Hours Jazz Cafe",
     "type": "Pub",
     "cuisine": "International",
@@ -1100,7 +1100,7 @@
     "longitude": 26.093895
   },
   {
-    "restaurant_id": "ChIJt0sqxD__sUAR7gcIoiuNcvU",
+    "restaurant_id": "51",
     "name": "Curtea Berarilor",
     "type": "Bistro",
     "cuisine": "International",
