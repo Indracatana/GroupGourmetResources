@@ -1,959 +1,1168 @@
 [
-    {
-        "restaurant_id": "1",
-        "name": "Caru' cu Bere",
-        "type": "Restaurant",
-        "cuisine": "Romanian",
-        "address": "Strada Stavropoleos 5, București",
-        "rating": "4.5",
-
-        "price_range": "High",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_2"
-        ],
-        "description": "A historic beerhouse serving traditional Romanian cuisine and a variety of beers. A must-visit landmark in Bucharest.",
-        "working_hours": "Monday-Sunday: 9:00 AM - 11:00 PM",
-        "nr_of_ratings": 540,
-        "latitude": 44.431348,
-        "longitude": 26.097367
-    },
-    {
-        "restaurant_id": "2",
-        "name": "Simbio",
-        "type": "Restaurant",
-        "cuisine": "International",
-        "address": "Strada Negustori 26, București",
-        "rating": "4.6",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_3",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_4"
-        ],
-        "description": "A cozy spot with a garden, offering a varied menu with international dishes. Perfect for a relaxed meal.",
-        "working_hours": "Monday-Sunday: 9:00 AM - 10:00 PM",
-        "nr_of_ratings": 310,
-        "latitude": 44.431248,
-        "longitude": 26.097267
-    },
-    {
-        "restaurant_id": "3",
-        "name": "Energiea",
-        "type": "Bistro",
-        "cuisine": "International",
-        "address": "Strada Ion Brezoianu 4, București",
-        "rating": "4.3",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_5",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_6"
-        ],
-        "description": "A modern bistro with a diverse menu, offering everything from burgers to vegan dishes. Perfect for a casual meal.",
-        "working_hours": "Monday-Friday: 10:00 AM - 10:00 PM\nSaturday-Sunday: 9:00 AM - 11:00 PM",
-        "nr_of_ratings": 410,
-        "latitude": 44.431148,
-        "longitude": 26.097167
-    },
-    {
-        "restaurant_id": "4",
-        "name": "Kane",
-        "type": "Restaurant",
-        "cuisine": "Contemporary",
-        "address": "Strada Dianei 9, București",
-        "rating": "4.7",
-        "price_range": "VeryHigh",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_7",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_8"
-        ],
-        "description": "An upscale restaurant offering contemporary dishes with a focus on local ingredients. A fine dining experience.",
-        "working_hours": "Monday-Saturday: 6:00 PM - 11:00 PM",
-        "nr_of_ratings": 200,
-        "latitude": 44.431048,
-        "longitude": 26.097067
-    },
-    {
-        "restaurant_id": "5",
-        "name": "Nor Sky Casual Restaurant",
-        "type": "Restaurant",
-        "cuisine": "International",
-        "address": "Calea Floreasca 246B, București",
-        "rating": "4.5",
-        "price_range": "High",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_9",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_10"
-        ],
-        "description": "A rooftop restaurant with stunning views of the city. Offering a variety of international dishes.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 320,
-        "latitude": 44.430948,
-        "longitude": 26.096967
-    },
-    {
-        "restaurant_id": "6",
-        "name": "Restaurant Hanu' lui Manuc",
-        "type": "Restaurant",
-        "cuisine": "Romanian",
-        "address": "Strada Franceză 62, București",
-        "rating": "4.4",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_11",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_12"
-        ],
-        "description": "Experience traditional Romanian cuisine in a historic setting. A popular spot for both locals and tourists.",
-        "working_hours": "Monday-Sunday: 11:00 AM - 11:00 PM",
-        "nr_of_ratings": 450,
-        "latitude": 44.430848,
-        "longitude": 26.096867
-    },
-    {
-        "restaurant_id": "7",
-        "name": "Alt Shift",
-        "type": "Restaurant",
-        "cuisine": "International",
-        "address": "Strada Constantin Mille 4, București",
-        "rating": "4.3",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_13",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_14"
-        ],
-        "description": "A trendy spot offering a mix of international dishes in a casual setting. Great for a night out with friends.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 1:00 AM",
-        "nr_of_ratings": 290,
-        "latitude": 44.430748,
-        "longitude": 26.096767
-    },
-    {
-        "restaurant_id": "9",
-        "name": "Mahala",
-        "type": "Restaurant",
-        "cuisine": "Romanian",
-        "address": "Calea Rahovei 147-153, București",
-        "rating": "4.4",
-        "price_range": "High",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_17",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_18"
-        ],
-        "description": "A contemporary take on traditional Romanian dishes. A chic setting with a great atmosphere.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 350,
-        "latitude": 44.430548,
-        "longitude": 26.096567
-    },
-    {
-        "restaurant_id": "10",
-        "name": "Lacrimi și Sfinți",
-        "type": "Restaurant",
-        "cuisine": "Romanian",
-        "address": "Strada Șepcari 16, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_19",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_20"
-        ],
-        "description": "Modern Romanian cuisine with a focus on organic and locally sourced ingredients. A must-visit for foodies.",
-        "working_hours": "Monday-Sunday: 11:00 AM - 11:00 PM",
-        "nr_of_ratings": 400,
-        "latitude": 44.430448,
-        "longitude": 26.096467
-    },
-    {
-        "restaurant_id": "11",
-        "name": "Shift Pub",
-        "type": "Pub",
-        "cuisine": "International",
-        "address": "Strada General Eremia Grigorescu 17, București",
-        "rating": "4.4",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_21",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_22"
-        ],
-        "description": "A trendy bistro with a relaxed atmosphere, offering a variety of international dishes and cocktails.",
-        "working_hours": "Monday-Sunday: 11:00 AM - 12:00 AM",
-        "nr_of_ratings": 320,
-        "latitude": 44.438048,
-        "longitude": 26.096567
-    },
-    {
-        "restaurant_id": "12",
-        "name": "Lente",
-        "type": "Bistro",
-        "cuisine": "International",
-        "address": "Strada General Praporgescu 31, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_23",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_24"
-        ],
-        "description": "A cozy bistro with a garden, perfect for enjoying a variety of international dishes in a relaxed setting.",
-        "working_hours": "Monday-Sunday: 10:00 AM - 11:00 PM",
-        "nr_of_ratings": 280,
-        "latitude": 44.438948,
-        "longitude": 26.097467
-    },
-    {
-        "restaurant_id": "13",
-        "name": "Modelier",
-        "type": "Bistro",
-        "cuisine": "International",
-        "address": "Strada Duzilor 12, București",
-        "rating": "4.6",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_25",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_26"
-        ],
-        "description": "A popular bistro known for its burgers and relaxed vibe. A great spot for casual dining.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 310,
-        "latitude": 44.439848,
-        "longitude": 26.098367
-    },
-    {
-        "restaurant_id": "14",
-        "name": "J'ai Bistrot",
-        "type": "Bistro",
-        "cuisine": "French",
-        "address": "Calea Griviței 55, București",
-        "rating": "4.7",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_27",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_28"
-        ],
-        "description": "A charming bistro with a garden, offering a mix of international dishes and a cozy atmosphere.",
-        "working_hours": "Tuesday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 290,
-        "latitude": 44.440748,
-        "longitude": 26.099267
-    },
-    {
-        "restaurant_id": "15",
-        "name": "Bistro La Taifas",
-        "type": "Bistro",
-        "cuisine": "Romanian",
-        "address": "Strada Mihail Moxa 12, București",
-        "rating": "4.3",
-        "price_range": "Low",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_29",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_30"
-        ],
-        "description": "A cozy Romanian bistro offering traditional dishes in a warm and welcoming setting.",
-        "working_hours": "Monday-Saturday: 10:00 AM - 10:00 PM",
-        "nr_of_ratings": 260,
-        "latitude": 44.441648,
-        "longitude": 26.100167
-    },
-    {
-        "restaurant_id": "16",
-        "name": "Biutiful by the Lake",
-        "type": "Restaurant",
-        "cuisine": "International",
-        "address": "Șoseaua Nordului 7-9, București",
-        "rating": "4.6",
-        "price_range": "High",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_31",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_32"
-        ],
-        "description": "A stylish bistro by the lake, offering a variety of international dishes and a beautiful view.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 340,
-        "latitude": 44.442548,
-        "longitude": 26.101067
-    },
-    {
-        "restaurant_id": "18",
-        "name": "Simbio",
-        "type": "Bistro",
-        "cuisine": "International",
-        "address": "Strada Negustori 26, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_35",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_36"
-        ],
-        "description": "A cozy bistro with a garden, perfect for enjoying a variety of international dishes in a relaxed setting.",
-        "working_hours": "Monday-Sunday: 9:00 AM - 10:00 PM",
-        "nr_of_ratings": 300,
-        "latitude": 44.444348,
-        "longitude": 26.102867
-    },
-    {
-        "restaurant_id": "19",
-        "name": "Tasting Room",
-        "type": "Bistro",
-        "cuisine": "International",
-        "address": "Strada Puțul lui Zamfir 36, București",
-        "rating": "4.6",
-        "price_range": "High",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_37",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_38"
-        ],
-        "description": "An elegant bistro offering a wide selection of wines and gourmet dishes in a sophisticated setting.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 340,
-        "latitude": 44.445248,
-        "longitude": 26.103767
-    },
-    {
-        "restaurant_id": "20",
-        "name": "Artichoke Coffee Shop",
-        "type": "Cafe",
-        "cuisine": "Cafe",
-        "address": "Strada C. A. Rosetti 47, București",
-        "rating": "4.6",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_41",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_42"
-        ],
-        "description": "A cozy coffee shop with a relaxing atmosphere, perfect for enjoying a cup of coffee or tea.",
-        "working_hours": "Monday-Sunday: 8:00 AM - 8:00 PM",
-        "nr_of_ratings": 150,
-        "latitude": 44.446148,
-        "longitude": 26.104667
-    },
-    {
-        "restaurant_id": "22",
-        "name": "M60",
-        "type": "Cafe",
-        "cuisine": "Cafe",
-        "address": "Strada Mendeleev 2, București",
-        "rating": "4.7",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_43",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_44"
-        ],
-        "description": "A modern coffee shop offering a variety of specialty coffees and a comfortable setting.",
-        "working_hours": "Monday-Sunday: 9:00 AM - 9:00 PM",
-        "nr_of_ratings": 180,
-        "latitude": 44.447048,
-        "longitude": 26.105567
-    },
-    {
-        "restaurant_id": "25",
-        "name": "Origo",
-        "type": "Brunch",
-        "cuisine": "Brunch",
-        "address": "Strada Lipscani 9, București",
-        "rating": "4.7",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_49",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_50"
-        ],
-        "description": "A specialty coffee shop offering a wide range of coffee beverages and a cozy atmosphere.",
-        "working_hours": "Monday-Sunday: 8:00 AM - 10:00 PM",
-        "nr_of_ratings": 220,
-        "latitude": 44.450748,
-        "longitude": 26.108267
-    },
-    {
-        "restaurant_id": "27",
-        "name": "Bean & Dots",
-        "type": "Brunch",
-        "cuisine": "Brunch",
-        "address": "Strada Horei 34, București",
-        "rating": "4.6",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_53",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_54"
-        ],
-        "description": "A hip coffee shop offering a variety of specialty coffees and a great place to work or relax.",
-        "working_hours": "Monday-Sunday: 9:00 AM - 9:00 PM",
-        "nr_of_ratings": 190,
-        "latitude": 44.452548,
-        "longitude": 26.110067
-    },
-    {
-        "restaurant_id": "30",
-        "name": "Black Habit",
-        "type": "Cafe",
-        "cuisine": "Cafe",
-        "address": "Strada Mântuleasa 10, București",
-        "rating": "4.6",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_59",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_60"
-        ],
-        "description": "A stylish cafe offering specialty coffees and a great atmosphere for working or relaxing.",
-        "working_hours": "Monday-Sunday: 9:00 AM - 9:00 PM",
-        "nr_of_ratings": 190,
-        "latitude": 44.455248,
-        "longitude": 26.112767
-    },
-    {
-        "restaurant_id": "61",
-        "name": "Trattoria Il Calcio",
-        "type": "Restaurant",
-        "cuisine": "Italian",
-        "address": "Strada Benjamin Franklin 5, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_201",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_202"
-        ],
-        "description": "Authentic Italian cuisine with a cozy atmosphere and friendly service.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 300,
-        "latitude": 44.436141,
-        "longitude": 26.095272
-    },
-    {
-        "restaurant_id": "62",
-        "name": "Cucina di Casa",
-        "type": "Restaurant",
-        "cuisine": "Italian",
-        "address": "Calea Văcărești 230, București 040057",
-        "rating": "4.6",
-        "price_range": "High",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_203",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_204"
-        ],
-        "description": "Delicious Italian dishes made with fresh ingredients and traditional recipes.",
-        "working_hours": "Monday-Sunday: 11:00 AM - 10:00 PM",
-        "nr_of_ratings": 350,
-        "latitude": 44.447291,
-        "longitude": 26.106560
-    },
-    {
-        "restaurant_id": "63",
-        "name": "Le Bistrot Français",
-        "type": "Restaurant",
-        "cuisine": "French",
-        "address": "Strada Nicolae Golescu 18, București",
-        "rating": "4.8",
-        "price_range": "VeryHigh",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_301",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_302"
-        ],
-        "description": "Elegant French bistro offering exquisite dishes and fine wines.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 250,
-        "latitude": 44.441205,
-        "longitude": 26.096504
-    },
-    {
-        "restaurant_id": "66",
-        "name": "Beijing Garden",
-        "type": "Restaurant",
-        "cuisine": "Chinese",
-        "address": "Calea Victoriei 100, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_403",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_404"
-        ],
-        "description": "Enjoy delicious Chinese food in a modern and comfortable setting.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 290,
-        "latitude": 44.445144,
-        "longitude": 26.096791
-    },
-    {
-        "restaurant_id": "67",
-        "name": "Zen Sushi",
-        "type": "Restaurant",
-        "cuisine": "Japanese",
-        "address": "Strada Lipscani 20, București",
-        "rating": "4.6",
-        "price_range": "High",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_501",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_502"
-        ],
-        "description": "Savor the flavors of Japan with expertly crafted sushi and sashimi.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 10:00 PM",
-        "nr_of_ratings": 310,
-        "latitude": 44.430987,
-        "longitude": 26.100583
-    },
-    {
-        "restaurant_id": "68",
-        "name": "Yuki",
-        "type": "Restaurant",
-        "cuisine": "Japanese",
-        "address": "Strada Puțul lui Zamfir 5, București",
-        "rating": "4.7",
-        "price_range": "VeryHigh",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_503",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_504"
-        ],
-        "description": "Experience traditional Japanese dining in an intimate and elegant setting.",
-        "working_hours": "Monday-Sunday: 11:30 AM - 10:30 PM",
-        "nr_of_ratings": 330,
-        "latitude": 44.447113,
-        "longitude": 26.109388
-    },
-    {
-        "restaurant_id": "41",
-        "name": "Maison des Crepes",
-        "type": "Brunch",
-        "cuisine": "French",
-        "address": "Strada Mihai Eminescu 38, București",
-        "rating": "4.7",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_81",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_82"
-        ],
-        "description": "A cozy brunch spot offering a variety of delicious crepes and French-inspired dishes.",
-        "working_hours": "Monday-Sunday: 9:00 AM - 4:00 PM",
-        "nr_of_ratings": 300,
-        "latitude": 44.451248,
-        "longitude": 26.122667
-    },
-    {
-        "restaurant_id": "42",
-        "name": "Frudisiac",
-        "type": "Brunch",
-        "cuisine": "International",
-        "address": "Intrarea Bitolia 4, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_83",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_84"
-        ],
-        "description": "A popular brunch place known for its healthy and fresh dishes with an international twist.",
-        "working_hours": "Monday-Sunday: 8:00 AM - 5:00 PM",
-        "nr_of_ratings": 280,
-        "latitude": 44.452148,
-        "longitude": 26.123567
-    },
-    {
-        "restaurant_id": "43",
-        "name": "M60",
-        "type": "Brunch",
-        "cuisine": "International",
-        "address": "Strada D. I. Mendeleev 2, București",
-        "rating": "4.6",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_85",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_86"
-        ],
-        "description": "A modern brunch café offering a variety of gourmet dishes and specialty coffee.",
-        "working_hours": "Monday-Sunday: 9:00 AM - 6:00 PM",
-        "nr_of_ratings": 320,
-        "latitude": 44.453048,
-        "longitude": 26.124467
-    },
-    {
-        "restaurant_id": "44",
-        "name": "Simbio",
-        "type": "Brunch",
-        "cuisine": "International",
-        "address": "Strada Negustori 26, București",
-        "rating": "4.8",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_87",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_88"
-        ],
-        "description": "A trendy brunch spot with a beautiful garden, offering a diverse menu and excellent coffee.",
-        "working_hours": "Monday-Sunday: 8:00 AM - 4:00 PM",
-        "nr_of_ratings": 350,
-        "latitude": 44.454948,
-        "longitude": 26.125367
-    },
-    {
-        "restaurant_id": "45",
-        "name": "Arome",
-        "type": "Brunch",
-        "cuisine": "International",
-        "address": "Strada Luigi Cazzavillan 25, București",
-        "rating": "4.4",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_89",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_90"
-        ],
-        "description": "A charming brunch place known for its cozy atmosphere and delicious homemade dishes.",
-        "working_hours": "Monday-Sunday: 9:00 AM - 5:00 PM",
-        "nr_of_ratings": 270,
-        "latitude": 44.455848,
-        "longitude": 26.126267
-    },
-    {
-        "restaurant_id": "48",
-        "name": "Panoramic Brunch & Bar",
-        "type": "Brunch",
-        "cuisine": "International",
-        "address": "Calea Victoriei 37B, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_95",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_96"
-        ],
-        "description": "A rooftop brunch spot offering stunning views of the city and a diverse menu.",
-        "working_hours": "Monday-Sunday: 9:00 AM - 6:00 PM",
-        "nr_of_ratings": 300,
-        "latitude": 44.458548,
-        "longitude": 26.128967
-    },
-    {
-        "restaurant_id": "50",
-        "name": "Yolk - The Breakfast Cafe",
-        "type": "Brunch",
-        "cuisine": "American",
-        "address": "Strada Ion Ghica 3, București",
-        "rating": "4.7",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_99",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_100"
-        ],
-        "description": "An American-style brunch café offering hearty breakfasts and brunch dishes.",
-        "working_hours": "Monday-Sunday: 7:00 AM - 3:00 PM",
-        "nr_of_ratings": 330,
-        "latitude": 44.460348,
-        "longitude": 26.130767
-    },
-    {
-        "restaurant_id": "71",
-        "name": "Alioli",
-        "type": "Restaurant",
-        "cuisine": "Spanish",
-        "address": "Strada Căderea Bastiliei 78, București 010616",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_701",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_702"
-        ],
-        "description": "Enjoy a taste of Spain with delicious tapas, paella, and more.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 250,
-        "latitude": 44.452867,
-        "longitude": 26.099715
-    },
-    {
-        "restaurant_id": "72",
-        "name": "Pata Negra",
-        "type": "Restaurant",
-        "cuisine": "Spanish",
-        "address": "Strada Washington 11, București 011792",
-        "rating": "4.4",
-        "price_range": "High",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_703",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_704"
-        ],
-        "description": "A Spanish restaurant offering a variety of authentic dishes and a vibrant atmosphere.",
-        "working_hours": "Monday-Sunday: 11:00 AM - 10:00 PM",
-        "nr_of_ratings": 270,
-        "latitude": 44.447392,
-        "longitude": 26.096283
-    },
-    {
-        "restaurant_id": "73",
-        "name": "El Torito",
-        "type": "Restaurant",
-        "cuisine": "Mexican",
-        "address": "Strada Iancu Căpitanu 30, București",
-        "rating": "4.6",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_801",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_802"
-        ],
-        "description": "Delicious Mexican cuisine with a lively and colorful ambiance.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 300,
-        "latitude": 44.445122,
-        "longitude": 26.107365
-    },
-    {
-        "restaurant_id": "74",
-        "name": "Taqueria El Torito",
-        "type": "Restaurant",
-        "cuisine": "Mexican",
-        "address": "Calea Floreasca 246B, București",
-        "rating": "4.7",
-        "price_range": "High",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_803",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_804"
-        ],
-        "description": "Experience authentic Mexican flavors with our range of tacos, burritos, and more.",
-        "working_hours": "Monday-Sunday: 1:00 PM - 11:00 PM",
-        "nr_of_ratings": 350,
-        "latitude": 44.457574,
-        "longitude": 26.098993
-    },
-    {
-        "restaurant_id": "75",
-        "name": "Divan",
-        "type": "Restaurant",
-        "cuisine": "Turkish",
-        "address": "Str. Barbu Văcărescu 241A, București",
-        "rating": "4.6",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_901",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_902"
-        ],
-        "description": "Savor the rich flavors of Turkish cuisine with our wide selection of dishes.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 320,
-        "latitude": 44.455261,
-        "longitude": 26.106642
-    },
-    {
-        "restaurant_id": "76",
-        "name": "Saray",
-        "type": "Restaurant",
-        "cuisine": "Turkish",
-        "address": "Strada Lipscani 21, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_903",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_904"
-        ],
-         "description": "Enjoy traditional Turkish dishes in a warm and inviting atmosphere.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 10:00 PM",
-        "nr_of_ratings": 310,
-        "latitude": 44.437814,
-        "longitude": 26.108826
-    },
-    {
-        "restaurant_id": "77",
-        "name": "Haveli",
-        "type": "Restaurant",
-        "cuisine": "Indian",
-        "address": " Strada Episcopul Radu 3, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1001",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1002"
-        ],
-        "description": "Delight in the exotic flavors of India with our carefully crafted dishes.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 10:00 PM",
-        "nr_of_ratings": 290,
-        "latitude": 44.441595,
-        "longitude": 26.096925
-    },
-    {
-        "restaurant_id": "78",
-        "name": "Taj Restaurant",
-        "type": "Restaurant",
-        "cuisine": "Indian",
-        "address": " Calea 13 Septembrie, București",
-        "rating": "4.6",
-        "price_range": "High",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1003",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1004"
-        ],
-        "description": "Experience the best of Indian cuisine with our wide range of traditional dishes.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 310,
-        "latitude": 44.446065,
-        "longitude": 26.105572
-    },
-    {
-        "restaurant_id": "80",
-        "name": "Zaitoone",
-        "type": "Restaurant",
-        "cuisine": "Lebanese",
-        "address": "Str. Nicolae G. Caramfil 2, București",
-        "rating": "4.5",
-        "price_range": "High",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1103",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1104"
-        ],
-        "description": "A Lebanese restaurant offering a variety of flavorful dishes and an inviting ambiance.",
-        "working_hours": "Monday-Sunday: 11:00 AM - 10:00 PM",
-        "nr_of_ratings": 300,
-        "latitude": 44.441345,
-        "longitude": 26.096643
-    },
-    {
-        "restaurant_id": "81",
-        "name": "Sara Green",
-        "type": "Restaurant",
-        "cuisine": "Vegan",
-        "address": "Bulevardul Lascăr Catargiu 43A, București 010665",
-        "rating": "4.8",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1201",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1202"
-        ],
-        "description": "Delicious vegan dishes made with fresh, organic ingredients.",
-        "working_hours": "Monday-Sunday: 10:00 AM - 10:00 PM",
-        "nr_of_ratings": 210,
-        "latitude": 44.439103,
-        "longitude": 26.096343
-    },
-    {
-        "restaurant_id": "85",
-        "name": "Hard Rock Cafe",
-        "type": "Restaurant",
-        "cuisine": "American",
-        "address": "Șoseaua Kiseleff 32, București",
-        "rating": "4.6",
-        "price_range": "High",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1401",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_1402"
-        ],
-        "description": "Classic American cuisine with a rock and roll vibe.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
-        "nr_of_ratings": 500,
-        "latitude": 44.472992,
-        "longitude": 26.080778
-    },
-    {
-        "restaurant_id": "87",
-        "name": "The Harp Irish Pub",
-        "type": "Pub",
-        "cuisine": "International",
-        "address": "Strada Bibescu Vodă 1, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_101",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_102"
-        ],
-        "description": "A cozy Irish pub offering a wide selection of beers and traditional pub food.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 12:00 AM",
-        "nr_of_ratings": 450,
-        "latitude": 44.426767,
-        "longitude": 26.102538
-    },
-    {
-        "restaurant_id": "88",
-        "name": "O'Hara's Irish Pub",
-        "type": "Pub",
-        "cuisine": "International",
-        "address": "Strada Lipscani 34, București",
-        "rating": "4.4",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_105",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_106"
-        ],
-        "description": "A popular pub with a great selection of beers and a friendly atmosphere.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 2:00 AM",
-        "nr_of_ratings": 480,
-        "latitude": 44.432222,
-        "longitude": 26.104444
-    },
-    {
-        "restaurant_id": "89",
-        "name": "Shift Pub",
-        "type": "Pub",
-        "cuisine": "International",
-        "address": "Strada General Eremia Grigorescu 17, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_107",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_108"
-        ],
-        "description": "A trendy pub with a relaxed atmosphere, offering a variety of international dishes and cocktails.",
-        "working_hours": "Monday-Sunday: 11:00 AM - 12:00 AM",
-        "nr_of_ratings": 320,
-        "latitude": 44.438048,
-        "longitude": 26.096567
-    },
-    {
-        "restaurant_id": "90",
-        "name": "Mojo",
-        "type": "Bar",
-        "cuisine": "International",
-        "address": "Strada Gabroveni 14, București",
-        "rating": "4.6",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_109",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_110"
-        ],
-        "description": "A lively pub known for its karaoke nights and vibrant atmosphere.",
-        "working_hours": "Monday-Sunday: 6:00 PM - 4:00 AM",
-        "nr_of_ratings": 350,
-        "latitude": 44.433333,
-        "longitude": 26.105556
-    },
-    {
-        "restaurant_id": "91",
-        "name": "Beer O'Clock",
-        "type": "Pub",
-        "cuisine": "International",
-        "address": "Strada Gabroveni 16, București",
-        "rating": "4.4",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_111",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_112"
-        ],
-        "description": "A great pub for beer lovers, offering a wide selection of craft beers and snacks.",
-        "working_hours": "Monday-Sunday: 2:00 PM - 2:00 AM",
-        "nr_of_ratings": 290,
-        "latitude": 44.434444,
-        "longitude": 26.106667
-    },
-    {
-        "restaurant_id": "93",
-        "name": "Green Hours Jazz Cafe",
-        "type": "Pub",
-        "cuisine": "International",
-        "address": "Calea Victoriei 120, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_115",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_116"
-        ],
-        "description": "A cozy pub offering live jazz music and a wide selection of drinks.",
-        "working_hours": "Monday-Sunday: 4:00 PM - 2:00 AM",
-        "nr_of_ratings": 310,
-        "latitude": 44.441858,
-        "longitude": 26.096422
-    },
-    {
-        "restaurant_id": "94",
-        "name": "Curtea Berarilor",
-        "type": "Bistro",
-        "cuisine": "International",
-        "address": "Strada Șelari 9-11, București",
-        "rating": "4.2",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_119",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=photo_reference_120"
-        ],
-        "description": "A popular pub with a great selection of beers and a relaxed atmosphere.",
-        "working_hours": "Monday-Sunday: 12:00 PM - 2:00 AM",
-        "nr_of_ratings": 330,
-        "latitude": 44.431998,
-        "longitude": 26.097278
-    }
+  {
+    "restaurant_id": "1",
+    "name": "Caru' cu Bere",
+    "type": "Restaurant",
+    "cuisine": "Romanian",
+    "address": "Strada Stavropoleos 5, București",
+    "rating": "4.4",
+    "price_range": "High",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZneO7pVfHs4SNWQ4N9_oUhG00LPEbbsG-jMZMNkYQjDrecuxsbgVg9NRrtHO1G7qX_HkSNnS8BMVx-oO3dIMs9S2HVOaDpCjyfDrd_f0f9ZmRoB7iI2nY2t_kncJJMPdB_ImIWE7Ev2V5njLyvwRDcWDtXd_HM2abD_crUHhqbWriZy&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmJ8RSI-vdGuS3sdhFhdEJ6wyYjRN83cX1KWeY8FQtbIMMcTHpMujY-UKRQt6HTsEJF2IBiqY7HqnCBXCTOoz7ZffyzoUzb5t4buC_LD7yFLA2GOcWfuMm3LYenQW5HBdAoGKEnn2dYBP2Ubq2s-wA30-xHF60LK_G2BDVE0XhsGrcy&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmFZMSwgET_zkEqEtbnOnkzBDztetKrC-gpqtr5rJy9Frh-vCC2I6iuCyOuCHwxhVUhIC3qQECp0Zk8Mysgb_yc7UAPlAgYrWmBpDdt3m6jOMoIcoUsgpaTzRAoCZjY7G-P9yABXyJX-tBGoZiYwyus1PGUCbSasqPczhia0a_eAn1q&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkLXUxbfYhBGpZlijLvY9qNGthj4sJhNfYKXBI5p0VfiqAL6MSYP7i3HLaiEXOe7x8xHBURMLhBj5rdunL5qVJ_9LuLJy-AAvS9OuQiqT69m-Ggwyap15xowYER0SAUASQ9PT_LXNW17JEEzCwiAarJ5J_W_e1cLUIe7_P-SB-WiOc&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkB1VjvZ0rpVJnupdkEGRbi0WtZKvEii6Xf1eA61KVdr4dC8wnD9zAZwe8ZxMh-digujZIAAFha_dlQRueZ38ePkSGz3w65CZi3Ddj5RGBUliiqWqryT0lZE2u_XWyYPjOJJt_-1n-h75jq34twhGl7lhu6L_sGDCU_wGxjDEJTuNHN&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkmghhEzPRrVYOTivzXN0_8gSXtHSEXqc1w_7RNFXifcUe8LuGjv-fYsjwE3EAZlYI_QsdunvgTgYhG7E9VcLzRB5j4fOHecYoj5TRxQCjklO-mLKliFQFUK4FC9XJDqLAc1IyAr2M2HOJXoNL4LQlSExtYvidikCy48a7BvgUbDtjX&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A historic beerhouse serving traditional Romanian cuisine and a variety of beers. A must-visit landmark in Bucharest.",
+    "working_hours": "Monday-Sunday: 9:00 AM - 11:00 PM",
+    "nr_of_ratings": 47207,
+    "latitude": 44.43202,
+    "longitude": 26.098122
+  },
+  {
+    "restaurant_id": "2",
+    "name": "Simbio",
+    "type": "Restaurant",
+    "cuisine": "International",
+    "address": "Strada Negustori 26, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnjDnR_O-7nKEaZMPWkcNXSQ0967M4ZmirxXJ0uVoaFhTl4JcV8V5Arq8iZpMxYrzSqNXh_zSjt4clbNIOHHx3FU-H7Ef66fUGKmBA2dMXn7A-5SbRQshEAyd9S7KnZypiOmz0yBpAtw2LiT-pR7a1gq3WJaK9B0Ozf3kPZGzTzjPKj&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmqysxsde_XO2O-GHhCRL8SoHk-IpvmCBchKEaE1yLfZXgQbqcX6nEvVNUyKrWN6W6SAVHtgGscgulqjP_1uZ_317ixmVx_plVSZPLr2t58-muDYdVVk9L6qr5KSDSSZ70mx3hn97dFHzAWbRHF9ehjwPh3SJ9NO1_gVToKQfB5l4Lp&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlSWjs05zGHZW1Wpa7JdTzpgmnuMp058K7fTmb1mhaCqnduNQ7AKetEb0b25accg-cSO11lpJcKAXfBjxnVIg3XbgvvlWzE3qjUBm-NR9tNpybljoG8uh_j0CkVKI99ZdQkuXPXLuGWoROhrtFzBlePStJUAz20MFnW2nUlRxc0fAxO&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmGXsj5B8G7o9fG6Lcujt7jDwEX3LiWbUob_3N0-aTRwrpcLs2w1aSxlDsdA1QnSVbtmZcnZut_6G-RP9Bq9FEFjrIxzIpKw4u1584ymmn8yGYnWMVgRYDicuoBnjlP1vimz-GPgPIMyCDOtzJukeGaYLjw7T98bDsb9FcrVQ8juP-I&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmMTXArB-gbJYN6d1mlGBAYDbPrRR0PGDb_SLjdHAIszFero1PjSsnbdPblVkF1TKUzKLpKKDKnG5wbY16l4Ujmuxz7JNkODm-sRjkW94EJ-vjQ8RhXNC6OlkQYhhasg_fwyZ8HVkwXptCws932DIZlwByk_uotp9FlyDyYKK_uSP3c&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkPa5UEwCOwrOx3-7z31qcDdGOZPUYs4rbT2BZ9RnNmJkMkvnKXxfiUPyjYu7ukhNkJjC7tWcdNMSdhotGuV3vx_AJnt1Qzh3ftIJB4zZwAuxdijwZ1H3Gfq3I7nTQIPOb7Bhq2WDFxm4s1obX2VpaWEzTGLXuOKNroLeXkQJ2NtY7i&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A cozy spot with a garden, offering a varied menu with international dishes. Perfect for a relaxed meal.",
+    "working_hours": "Monday-Sunday: 9:00 AM - 10:00 PM",
+    "nr_of_ratings": 4171,
+    "latitude": 44.43504,
+    "longitude": 26.111954
+  },
+  {
+    "restaurant_id": "3",
+    "name": "Energiea",
+    "type": "Bistro",
+    "cuisine": "International",
+    "address": "Strada Ion Brezoianu 4, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlX8U-EbnQPE0H1nJkMVV6-AJxihVEb1jAtDqVlU5Tl_Fu16nveyQjaAVJMaL1rDDVPc9h1fUTV06Ilos3ru8f75QbbshFcoOGpFBDzTBWRalyDyTVHAHLzytg9tzn8F7hGhRXHNQQ9hzt6khip2lQBZkEqaQ4_0uDc8pJfqeofpS9r&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlblGDxxSToxMnMu4cuVaBtM_vA3WWiGjNGNnD0U-JE_M9ot5U1ptpBkaPf94TyfBQ59zNLlYMrJcbnI3sWVZpe4736lFM7hPwElyWs4e0VIbvIbhGSeTMVYx_JxedxM8GGIMxIpXU3CVOHCFDI77_ZdCCp5iZH2Qj7I6zuS1KVDBvj&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmxorisyx7tC68l6vVJvF-aERkZxarN7x3m0Km204KGDr5RDvNXCB4EURNSrh9Rh08vfL84kuV5jucrYp0gIzFy8644gBLYTgBMhlct7lsWQk51tMVOojREr6m93ahLS86yM2KFhPDjnn6QegjaM1uTE1lruvFaJuuDQBRZiOYbaRKG&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkAz8N2035tUMpeVWZ2gFMVO6-bWDoAACL1TKq97mZns871cCPNDtH5jeY_TdB2g0zizvvqCHsiin5R8qifgabepCCGs4VxS8zf_sdENetL3-q92uOp50SY8sWMrMzXXEK252b1YflWGMgpezAdiW4t7Kss5Axl5gC5V1oISzjveFLl&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnfOwy9CT0qsyjbHff3GKLR8sdrbNyxGfYj4dRXZsIDoJWnNMRGfTwNVogkunNRwafzTkil8XbupSTevjOQcmonvLY2GodYC81WjvDP9gyP81tymVssAEaBwMWWoCZvtqIJOPeW10M5431xT3SoF49SR3BKQeUaBVAHoPtvBmFfMQkv&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnprJorWlIbsdB7hcJE0Cf07n9i4jN-7viBBeazR4epMAlwAIGnNEiwTOWzhbqj6cbCDsWU7sTD491nueUh9AYFX0gswrWnMwzDVE4QElMtUAEoXX9L7k5GE3w59gJfTBjFJ-CNHzfHRaSzIxj-uRI-Nlu_9QBx3Kz-2IPB7sLP7TkE&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A modern bistro with a diverse menu, offering everything from burgers to vegan dishes. Perfect for a casual meal.",
+    "working_hours": "Monday-Friday: 10:00 AM - 10:00 PM\nSaturday-Sunday: 9:00 AM - 11:00 PM",
+    "nr_of_ratings": 5955,
+    "latitude": 44.433266,
+    "longitude": 26.094875
+  },
+  {
+    "restaurant_id": "4",
+    "name": "Kane",
+    "type": "Restaurant",
+    "cuisine": "Contemporary",
+    "address": "Strada Dianei 9, București",
+    "rating": "4.6",
+    "price_range": "VeryHigh",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm0IERt1D187Dvecs877XoLUBusSuq7sw_19sRzQ3tew57IwigA_MZMn3B7IvcJxjrPw7JCzqRoIMdLVg-8KzWFoGVuA2-G2GarT4SDQo3vjEXDDqj57JN-nCWFQPbB-xq0R-ki8S_zdRA5sjWuPL6qkmJOWTkviWkD5Gl6Y562a5Lw&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnKvP4RSKhM1FykL14T68-AEcNr_mziVU596AkGUqmKtBfRrE6_1he8ZWOErG6X2aDJucmmevTvJY005HMDr6_GuTBKfdUWaM0edeAKA5rv8z33EUFAD5eK9yg_wC2MNzLhm7MHMdOxTfPUS7saU4nOTEfx-u9mJqbJzhFh6tqrIt9Y&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZktAq2ED7rP13E0ATaIRvS14DULtRh7NQ1alPAcND1UcupHz2nQJ2S6iA4EGK9GRI4Nelv1wrEq9z8Fj3gueuk1_mDUvPMJWUe81G-apuMWfqc0fkHGWvOBnXBbt3Db7e2d0Y-RTIJx2oUCeI3Jq2EIx4-CxFZP5dPK6zAWXETtQbeY&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnk1FJ0S7PZ5d1H4wkgGfB6VBAcpZ4Kaljzok4N3TnSre0_MEzou0i15Lc_EBOrizqrO66A90P0gUty6F0pUMqQO4uFrIM6va4vLBJKSg50r0nOq_XqJIYWNk7g4uycXIWfLjYZHvUGHPe9t8fQjSkmgsP3wX5yrm79sepoITFAUJ7W&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkbQIQFBR3BUlaFVo65vegvorMepJkjfOLM1wr1c9htDRGBeYpZlQ-Q3jAht0WXVnYylpB7zEofiNWMZ2rw-3dC_-QFCMLeMQVYqstha2QR_ZCPCDXALx7sCoCJe1VXgRJjML_h1UWaWziyGgqa32quBfA1kFN0WTvUTy2u2iRT4GuF&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkjqh3vgV9GRjbhEp234rwmjKkneRzMLoTrVdIgMzKxo5P-8zal6zWOMUY7s-Mx8POLf1FkkmMezoECDxqAYTllTZl1OUmBtRZhtm1c9NTrXl1xMKWaHXRpZOKvnFYqwAmZvUxpaOs475g3U5k-aeLp2ELS7Cqwm0qt-YoHImob6lXm&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "An upscale restaurant offering contemporary dishes with a focus on local ingredients. A fine dining experience.",
+    "working_hours": "Monday-Saturday: 6:00 PM - 11:00 PM",
+    "nr_of_ratings": 604,
+    "latitude": 44.437763,
+    "longitude": 26.106188
+  },
+  {
+    "restaurant_id": "5",
+    "name": "Nor Sky Casual Restaurant",
+    "type": "Restaurant",
+    "cuisine": "International",
+    "address": "Calea Floreasca 246B, București",
+    "rating": "4.7",
+    "price_range": "High",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkiSJy2Z9OEvPxm4Jbtu5u4HF8w4WbzQuEP5_32Ng1oOSlaamWM0OcORQVJqfFKjRBWNA44GAy4zcu5BMTqKfrmQV9Y41OkWccMwsEjp6XDndoojHHCybBOdRTeKXL26Z1yzgWcnMnRG215lOmAh6hoROUcbLgwEjzdVntmicE3HsCj&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkTiiHGzZm43TRmBSskkXJ9x_IktV3lDNVSzOms09iqDT5lnUIwyDhITCx-HeyFOFf34ukDI2cmfEDL8Zs75wsggk2uwAcmuy_lEGM_fRm3EGxf8_HE8pqfve29meOzBBhsGr64iF3jckXAEpBlWksuSOBgcm7XvTneI95qEIXRJ9qJ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkfA02NvZ5hi5Z_7Y98ojxVyfqEz16JBl6BlTNapU0yPUQ1cYFbGUTvEVLYU4rAeI0Szd2ll64tqrrapmuf_A-wYAoG7bqmugCLM4k7j8QcC7s1RU-QdomEbBJC_O6OOnbE28lWURUa_ypIIVnG-bmhKWMSlpZas-DmYkCQSAcnyNSI&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnY5wyI8g2sqWvh0QjrTwk-ivBzIBamcOimRhV6q6Z4YvVHGjbExP2L1X0Q30aDGFCT1JqfSgP5lHmhXu47_IsGBg_mxJCTbmasTUl-RJ_ANKv5oJqn81nuAhXO9gdL-1j-16h-ymFQfPaV0U2D61oUUIfATSH9u-qt6yPCU1y56JfW&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnQcarr8U2T30iHr_AwKSrzX8gZhAYMM7xahISQjrzdxVcHzQnBpZRx8XvTSyQIiKdhPleudikDN-gh17DCNzYQ6C8qtqMP7LlVba1XdolaMcxCrJZyZSqtiEReAHzcDlxMdPd9C4ZBNbjExzfk0uQ3F9dsxZc0aqfQcCb5rECEG5Id&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmHxHqanvBG0HkAPu_7-NwuSTaFMDyWDH_90TIwzhIefS21fdjnARJF_qLj6CLfdPbWjYj1ozLYnB5c6pvOnhcQgPK_wkcHjoyWdFbhyMXDeCbrtPGHRjT-BjLH6ph6LspmouEV1YNjda7UU8Z0s1nkWlbLeqz7Y33UZFCV_NNuVVj8&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A rooftop restaurant with stunning views of the city. Offering a variety of international dishes.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 8409,
+    "latitude": 44.47795,
+    "longitude": 26.105
+  },
+  {
+    "restaurant_id": "6",
+    "name": "Restaurant Hanu' lui Manuc",
+    "type": "Restaurant",
+    "cuisine": "Romanian",
+    "address": "Strada Franceză 62, București",
+    "rating": "N/A",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkIsTky8QrE6nFwvFs0PvlkpGJ86Zr7M9RpEm2S8sm1KVcPGiZ61YJ7B9DN7J4CpYDaznSMWHyjlU0K9LcWBn9lrdFfcU_HF1v08RKGODA5ze1FdNNxkM0mtg4U_kjfagVXdi121nabb4ryPlMHM6w8NPvnFlYcywJ3YduaWUfo2Du2&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmQfwkabxhiRz3P2ErcCKCSNCMiv8sKLAPgsIWOvoTwMxGpbWa9xAF22vEtjBp6NYERmPuKETiQswSEkpX_q6ZmncOy1qh6M0QkntvBAd5UYfAA3JE-PokfhZQk973bMQ4NXQLPazzlSpU_N--ufiBnEfZ60EorBKW1iUecheNPRTMA&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlOBTSY0eeSuiiYqLN0n-G-grcUdpFSd5lMAbdE8zYeu2eIWrX-s1p0tp3bP3fId1xEWMrEprcEOx5yieOrQYdPd90IPzvVbTk1XlzQJkeftLWOf_I6IQkF4uzcBRDPbFZy4Nw4jaKbeWSBy4fUgGl2ryokw7gVGaU2aJgFZG5RWZW3&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl5gZlcucMIy27vzC-7MWouimXtSMSdYuHa8rX6zbRNXT2XeL3EcD0MnIf2iIDe54tQaw2waDktpZBg2ZiBZiXTC_CY35HpRoJXW4Ewv3wf6pPAx1UeBWi5DUgMCt3tqSfT3Fervh7nzXTFTjdNEmczSwFf3E-4aqqxHlgKbDc9Mx0z&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnSR7B4uAMndTpaNuDLs59Y7CL9IwcdcOmUekqpxrOzZQ8VgaCq5yUmo2nJ8QhYaW4DcwvXk3VcUoLNmjePGTmETZhXlDgj4Ye97gb9i5qlYVMwQJpS7rsRrcPR9-3sATfMP1uIoEBQQ5z_luNRehr4DmtfUzLMUy3QD8WSCd7t2TnX&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlPyvL7vYytAOOqOxDCnp81lBvz9O1V-ummuHQXo9KNC3Wnic5-rdUpplb54NMKQXjvMJa2-n9JCV-lVBFm6RvGWMOIJsXP8wQfD-kv76V_wxn4Yc1TAa8VQhByQhsYT9rJqxjqNNU_xZbrm3Y2IEOT2_VH1GZqmvGTIeRF6nyI_0ow&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Experience traditional Romanian cuisine in a historic setting. A popular spot for both locals and tourists.",
+    "working_hours": "Monday-Sunday: 11:00 AM - 11:00 PM",
+    "nr_of_ratings": 0,
+    "latitude": 44.429592,
+    "longitude": 26.101906
+  },
+  {
+    "restaurant_id": "7",
+    "name": "Alt Shift",
+    "type": "Restaurant",
+    "cuisine": "International",
+    "address": "Strada Constantin Mille 4, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmhcJTdkNw7cazgRAkokKkr0tBBeaiJAtGtplkqj7IRVdZgq9ptL70EfMUiG_-qWKwo14Gafbl6CIYyNVgEolaHep0YsxtW6uhDs3qJ8HpVPjs3LuAqRq1JpdpBSaYpGQChTdPMJFtbMfhorAyBBgH-Aaeg6mC6yRriepg9Gbyp3jgi&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnspcPdNMQq6YTtKwuGvCAousNbxR1thQ7vm5w9Y2qheUqbckwcCsq2CLO8uGYJeQLkBO_LZGuECRsjs6QioxXasRUDqAAAftqK359f7sNb4ItM1W80y-uiTcFxlePx5f9Yq0cEx_z653f65AwVOle0W-0hd74cxqhrzXTbjlcC24cS&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZknRswRwqCA5AwsRaskpEFb2ax8NuKosH8D3csLJIHbRjGucbrAncbLOJgNCU33MnAK9ZVYs9Sa9XZzr7SB4gRDcmF9Nrw-JgyM72VXTvCBhucsU71We2bScgrxkuOAMdwi5VpCAk7c5YqazeXeo_temipxMG5OurnIIhhvyHBFNp3I&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnLxqEivpIMSJPDCoafjrX6gg2AQmYR2uGwCnvaVPD6RBiEV40aiYQ0jBPZUnvIrTcaa9tI8NjVZZ4K8FX010-HXSIv2o7vqMZl3t672xn9C9Xf2_kNcMKSsCmNxyBx0dAmZ5x-x85A6hkvb-9NqABxIBmGDDcaxk718KGmtqZZ5DJo&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmXNTRV3fQ_dUvcvuGQjTxF965zHAXr4GEw48RbvNSgd_60aOai3182CuM60AKgyMAgSxnBoQBX-Gn1sdlCks5ZBm2bfmjwDH_0Apq8L-XjPkD6kOSE4BZd7-snQV967N8Chnke9tG-GUCd--Lrmz3HPLAVAr-jI55hBQWZB_7ifI--&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkEOJkoEUfeNgY5lA5J_n6BhIVQQEQHOyWQVy27SZAbtucdbicnJEI08sWzsU0GWnMALPl24jzje4uidt_JrtpcNCu3LxCb_V-asxRNIWxFEtOJFt59JVxF6BHWwy956I8GbU_3gS3Kxc8hRJoIrNu4WpL8-TjwqXyW_6VEwxqrD6Lt&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A trendy spot offering a mix of international dishes in a casual setting. Great for a night out with friends.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 1:00 AM",
+    "nr_of_ratings": 3804,
+    "latitude": 44.43553,
+    "longitude": 26.097197
+  },
+  {
+    "restaurant_id": "9",
+    "name": "Mahala",
+    "type": "Restaurant",
+    "cuisine": "Romanian",
+    "address": "Calea Rahovei 147-153, București",
+    "rating": "4.3",
+    "price_range": "High",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlqmDO-0SshVgOfY07YPkAAeos-2S_IH7aTGWp50OBY8x8X4r9Th7vlnskva4Ja6XpWeA2DjgUXSXJek82FzC-WTQy2ag-faRrfR3NfokvnnO31-UBv4Z76WB2H0urWbJeooNkFqS1HNJwwriZuz_8TZK61FzNVhVcxUJgmzBWlEXYM&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmvSBDscm2boi50g88DuuwOU2ASU1Pvp950OIB74wABCjrS71ka909KJF3IWXe57GLFSLYoZBkNMJEAfIcc4EUBw5XK5rT7PEJSmGwhkWJbeX9GcXMbnj7ko7JKkpv2kloOytemWGeaQ3amEf0vT-ipXlndc_2ufoQH7HlcgiYJhXVA&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlnSuKPHJ0NXR8HNsf4wgebrkNgBwUJfBeCSvSxMyaAXTeIItDSz26YADDIbqlguKoiPo68yhyT96i8gch1WmEFaRW53hryl3NflO3H186BxceMUtteev-_gADWBl_9rqUYB90Reuz_zSxT4qx7M1L1js7dKsv5eAoJ5Q32bCzMV92X&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlERoREcJnnwd1b7-lbfpcKeXE3YFFauJvAIjhtIh91fHrgfdSvztgvV8fn9pzONM4xDQyBSonDoiAU0UmISCicYrr8I57pnhsNZK7TZGRCBzAktUAGnigcs5VHjABiTyc1RpUS92YZKnFAD9IIQ4n1-DS9V-RhJD4ITQtfzNgXUk81&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk0TuXZByEIzr02AX1QLQElMPZRt-rzauJJLX5oYs5fJy_GvES6WIIbuxbEAeNBpKbu0T8pUAM60MVmSpiJW-zMmZdzzn9UC0fHu9m3YjlUOq4V1AZjwNdukohoJCj-lpy211xtjZruruTHzgjNwCMqUafkvO0FUzeGY1aD7y3bJsnT&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnDA8T32kvbrRi4WVCBeMCvdcUXfw8fNqk13UlweJUJ1u_uEGge0_lnfVeY-ZlT2B1CyCHHmSbqoK4XM27CkGidt3axUB-4QtJRHl8YoaIHQMvXxOh3ToIfx88-Mt3tlNgn1f2En85YTvygATjwwh7BNVIg7jI6nLfNpBmu2KQ6mi1Q&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A contemporary take on traditional Romanian dishes. A chic setting with a great atmosphere.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 1393,
+    "latitude": 44.42184,
+    "longitude": 26.087725
+  },
+  {
+    "restaurant_id": "10",
+    "name": "Lacrimi și Sfinți",
+    "type": "Restaurant",
+    "cuisine": "Romanian",
+    "address": "Strada Șepcari 16, București",
+    "rating": "4.2",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkiYNNPFUiHLWaMRT04zixZ0sO7Kn6BGSz9dT6cdro4PNBF9WNmvKjaWOmCK8wUk3UMMAR7gi9_laDUpEmRHhZBXBKprXSzHpNBAt3nsfe3ckUysXJ_4hwwWvSxb109Lw1m0876SbKcdXbxSUt5guleMkM-Njp0jYbFGSATbXafUkwF&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmRKwSonSTOJgZGmx15IaWN3kWhymm3kfHZkw2_O0T_1PcMDJIP65isshlDU-J__rDFb6gVnNV7np3se8fyvR3ibxyif9CCdcK_D1LVO54qGO1q8aEm3FEiNxY3pdRAeaiIq4JFELKFkMfjuoNjkDTdEkr44j2dKZXCMdlWa1uiEhNl&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm9Va6MSYxQUhKdhMIOWqFGxLiYIw2ukJiTx5r4uWT-tZ4XKkiQ6AUa8NF-Dtreg5Y7NY1TG52Arn7QQ-iefrcX8L5EYOibPtz21nhk1Vb-2ChYJPmcSV9jAxGLBpLs3m6whlRXXmeehkw_iYCKcKi6RVydxTJLcISLKRzz5U-YNfT2&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl6kp3FIwcgc6wGYqXQInNy6alXwAcD-SoZD0mqLSP1_avHZ74CUoQlfOkvL38ezHSGZGBKu5FdFAoMdsO5OKwvbzQrs9szd5UZk9q4hRWZ3mulaIPp27PGUoUKKG2B-DhHnbt-Y8GgXrvwPAg-3DGvPYDtS0Bc4L6ONwPpHRwSPGEc&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZn91kLJeQo_P-9aVzqwS45TeyVkMgRbVVtZvMMkxBZEJR6TiDQbZqeRUULNhsJ1oPmcQqteV9txF8zf9qQVOerEvlpn3oo5Zej3jmJRnsLukyUOfrqy2AKNX82FjqaDr4fSXS0LtjKqvR9DkYpEtZjE1jmDMr_kbg9tKothjmtXwhn1&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmP0gVgSR_AH1ma4F_HZ1SkhNTu7jLTIy_ZJH9HTngJwKjGzXONsdMUBaXW2BGsGkUBS6F-WoxQglQyzDU9aPwskMuEC1MRC_cf6ELCsLC9TTzZEyY00tnI-spTg5IOHBNq6uIs3me6f1VeUiCrAFl0x6lnDwLrJdY0JxihG66lpicH&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Modern Romanian cuisine with a focus on organic and locally sourced ingredients. A must-visit for foodies.",
+    "working_hours": "Monday-Sunday: 11:00 AM - 11:00 PM",
+    "nr_of_ratings": 4103,
+    "latitude": 44.430557,
+    "longitude": 26.10289
+  },
+  {
+    "restaurant_id": "11",
+    "name": "Shift Pub",
+    "type": "Pub",
+    "cuisine": "International",
+    "address": "Strada General Eremia Grigorescu 17, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnBNCm2RjeLtcNnWGR_kzxwTsOusz2ETfNy2SpKPRuRn3BoGRGXWR48wAtcUCKOZx_nf_lxS9KJjGhttkJ4Wk_F_zf17cGMXoMs9XBQTvqnV2hDfXp1iBECk01T-Shag54Dg0cMCnnM0_LrPvgpkzA9nOi3GXh7RmMuAJYMQgHkdj1T&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnHZatEdiVkcwNF7P5GQ-Q9BaqQSxrbfl--RqGcbDb4bQ-Uj0g2vXTkEfaULtNbOv3Lo9_Lubb21c2fcmlcCCqttvA0yGrmh3I-Nr1DxE5K4JxpLjB3Ru2Ew5OQICZDhGgrTl8Rmw3WA70aLn-SGU4np1aWZ23doKrjsBdix66kRtK-&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlGtf3PJTN7bra3-jtWXCUxh5eki_Ldn25_84E9a_8fA23XnbzcnSEIg8I1QloO4TXuKAs3EmNG0PYxumFCLooy1zOMdv7q79kiga1-OM5ULBA0qZ9KbVO7yAQvgd1ueKC3ey63ebfBwTD1O7KsxRTkJYbPOhxYqZQ_Y5aApOmhCzZI&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnXfCNoZN5-P_y3zU8KS9-Hjb57SNK7WYptsaXjkEvEhC1tpkEPC2Cae4s0Y9y1A4ZHfvLDZ0ZCJn9OrEiD7Gm0CnC-H-lT_56Per8i6Afik1RzslP4i_DlLG5YlNABcZELTsNPmz6UjRHP6dGE_lWBh2LjjGfV9cmECGeYw8jTUyl5&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnz8ZjD8vLJvzgaHDbHQAH864TfZHyXUqxK2e32BWWEXaFJLG28Y0LEmAGpqcpTBdUjbmf6adSpT6huHgq18uS6z_sR3FSkO_-UBBb1ciM7d-1W5OQaF5jaz-F2sZOaGajOheRAFBt50ze97evvi9n0CRt5H01I8gRad2dOboMYGMSn&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk2I5EjAqeBK7TXdwa2aFAHj0rTZ_9RuCa8QzXnf9bNGLG1ftMi7segoxpQRPFaYtc5CjROt9qW85RgMLw21fXxLa0bxzF9LEQCfwaxuZDR9jmwsz9Uli2gy4a9gesbBmDNL_wApve0MZDneB2uX6I8oBgsWmmUG0g-01apKMoLntU&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A trendy bistro with a relaxed atmosphere, offering a variety of international dishes and cocktails.",
+    "working_hours": "Monday-Sunday: 11:00 AM - 12:00 AM",
+    "nr_of_ratings": 4619,
+    "latitude": 44.4449,
+    "longitude": 26.101633
+  },
+  {
+    "restaurant_id": "12",
+    "name": "Lente",
+    "type": "Bistro",
+    "cuisine": "International",
+    "address": "Strada General Praporgescu 31, București",
+    "rating": "4.4",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm6KnCXO4JcyRoZGkzO0JMef8RJilrlv1Z1JWWQarXEZ0baEDhMfHgkAcMgLTAwYJIXCHFRAhYpXp_3LKseztrbVZfCNwAcw8j_oy1HZjsSBfxKjTuvNjquNmmKhj5fCE-ji4drUNRHDBdNAxGYP2559JsWQR8RsvRtMzxEvi8dJJIz&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm0CGxAnVh9NJJ60iKnjtLk1EzGyYIA2O-jo5X971UI2xw_8mWHPlwpMfMHZ2sL9tBKFeZP6clC8UDnLxJ_hmjZXYHHfn0JeuGBla5cO5lQ5_3otfkhVDPdYr9d4wpDadZkQQri-DfTz6G8efm9gp1eQBUHfafya9Qp-gcA6ry3QDLe&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl_gVFKXZXyauajrw5WPUJI6qDjXKe8lXzN9brNs01pMt3vFSH3issDAG5F3SMaDWdJMTyvsBchdvOhBzU_rLXK9N0gN2Gu2o7QI15w3RA1X-gvtPfthw-W6wUhGXD01KkwTuvMixOAy_VLOdh7mhW1mOt6KZCqBRKBN_bbm-Nc3BOl&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZn4E0EXg21mz89D7-tBTfi7N0BhoqJd8vkn0XRWshWAGdEZShWm9oYJUBaMhnfNv39OEOaQJjnOuJs9eeul_WmplKc1qIPu-LODbFKReD-JXA6y5ymxZIMRWal-ZYPMJBci_YwxoUc2OuuzHvRoeN5WRcdHD2SXIxQRwTb-mbOSxWRU&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnXYyq4BpO-Az9P5PoFioZRwUPk2PYk9ja99bnfG3tMUmT-AwrKj6YJ1h3RgKRFMDFxD3BiS3PAp6yRWYX8qfq3ErpW0kA8rD3BG6CWWjSFUMmgxyAneZpaKT5sh9d-OEMZBG6ThYfq2IBZBzA_5vSq-1Sx3L90cok4PKZspK6SXQ8B&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlTDbKg3Gin3AdzDUWr5PDu7HdgnvNStY0IZfjbTh2U8YTQYxnHR5ueHJJKSAq-dmPMnW0ZWs2CUdQRMSEyzOXe784x7359y9eqa0EDG8UN_1sLVYMKNbMAKsV9vcPJwpM-G1FcNlNfgmytofiM9eHLVI87kyoNigz472UB2-grGdaa&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A cozy bistro with a garden, perfect for enjoying a variety of international dishes in a relaxed setting.",
+    "working_hours": "Monday-Sunday: 10:00 AM - 11:00 PM",
+    "nr_of_ratings": 178,
+    "latitude": 44.440983,
+    "longitude": 26.103712
+  },
+  {
+    "restaurant_id": "13",
+    "name": "Modelier",
+    "type": "Bistro",
+    "cuisine": "International",
+    "address": "Strada Duzilor 12, București",
+    "rating": "4.7",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmcLFrr4Lpl1MxlhkLPmkM-DNdr2_QIbtI-6O-w3mLLkgeo5-15hhVNEw3Q2SaOJsOURLSD7L7Swxj2ym7Wo1anZBmJ7LP0fcjqLblkaf6a98DMiIBTwoehuc6dZEACttRkSmeeyQI8x92o6Q8GJ8TpJD_fphCNOvJftxr2X6UohXzQ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmGspgpx8Eppl3A_jg32R-1qmFW0cPb9u8Ul18oygpc9m2P_uUkp5A43K9NPMMbTewiFnYOnnO81tpjL-Ivsv0CnL8oS7cfJy_71NbaOFEVI02H-TtB56oQwBu96DXjQv_cuFshLOxkVtuzJcvFE5DiQ_RrdBC-IoPfYtgxvN5bcYDc&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm0lOKmaEcrohmS49FoEghy4gaRntyciAJbnE8fqG_rALvQ-aXEZdA2_FvqrDYUi5KZZzfh_qAWL7k1mA_IBLqpyLIVQpnwWclDV7HGhCStwI5Ie8jjF9juq9GfJ2JBZdM3qrF3RORWHc0xeYZtTjSNBqc8igoBkHhwEP4TBOtjynJT&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlJVlpn3wJrBFJpMrJwMzxty17bORtyug-T-NAn24StjOGfkEUb7yT3HN8QVEg81oLEHtPQtHC3gjXhSbGSFy91OKceNbJGOByNkCyxgd7JDW2VMN2nwXPLL8J1iuJWfR_UMiyUT8MfJfsD20lj1UZm9WBhCu-Gn9lK-Br4EWKAI4Yf&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlNotQwPMfHo_iouG3ShJ9Pu1fnMu1p7pSVqo0gWx72vhywZpsdiToW36j-LFagcHbzModWybGqVb_XfWkKW7BLbu735-Js5wgRbbs11nLGS0qmnlwy4QU05cr9pBnL6V9WFcOJEREL3q2-Gwoe2ZWFsCkv5EvGvXy-I7hSpwgeF9D1&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmvV5mUILHpks2xWMr0RiljbtJiah2yZM2i4nj-NlA9IHOXI1ItaDPdJVZhw3SXzFDN-8KOH9TdDlvHSM_MAzIEXz9gvgf8dj0ulgbc8tJ3mnNYlBq1khw-WQwHDYvA01p0uk_NzmGOCgAjMM6ljMLAEEDZ5icI-Gfh10o8ZiFf_J4_&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A popular bistro known for its burgers and relaxed vibe. A great spot for casual dining.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 4557,
+    "latitude": 44.436157,
+    "longitude": 26.1281
+  },
+  {
+    "restaurant_id": "14",
+    "name": "J'ai Bistrot",
+    "type": "Bistro",
+    "cuisine": "French",
+    "address": "Calea Griviței 55, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk32YEBySW2cOM5NLQ5zYcjYuZALojgJK00N0IOiN9MfXqEm5C6x0hGpmKafr0535yNwAaNpc29NmoCab2VQsoO0IiDOa_2ftaNmtR8QZ68WrOqOGg6HM0GSuFcxwNBZZOk7AhJXZkvMH5Yl1ZqBk0lN5Wmlf1AR2im05I2bmtPdpuJ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlloaIjb-jmko6GwNjntENpz8Ep1DLlLq-hXeAx6K190pRNHlRblGcH1N-rwQu_DoJDN1J3PeUE3jrBH5FLQEEK-sVFlVBO93RTEqkx436EBU-VAlPDvmXxqZHQMOZiURVyRd2hDP92aKY-gMhGWoRHt1LEprRhzFHjUqqdfGPNOSQq&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZn7ESSDggSmK2TQWPiZwFIFKEvDw-ZPmHbwr6fXHW8eRvU3GytbCAo4PBqMdmFTI2_YOJPxnfSeF3D1EiDLYb-PqZ3ocOZ2IGZKHMh4MN-2OmNBxIjnnNZP_AHx-_4QAQClxHoMfK5MDm8S7Oe9kCFc7aSq5VTL91eC8FAods9I5LLu&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkeUgm82DF0JejD_w-JjOnBcHzjgowDQyUUXd8d2sW5Malclm_5HSmtOGzwbGCCJqdd2t-hoDQI1NV1HD1BG8di0NOGLhOPbxGiN3g9PctTGBijbTA5_-LIXryhQbhr4j3FldpMoZrshPC_zF_suVhdotKdHKIQ_yZz386Om4_41CTy&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm0razoigk3vfIh7ovqh6U3H4bF90PYrHru57Xj7XQ0bDaa0_TCFx7CkLV-3LkATb8JsyZMp8Act7nmcnHRDw-CdZAH6c0uAhnmnYJy2Nm-L1obHEFdKWgPL4AoYXjuIbpRpfLpv14mjhvcns-4M6RiPxLpS_c2uBsgSl2dI0JX7XN8&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmF892MwohQ1_6CwitOQPcQ-R4PPmfPrR2458dl25LpxCC0GtxXEWGnXnMORISz-4DtXAwe3Lh3sWtLs-PyxuhmaGEkH9V8csDPiAVAB3NDsNin9ZAs_8eOOKnc2f116KUs3v9uRpyFNo_SyHHVEr83SlHdZSiJky51W35eHbpdMxvM&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A charming bistro with a garden, offering a mix of international dishes and a cozy atmosphere.",
+    "working_hours": "Tuesday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 1367,
+    "latitude": 44.44471,
+    "longitude": 26.08565
+  },
+  {
+    "restaurant_id": "15",
+    "name": "Bistro La Taifas",
+    "type": "Bistro",
+    "cuisine": "Romanian",
+    "address": "Strada Mihail Moxa 12, București",
+    "rating": "4.5",
+    "price_range": "Low",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkFhQ6oWGC9TXPYgEzCv58YbVRCMULHgT-65tMdFRVVonw-gpeogZsGO3seDcmMjUVR2-pj0ePzR6LP7l5po3gb9pfukCT_7MP1hX778fM2MNrRXVcrwRFoB8UQGMWAAkQAUyn3whYyW8huidt8Vh8b-603-2UE3lBjsb_J14H_5VwI&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmdeX2cHnGjlKY63NeJRhCecnnY_ROzHM-VczuaLLpnrrOQn4x-RYuMeUqi60pPcayKrJ6i5Uuc7lG_6P0wpFu90FN0Yqgcw-BjShLq7u39CT0kHH7kU5ZWeGciQoWCwj2L9vpmCOtrELGKWk6WkQNBh10VHNzDO5BHG5yO6eFTWj5w&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkK8Ubj6K-IIHkvJT8WCrffdnwZ-cM1aBR90ZBJUEpUHv0lpqxgtnw5ENRWYmHPb9NhB7wj6vhvvm4oecpOwyXPgQ2C8Mj6H2JP6VN0ccWcmIEb6idq5YEBPv7Hp1L6ZzMOiqmGbVd4gsH_Cj4gPaWujc_iEkRnW1Fh_I2W2izZfBqS&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlcWDa6g0ZnIZQqyjKCuvmkMu-UYtcyumCYHAgIb68wE3QrkAk0u5kiaq55l1dSYl7CFQWj2eb1tIBUgJVjsEGTbenOAhGTJxbXIKes_vmU51BEA971hPe5luzjUvAn8vVYgkKHFJiR21yFu1Vi_jmL9W8CDH-zsFkdY1Icvgn0-drl&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnWDse9BNgnwSlwwbD_Lf6Or5KQ8ybXouMBTxFXm059silv0U-c6WNPyxhfVAM41fdIF1skemm-aEJGvZkpgifSLpTcFKZQ6bPYgE801Zhz_xCPFWXXUnueeTHucZUNQThcKs78WPauSV6CGY5ksBy53jSj0cJAdgfwsiZRGh4zxJ_S&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmf6nq4_Zodl-WFzPjisvJQJQy8Vj_iuUSaWgQyPuvm0VnEGaUpljuTgRI9qT1CgX2fe6JAb95qf1yjIBKubGdmqHLBAzEZ9eneTwWVQFFSZ_FcOgRINbOTnOert3JA-qDmqk_VXsdmXK59YlA6_VwXbSwMZrIqmVUnqv8WMZ3avzeL&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A cozy Romanian bistro offering traditional dishes in a warm and welcoming setting.",
+    "working_hours": "Monday-Saturday: 10:00 AM - 10:00 PM",
+    "nr_of_ratings": 680,
+    "latitude": 44.446583,
+    "longitude": 26.088264
+  },
+  {
+    "restaurant_id": "16",
+    "name": "Biutiful by the Lake",
+    "type": "Restaurant",
+    "cuisine": "International",
+    "address": "Șoseaua Nordului 7-9, București",
+    "rating": "4.3",
+    "price_range": "High",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZngbzq4HScxHKJwiHEMrqUfQ50hOiYgqfj2tsHp-V76ySCz4ipHdk17l8HgOpGi8i9Qnb97eWdF4kBofI8NTkyftYMwD0NCa2gifWKX_CKYRNfqdXw6FxyvEYWiWVTrdNLHe-_fr0NflkhpMvmPTFM50NPL18DiCoj4c0oQmsCZzJ0i&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnaC68gfd7cg3rbRTnc9jADh1Mi01OMIZO1x-vjt73sXgnaxvIcRr4jw0-niv39boZigFvFP0bogVPOcLL16q_hryGgt3deJdZSQZXtbO3PRDfi_8h22jMfVs5Ifz3pBqyLIYY6ZdyAQSzmpn0bioFGRqfAuQNsdr4v31hlx3UT-Cen&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl1EAhQuDY19pwmOOpaa8hHeyarYQpAcpnnIKHiV1ZJW6pGM9pQv5SaHkDypqPOBX2KwY00n_Ru9fx3NfoJT1YtkdcKIBxDdbKoWeWfsrdfF2mDetE3k0QNBiyRnB28Be8bwjXioyp1Gwp7gMh5tY85F0Qgb_yy_01O7tiWhIBFUelu&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkBfojvy4niBjVzWf8Yq69lNxWM8DW2Cu3xPKJRFxK8HsXM06aS3ojbYTdoZIEF7IN7VoSP2MMflN1jQot9Bh8mR7O4IB2I6VCBEW6BOQLOem2--N8gVB-vbgOI8Io4GUvtEtUcOXShYoPyjC4reSVqR_tTebfNAaL-7RT9V_9c7Yxt&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkRwObWz94OZQQVDv7JR1o1_SifumiGgauK28iN7P5tnGwfC7pgThzHd_FY8z6AAV0iddBEC1f0enUZi9CHv2pqGQr_XyUfMWR4yZ6AswfRN4RDlzKY9vDMaJCsV88q4pUnFgwM4rVEFf1Ch2DLpnHw5c6gN7Y2QTUhlMlmyWSXuddZ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZn6IICMifudCTeM5T7QXncC4DoN6a_lfh9GlwszmKJh5OxjkVfj-CSB_DWSBjIpsMEvJDQpG6mcH20aJBQe1bv7e1lWCVZw28lSH0FNU0Wh93It5JxsxA-fk45Vl2xcD5QGSC920vtLoeIdLjJNGTJ1XS1AbMEcoycwHYHqPc5niZcy&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A stylish bistro by the lake, offering a variety of international dishes and a beautiful view.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 1568,
+    "latitude": 44.477238,
+    "longitude": 26.086805
+  },
+  {
+    "restaurant_id": "18",
+    "name": "Simbio",
+    "type": "Bistro",
+    "cuisine": "International",
+    "address": "Strada Negustori 26, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZksOE-TOjwY8TLsz1MU-dkCC7yxAr9vcPlBHJceGSLr2C76vquI7G9w9AIPzALfDuZUaGxaBu7ocDN6soH_JUEBQQFcCrxKH3mnbQ3QpZvUiO2h2NAwgl1dhop_SJRcRQSI3nUxc58p9qgZ0uM0POXs3s9T4N4UGIVBcE87UHnq3rhf&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlGrxM7zN7dGP44rYIv6Cwl0tRwAoSTaRmht1ZF8M0g30IEIr7XXcOtHNn0pSdqkCLdww3bV6N8lz2cFPwqAyU9a3mNgh3T48rhGTZsLGSxp26Gek8yRxNxmyRbue-zzjkbhQIZhi034HaOHr4kSQoHl21VNos9XT1KjUqJLfxhWgTY&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlBxWt6jdVFidNMjiTleogxt0ov63FV5vV3OqxqA2gycUqElKQFlF5sJ-NUz0BOPf8aflKLKvorK-VYXQufyjqNdWyIUSsh4ar8C4g7OCMvd9tprwvajti_cmmIguLKUZqJW8diLpH-BNOgIDI6b11X6Ozu3y2CkfF7v8fVgVDmi4VA&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm6dEP_pvrBeveS9tr8itaFbQWbSP7Kjrkjw5Meen-DYS4bPETH49ZU4F4xRjRjxXsJXqAj0oR7p2WWtHyTtF80kLx0SHyzlR3Zhy_nFIox6s9O6kDFskAplqn71UV4fWG6mpMdhutym60Ld_RUFUmffI-tbGseUzHXg3lWUN4rzLEE&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnU_0zeA09DQjtrmw9vDZxEcMg8DEGgqVQZ0cunKigE9n1xFfQbF2HyHgE2XbHOx7Q9bX1NhZzjNEk3dSbF8TiOtqPIY1ky6J6PrJ05dBoKAIUpkcxyE2xpcTzz60S3Rxh3bdpQwmavN_GVENIYka_684fYZyg0EPffsAopYZBHNifB&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmdNP84v4JuWXGj4UTHoqpAgodJqnmUqYZ3JVJtaE1q890DJQxGuPsA-874dJv6Sht929E5To3wi5Otlc2ukAcO42ajOCoo23FN56oqyaEtzymLd98lSX5o0znuR7dT-ntIavTZyINY0-HcaOLP5TAOtwKbJBi07LUykrOA5XJfT_RN&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A cozy bistro with a garden, perfect for enjoying a variety of international dishes in a relaxed setting.",
+    "working_hours": "Monday-Sunday: 9:00 AM - 10:00 PM",
+    "nr_of_ratings": 4171,
+    "latitude": 44.43504,
+    "longitude": 26.111954
+  },
+  {
+    "restaurant_id": "19",
+    "name": "Tasting Room",
+    "type": "Bistro",
+    "cuisine": "International",
+    "address": "Strada Puțul lui Zamfir 36, București",
+    "rating": "4.6",
+    "price_range": "High",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmJseEmScbosoczvYLqL4EV3PIs1cGgcLpYrDHKBKsF-3xUDFVMyCWfsb9qrLHX7-_8-XQx-zMl9d9zWJCipGKG8kaUQk1UMu6oEOlCCEhmn2lQsBx7QaYSS_hDBDhcVf4I-65mRwFclLTa_-z0lk1paASMpdLtCsWwcViJGF57sWQU&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmPLbGzZesVIJh_priSSvmZQvqJ8fzh4D1e9-aO8qt_XBhJ6Eu4oR8wQKMSmud4dwRhwHjJAj2-eAxFYV9BqzicwFV-elwMoX9MzEx-3VJPxXnGe6E6_HUh8LGwGbLbnU3VeS1IXTUybt_rfg5hdYYJ0EwfOnLs7KIjO720rOLBCcEC&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkdG2-78IjerULg-b7ierWMDaG_yqfqJO-Pjf9f_nwnTtlYt1tqjJmZPoStp8C-3bBRkjTrZiH-PBW9TedvMOT599Pc-QHam7uluANz-17gw2fvivXryaZlEiUDEorBIMSPR3nPEazH-avwSG5QD72e3RPz54nuaqNn1oj9nGCxGIjt&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlWmKJafyB7-F8-ucwRL3PWGhmbaZ8nNbUzKHfvs95vJkl74zHzIy64vLJFef3u4ApsICJkeY7WjdWpjzjnsl5YEADXEZuOUVHI6uDdsxvaGNENiKB-TA3RKGGTLrhaRX5WOSk9moHlXzEbdfur_auHiwFOVKLuM96Gjvv7pTCjVsvi&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnk5uGipFbI9T2YaJ3_GIBmZIjwVZIc_J6rrIJ4bI6j4-3qyZgLhsQjkGjHWnOV89XYl_h3cKhvAq6LjzLGWeeAelJm5QDdGILWNQZhiwJ1Cg2hxhm_a7dEp8jgx_XyRpF3I8JnajptvWiRuBQvCSq1ujSN4KY2agGkrt4vQy0uMPkL&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlLYj3TafHH3pACo0gR6KF9qNhJ8P-Bk4UnjlBfsgEy3BKfcynFs-2t8qxOnrWyvBBWJeaC5qw_Lr1GEHeG57TTCKEsiFPUWnEnCaK9zTyTc2Dg3cQzZa0-3IZhAx-IQ3xRJ3JQkh0w53WsJq7nmkMpqc-akViml9k1SrF4qeiKjJ_z&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "An elegant bistro offering a wide selection of wines and gourmet dishes in a sophisticated setting.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 403,
+    "latitude": 44.461163,
+    "longitude": 26.099709
+  },
+  {
+    "restaurant_id": "20",
+    "name": "Artichoke Coffee Shop",
+    "type": "Cafe",
+    "cuisine": "Cafe",
+    "address": "Strada C. A. Rosetti 47, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk-BwUXukOL2M5L2egVbbHxIWHq3LmGowuMxX3lHdxw1MNSFS0rFLSg7NIX-F76G46BXT8kMPMzsgqxQ8gff0Ek5cNHD4vvwqKPH6NGXkWS20i-jaqJqsuiw8HPEGQk_OHA7KEliKgO0YjBobUQVbeROkQJ5k1qDU2UO1eccveVnOwF&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm7rqXOC91vZH1bo5HJhCtaLXy9H5TUVLHumi6LbrIbGltTpwZwmsxzcVw3y0BJVvJkSjwO_QMjjm6gzbGTE5sa_QZc9Av17dcwcO8gbaS0ZoitNeib3aVHXy8rZ84-k_hb5evOetfd6tXUDmO0LXHhf8Ka2cT5lfqmdpRqdgukoEIv&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkGygmcdZlwEusezwHoWX_54qoHBcebxT5z_S6S3d9B53zWKNQN8fhgph_U-ElG0n-HrxBy_RSeulehRKYBeMBv-peGTUcjsJMpx0BEU23mD9iQrkYo0RqiirRK5DCaiMmFVRDOQbhqaQpObSZjC3SOaIhX2OVme28jn5ODIswiApJM&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkz4np0dEu3An8LtO9qiqXWof52PqWFsgKL-6M3mQYsyq0rkTVM5tC4cpqMmP3dVYph7tq7hSSMT-kbMXv9QZYNhMZ-J3EPwxypA48KkYH6GYeT62XXdBOybxGVnJb4K_zctArz2IWLa-N9PAcC871VZHhDg4HynlIVWGweQl0cdjjE&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlDsBqlZHDi3FIBcRpbCeuFb4EDYsmwS4qC2uB5524_ijr0CA06HBsUqLtDGqoFlJ7Db21K1Gn5j5ICWAObN_6EfZ3XauUreuFmfpFQyqqtl-pzXkPqc5x0WjQoQCLN7k05ysTT9CU-RB5D7E6clh90Vk-O209wUh-lRP3yWPMzoYcm&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkZBpWzMMiHWH211CPiQXhxvSfSoytJNkzoAaS8QubXJqx47jfGvcnjfheoDML8yoG6crgPB3OVwzhk4csVQrndm5h1fJzji0QPJfG5sx69Ajzv3WsaMgckb-OqnD38rFZbrmyhrUaj18hZcIO4Uxu2hjGskV89r1Pj-E9Qy1SiPA4E&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A cozy coffee shop with a relaxing atmosphere, perfect for enjoying a cup of coffee or tea.",
+    "working_hours": "Monday-Sunday: 8:00 AM - 8:00 PM",
+    "nr_of_ratings": 1093,
+    "latitude": 44.437958,
+    "longitude": 26.09643
+  },
+  {
+    "restaurant_id": "22",
+    "name": "M60",
+    "type": "Cafe",
+    "cuisine": "Cafe",
+    "address": "Strada Mendeleev 2, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkeW2eSuooTfJLk6H5eQ2JNm2wdVIhQvwKOASDZQsr1hITRtxa_UHP4So0b0AI5tT_Pm49H2EPp2SpwAfLYyVG04q7qqwzqtc5Wm88b8BZN1eJGYh9cmK8z3tQ-LPJ2hzF64q4jAYVFtIXFH4GoXMqLs8eEm_6oqhnhEQ6y5vT_fVkp&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlG-umG9Ra7_fRi_LbwvMngzd3d-Wc3Z-eMSmkVj3PTkvkOn1ukl4AQScX_WjMhMwhAuVHMBJtxkkhVUKLjQrCP4-71s6jHu1-ngg-LxXk5AhsASCUgrgzSgaIH-bhlDAizqh3FTm-9XhIUddf_hYWgyBA5GNaR5I0h6tjPLFV6ut6J&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmsKSKZMhZPaAHAc5iQGgc04YDK3Mwc8t2-GxVci-9OMwCANH6TTfD6jg_jxTXGzfK_5xcbpyqPBUYqIdHAxXHDK-1Lft47akadyglIwrUhShZDlH8AiALXLHmvLVlJx3c0P4-RxgpkNf2JBw4E_SIE54OzttH8YTg3HFagSf9K6-8S&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk9hJR4xS0NS5N8Za2jd93isEiPVrU_a8CdzXSeD5NB2dvMZjjNHSK2eNk1jH6NnvVtx3O9Cga4TN4W_UnwWH9p7yDuI8aSWhJnxocSrMzgU8_9Kbgcgcb1lixXWxe5Hpk8CwEawNAQm5L8gSlmZn1cXlCANjtIRiRvG72ek5Rv0paW&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmGxAGVuqgg5Hjgj_ROG12VaxH_aneJsAMD2BGccJd-ZUz7Bjf5IAh2CBA_HeN2RxbmPBPlZtM5edqK9N8AFvl0eUbQ5xAd8z30RRo8nXBOrKHjQj4YokS9t67ey0iMVXtiC8-PDXLHgVmLjAnEXA-iyIPaWnNykGEKoP5K0Sk7XKMl&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnumySl5wRQZrxzenzjDh3qE0ffP6fl6nmvjCQ6YIOrsqzCYu2LGgU27C3CfnXlDnvWOSOOVDNd6Rm1LTEUn4RkMWPtBoMkWzbsL7LJPKSlNHKrcdbYH2nBOvJik2dASyKZA5ctbJBO1SPfsUiWNhlwG5mDtV_IZ2i7qDzf8qp5_hNM&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A modern coffee shop offering a variety of specialty coffees and a comfortable setting.",
+    "working_hours": "Monday-Sunday: 9:00 AM - 9:00 PM",
+    "nr_of_ratings": 1894,
+    "latitude": 44.443172,
+    "longitude": 26.09671
+  },
+  {
+    "restaurant_id": "25",
+    "name": "Origo",
+    "type": "Brunch",
+    "cuisine": "Brunch",
+    "address": "Strada Lipscani 9, București",
+    "rating": "4.7",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnOkWw4eA7g7MheUtnBCoglX9xQNdPCmYwnD4AcvINw757ufCkKLKfiHcsNHsr8iaNtKDs0jcsouZDLCIY1scoeZZEEuhZcqcp97iFNOx9hr4H1Ew8LsIK2igtUM5aIZUfgnGwmzD-gCuwh6lebhcQmb9gblEPNUfU2UQkGRRFKEtX_&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmiJXb7_rtCXIw738pOLDASHbz-fxRmJM79Y_dHwcEWhQGZLI_dxnAWDWk_z0loyDfeUypyAEVSav7sr-dReJXZS8UZOdyqH1QnIkr0BOUNoZ_D5gUK-bHy_lgBVd1f_XBUznurrepCevkpP6qmZS7fDYRRxHNERepqdf4glVAGHHo&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmvvaLAUHMEdikV35uDiEtj8OAr8rYxEvLTxMyOtelQR65vvmRLAnuzsPs1EDauKkhKg8u3INsaYVwFDMUZpuHLwtH2PGEqtTGYoflnb2wl9doeeWA0L8R1xf2PIQR7oEq7QpR668r3rCCHeVyXctKojZX9-5LN0h1dPWILEBD41YnV&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlbke6Qu8T2UsGExSRu1EklPGZpqBM0ApQQZyX9IO8xWIytw-mmJ1fpXB1pgmTkJVoiLrXzaBVrWfbr2UICMFMoo4N2-9spfVCQCAo21DHbQiDIYrQ-K8ikoq3SUYd3-QKzuQ2eXZAEl_-TcOB6QM_iV56btDT_qIpMeB5DHydXt2Bd&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlR_kKi2rVkI4GFrZvxDwKSXHpJd1jUfNUdI6iI6-DBEW2AxDag58oOXIdYoiTb84paWudMvjkNhyS9nQN3RaM3lfbVQ66nBOpP6T4HglyM69CZPFVfQtYPXko2BdyODS85BEGYsgMGEEjrTBkNOPH6jySRYEQv9_inS4QBB6IIkks&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkNhF_v_FJXouyKOCFjMxW0a61C7Cw9YvIruUisVgRPXLwzFvP6h6CvkwBbcVD78aDSex3-eMQh-9E9hu70w3mFN-yUoYixBG14EVoXOPqzZhCEvUVC-jscjIE9KCOJzBezZpXA1A2tAMLYu8YS2W8hJ33caNywtxAm0DGRhtWia39l&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A specialty coffee shop offering a wide range of coffee beverages and a cozy atmosphere.",
+    "working_hours": "Monday-Sunday: 8:00 AM - 10:00 PM",
+    "nr_of_ratings": 4323,
+    "latitude": 44.433212,
+    "longitude": 26.095345
+  },
+  {
+    "restaurant_id": "27",
+    "name": "Bean & Dots",
+    "type": "Brunch",
+    "cuisine": "Brunch",
+    "address": "Strada Horei 34, București",
+    "rating": "5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm2IvoFgGvt6WR987LU5RK0pkXr8CPV8GOI_WPh3bV6sZJOClI2wfKSSrQLm8jLKB4o06isxoKHc-rfIj6G6Wt3xON4qW84c6bKd3qefvBzB-9B3Ty_r6F3gpRYi78uOOsQrILx4O6e8WFL57ZBM-DG6pBCCHgWx-4gQ6TUikQu50_4&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkc1S3TVToWFz3NFoD0aKiu_Ev2xwdfzbKE4vd2fa-MaPIx9ALWECsp2GnEaUAYeJmJHUXa_Aye1E0NaXQiRAsYpAul4C8cG8gVGa7jrdTLVMlt80PT4Zz04uIIHu61b8ZaChzT6yyKsYhsPZBkcfR3IYvm8D5Tha0z7kxy5wVPeuZ_&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkprpU5yrunsmkB04qp42vrAEmqG_PZ1d_lgdQ9tswOVuEbwQI7YEKVcYio4wHtDG7--68HzDFWeXdtyabPOiVmxrAXpWwzpR1oV54W9f9EH6_jv5tDVdWbXbSXsryEHNdtXq3u4uHXua11NWtWqtaUfRFhUBJAE6LvUJjD-gkts7Zk&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmASbgmnz4Te7Ze0avtnXN76JwvyYfHwP2PfvtfIw8FHcy5RRUXAqlvFOs_RtqKONzYIEu4QUQNKh2StytSYN9u1Zr7KuvlerunpxXzrVZSVevE6PfKH6MTSKNnMFvQKF1Xcm70fSPs8QQ2Ds-YUE8mSmwVmvJnbENRir5ASktskFO5&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnCcl4R6Ya0REvCvYAsYysijYRXie3ZzJhHFrZPBFKOFUvjkH8hHuLLmK6rHEjIClDGUHYxpckKy2Ucd1J3_QHbgFhBhvHJmS9u_S1BoSikRfInDfGIYLnxRzKsVF1PqS-lr33_MwErrdPwR3JAyEfei6E0s9FJtDkx-PjDXMdmqvUm&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlnH-bcn8sbdCNUgZpK7Y7o9osXExFW2YhdGM70j9hiIIGi-HAQKkrKDFxK5mGSXUlJsU5RktSLkUMht6JOOjddv-pxYh9v09H-rDrPjXdUct_uLPnNaRPK2UQGSUpYZgF6ljUuo7yLmzUBPoPzkvjGF0lZ9sFcCcTrVbaWOVxZbac5&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A hip coffee shop offering a variety of specialty coffees and a great place to work or relax.",
+    "working_hours": "Monday-Sunday: 9:00 AM - 9:00 PM",
+    "nr_of_ratings": 9,
+    "latitude": 45.03438,
+    "longitude": 25.8784
+  },
+  {
+    "restaurant_id": "30",
+    "name": "Black Habit",
+    "type": "Cafe",
+    "cuisine": "Cafe",
+    "address": "Strada Mântuleasa 10, București",
+    "rating": "4.8",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlrmrpguNJ-6wvnQ93Pr4UzZLvA17LeaLmJDnhxOXpxtMMbY75VlB19IjY-fXCTXssnjSwjrY7-wVGlDju8nSdn9h_41_lGvC78bdy6SQoluV5xGahZaq3qFainuWVwxlfVzhWYmFAUSpR03tlUV3hOlxPsTECrg0-KKd2G0KZ_PBDA&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkDCaJKjE22PZ_ORbqASlN4-x2xo_Mj9u5s2-fnRU97Tu6YCxFXTIj4xBYpKgs08JsPfRoGSH93EdnzofGpcs5dXgVLDFPWvNVrsNcOUTKQRPhD1hoKJEn-oJoxXvUuQqkGwJfXWCVfYhWFbtPLiPrzmoNDdiZi8FLa-Q2vMhuriVbZ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm13lUYvvURlghkTvdzcbeY0nF6ReCoVo0PTevGXXUE-vq8xRJjGVq4JDJm4uw1_6B-cOu9ChDhEslFDHcc4F-0I9_KBvJTDbzFpQDBvVKF_-Va9PHN0vrjOsC1f9zj1y-P5hX3GwiIlJY-bRt2dQOLJ43WOkc2IXWhb8Ght88Tdetv&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnZ3LR7V-kMdEF2qSB5lmMy8rnASS2OO9vBbbooppbMbn8EdBq5qkR-ozMCbTAlZDET88rPgDKj5CCTJqGDruETz58BZJLXn-16nmlCu5iVzl3JzOgE2FC_URFiXP0intvBBModIbJlP0dQwrCqEParigOWQhF1TF_E3yKMw8yw4MNM&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl7jwAYx1BdBD-35EdzZvhmcNFeUbmfRXT-Ly1iDBvQmW6t8OsG8TNz1UhpnBkUafA-uh-ss3phi6u_9I7DgZRfh88Zx8yGBMFwJ-kBAWrO85DJN6YeamdkPH5q3kma3iXS_4EGxFP8Aij0blSIN8ZIySdYcAwwS1LBF5bpC3IngKMS&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmDH_LmvFCt4v4DXO44ZSUJgMcMXEl0b1-Mw6Hdy8DtDUr-bYTfkgHO8DeO5I-tiVgOWCX8oQVIb8SuvVFAkGZsLZN2zxgPx1ZPcwQ8z1Fr1tk7VOQTGQ5LSIOuTgdYpFhzJe1T0K_Q3Lv1Ud2-02NjvYK-JJzk73vPcv9HpTL6KLvC&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A stylish cafe offering specialty coffees and a great atmosphere for working or relaxing.",
+    "working_hours": "Monday-Sunday: 9:00 AM - 9:00 PM",
+    "nr_of_ratings": 513,
+    "latitude": 44.445133,
+    "longitude": 26.084383
+  },
+  {
+    "restaurant_id": "61",
+    "name": "Trattoria Il Calcio",
+    "type": "Restaurant",
+    "cuisine": "Italian",
+    "address": "Strada Benjamin Franklin 5, București",
+    "rating": "4.3",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmu2pKs8b9BdxaCISpKPZyl1_x3oUZAYrpP3DVGkQMMUQ9P-KtzvXvAEQp3dFjAFgLzU3WQbbpIhhHop3N-C2pP_vEeCtERt6hHqjtDnpNaH69IQglCKTmnOXHmE8JLL_bUXLjy10_CTYgWLNuaQiAFDErBOsO-sKhohreDLs9oOdqr&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlbPhKHktrLc4Us5-LVmynNxdMZagL_KFxYvful0ORU2zJpdpI29bumBewDjBuIzHHlObjjjmNn4uIYeCH2dGG4dZ1cEXVmF0rwkm0qS2O6T_nCV6f_k2Cc6l-fqdGB0B0HNUUwdJIyOTMcgVoRnFvou0eDBcveMgKeL_vvSm2CrS5u&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmsoZx9vs-oJCLQrdEh_M_xF_9eJfEp6v87L5OXHNXqNTWEUqshF9Yqwa257eBCGIwoSsJ0uBXkCsez7el500nsPk30s4D9c2k7teB-X294yZ5csWYPP6oWie1m_oJUrd3eZnTczP1HauMaHEnm7uesAFzHEMhWFxpL7EuD6yz8Ow-o&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkZ8-xmo5QX3feR40nPe50-fTrvyX38AdBcGZIrIq6GHJj2R0kul482q4RIQlm4wsUPPuN6Lynb8A4Kp7h61k8HpN99aw0qoNZMUTpqNta6kTJE0IEgmHufgV-dCTmFRUGkpArfMzEvoJhZedWeDw8iLETHAANix7s_B0PG9VmYp8Ux&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlyEiSEHzpyiXf0XKaXEn9rBeEa7y_mtrLwnjAGxpJUD8iCwgsDpRJN6iZOnFUCyryc4Zc2w1LNj4oyoI7E0yo1fPGlFaylbhOcVh9lPOgAStI51Toaufzfn7XjeB3sFudTnkh-FKYNfQxDEuROO13NPyRFXV2vnOTkdejG8wQxwPps&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmbyWh4knoU2d_raYh3SlmkpGG2XljaLAg_HCuk8k1QidwE8CMvqzALojzv67T28Cjh9km5a8KIa-_agoqF17gd8S8fQr8X2LeN6b7i1yovQt6h584DErjgQ0PrH_YHWN5HyV19IbazQaj1JUHkInFN9u0TEzMdfBRVoQOKjR4yqGdq&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Authentic Italian cuisine with a cozy atmosphere and friendly service.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 407,
+    "latitude": 44.441807,
+    "longitude": 26.098587
+  },
+  {
+    "restaurant_id": "62",
+    "name": "Cucina di Casa",
+    "type": "Restaurant",
+    "cuisine": "Italian",
+    "address": "Calea Văcărești 230, București 040057",
+    "rating": "4.4",
+    "price_range": "High",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZknSGwR5jvJ38vQo5qb-rhVyLNOu6YNV42eATdvT7_wCoePdTF4ysNbukTODRu6WUbRliEL2SgRH5lpUxthCYXzau2aD6waUIS2_M7sj1xMTymH8X1YIcS_wk5NzKOJJYncyPdoEeeeH82S8jW2bdlYKtiKIR0Hqo44QI7lWmerzWHR&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmbp0-xMKw9KS6PWNn6BHWI3x38ttlGopsF3pT4bxJlHJ0_Ao78nyqmthY6sMVwCheA_2Q8NQHk6GhcqYTf4TNw6fS89UR3qLa2FA8GThLcQnlCC8kij3LpoVmi6iEXdMUJwYC_aUkPXsFxLxku9RCIeGcisjMz391jZakpRfIznhlv&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl7cfW0aQWUzP_kt-EhLenqVDFOolgdm7L_Q8TfidWrlieP3M6d8VWQI59Gfsvm6E72tax1XnFTyJHczNuWcVnEuGXwghAnsWO0deAyN-nHDEUke6s_4ZAzLpF6fnYhsJdNJw5MZA8pOGgsDkyn496GnDQd_3WTz4FCP0ncXX3ZmdM&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlesj-h0fY3IrLJJdbrGgtPqrIAyuXdmVbrg75BlVgz5SsGGbLc9N3kzCjWq2o814Oqbi-RCsxbfg4yJdB-sG-sKaZg-nIQ5TWH7oApfo1X8AC90-bq_CqbTkN_UMULHBaocj0_GPInmfptLoU7rgoB3OZMp00LEaHRuOC4TERYDCo5&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlCYx_d4nsNCTKOuRbaMTxwDm8kgem7jTl3zitTjl4FmFB-mcscnz5zXAb57lScISsZwYmvtzpkSiOAlCQQmOo7be79TfiRn4l_z4Nr1oEOVaBOreWBDCMp5nZ-cr2AwF1rSREuYQjy5fvksM9JpAmdqxxcqTe40K5DtikM_NWeQddx&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnNYEMDN-T5BGlED25JlhCVcmfXY1ypEE9uk0Timaela4FoJZXltedwL_oLR0g2Te5inpiHeanz_4n6C9TqFt0VzNLpP4jOX_UpSa_iX6q6oRBFI3PB6GlogrkHz1BEUJsM0N8GCKdcexW0i1tPRJE0tw0gfHtYfFTJB8y1wSMi2yTu&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Delicious Italian dishes made with fresh ingredients and traditional recipes.",
+    "working_hours": "Monday-Sunday: 11:00 AM - 10:00 PM",
+    "nr_of_ratings": 1331,
+    "latitude": 44.41143,
+    "longitude": 26.114525
+  },
+  {
+    "restaurant_id": "63",
+    "name": "Le Bistrot Français",
+    "type": "Restaurant",
+    "cuisine": "French",
+    "address": "Strada Nicolae Golescu 18, București",
+    "rating": "4.6",
+    "price_range": "VeryHigh",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlIDXa5ZpJiL7YgOKbNwDx7LKDjn5QI--eZtM_bhhfDH4WXY7BOLHw1YpidlB8h7ceEfEOhbkqYCfht58LMNrcLX1GvrbxS0AqbogJVTcvy-uztqjCqmUqL7KVNxhdASLO-qbe5BnZ3r0BJv7D9kuh2MkITuvRoUQBFpXzRllFiEDzf&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnLemvrclfBMiYYVr4Z0GDpWArDkSELEj_SbUgOT-Cx6eEkvOVdsOrUfnCQ4gXG3pUgkZPD6yV4xkb_2jx8t4BVjbIudZZsgrD-2d-van92j2n1zYkptu8sppE3l25wkAaW1LMsIPTIj36PE1MYGg_5vl7xEZkBWZRDh_yXamR-invQ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnCOwqqPZjfbBAA1KxNSlKfmpFmHelEtD6JOWeYBbjgfqIkfwRMyyRXDx6WRhUvu9ZpdwEjvnSJHTwnmnmTpAPh1dRdA6vNmeGIOvM0HEtLGw9vuO2bE7vSqSct_vGhpRwxmIm4jNYht7eEuDDSMcDMlZMDDhr-EgSnc0-rlG0oDN23&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmtAw4GpYZawiKdyVZ1qjCcKrP96mfsjFCoA3O25M3VU9LByKiGTt124Zk2mV5Pch3PxAb0NEF0woHjxkvFySPgBziMxN9IPU4Nq_HycE6vZGlR67ngc62Jbyz-VYxNW1JhgcOG2j-xEe-AjqZeeBxaml62urMFEJQ98RQ1gzR0AYGh&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkR_2ll1YI0KAQUC4OvlJqb11UIqiKCRnZyfjdHzMgbFzaVQLNEOnpuZMAev7wFSFl1d8udM7sMi1xtBtKsfLDDtPjWhp-V_kqLnfjQSn9cd92-FjiVi2blpPIWCiXkjao62e956bmh7Z6tMqCZ3Py8OZhemg1R3FRBUjep4A9tfP6b&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlQRhBneP_rB7Cvnzxb7kVlygkxh7T9UyNOcnMtPgg3JQ3fcRGqyE5sCdmrKF1KqXg0pm6SEaYSlAIyYtYfDtbRJd2QeJnTCHiVbesXS9R4hx6VuasK2p6orRVLPw12tKTJV5z26sxZzsEo3G4V5YG955ZrmQrbgdyyenJa_DdGamFq&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Elegant French bistro offering exquisite dishes and fine wines.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 400,
+    "latitude": 44.44206,
+    "longitude": 26.097565
+  },
+  {
+    "restaurant_id": "66",
+    "name": "Beijing Garden",
+    "type": "Restaurant",
+    "cuisine": "Chinese",
+    "address": "Calea Victoriei 100, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlEYTcSUm6AMtEh1WJLBw72WbBpHOWb7hXzm1gC-LDDKGDMVQcbtxjHTih3GMtd78GN2clDAqT-IHzMAWV8RTmLT-QuWNWZBAMmxIbe_suOF4-TMO9eyYXNRnjObkD1Cb0FJRmYJJ1dFbTZBGhqHaLDcfyA-O_-6kAYC8UUgkmSSyY_&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkGNFBohMw1jrIRVaVJ2JQ1GmvMRZpctfrfT4BbOWpaDZCPpOL5CgFhzxOnbZVTex5FkohQJPXqk8thtdnPhlwkO6mFK-8gLF9gGysUefK-WNrOMAP43uHi6TNqvdz1guK4LyS7uaw0ezv1PNb2xxUVSV7TMZSyCOD2sbxS1xbgMd6F&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlrK9SOxX4KzkojpYnmIyjCQIE2kzHe1VP9SoC08bZwUo6SaNrnei4VSeMNjT4tvoZ7jeiv4VvVMRBNPpStx0oC4pLWwutculfEXJWEk5OOfPJAKbkhnzrOVV8B1BkZY2qT5FEeGM6hDEGcmLBXBIx6s-csTP_2FQjaPFk6n64Usz4n&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmQvoPSpMcTMZhh-rY1NVLiMzdCrZDxQtAkaUVGT0pftq-0jArl3831h3vMd6nl5DPxpVBks2eQEw09571rmLhhcnfSWPbebtlgVzJ2RYAloJ_O5-Bp2I2hgOkeoLIYhlci02XQe-_FcjD2B80pSyxm1J8nw1pkQjr77ylQc5rv5PPa&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlhJeKG7R0EyTas1pddmrnjvcxNV7G4xCOSPS7maZZAKlTpMhsHyXmzFBbCT2MHoBfCm0ufIXHNUSHSNlMKdYW10qy5Y0bWKX1hn4uVjd77-cPspGHoCld5e73SOV22AQGMMeRdBPBG_hwgUylelMsLbRE3i32FgPuKkzdhl2B-dgF0&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm4nYiDCRKxII_9MjY1Q4EmWr2hKR_dknfXDdmp6l0BI35MW6TecywuwWya5YC9YoIrztzqdK4prMupHV1L3G9huIsxF9SeBRDwC706VWEMx48gRNHsR_TbizBkNuwLnzbO9g1Qj4XKxVk2ZpDoq0twC93qeL8TteujJyv2O-mX9OOl&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Enjoy delicious Chinese food in a modern and comfortable setting.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 1133,
+    "latitude": 44.442253,
+    "longitude": 26.08109
+  },
+  {
+    "restaurant_id": "67",
+    "name": "Zen Sushi",
+    "type": "Restaurant",
+    "cuisine": "Japanese",
+    "address": "Strada Lipscani 20, București",
+    "rating": "4.6",
+    "price_range": "High",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmrqkaVlfLa94hWzTtDU7rj4h6_21ELvgIPwM6z2n3HW7korE_rVmyx6Wfq-PvO0syjyCru_1D-BjRTqNwY6Ym-mSo5Uk3kvGg4tTM-brrBfW3IoPn5a56dD3cHaB1vgVVtvzxLG_2iUqECqcoG3kLZlEJAKKphDxH6z48gIQ0oJd_o&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl-z8_GMltYST1gqOMUWIhUz-tqRM2halPQIH6sqYDO31OAomz2nwkKosckCNtGBRILnYRGXxQ_PBJCy-yjhaobQQqGhkvUEXZoMoXGgCpD8qaTTWBAx3Z8rifphk5UlEhgPboqo8_xyjDhhOsbWVTKKQbOQGGZ-NBv2-xpDfoZs8Sf&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk0ibyNIav4xBLgYRIqZIgbxampNByuBlZw1hT2hBYo9bMChH9mN0kRlq96dxd4oKITX1xvD5CHA4vr7v19x7USVJ-YvwG1ekVjwdcTaJgNCIRZuZWKERlCaB9y3QUi4tkrXza_GTcWL1R71PzqeGUpDV0-flDjGt4b7mg60gYEf0fy&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZn9zFVxxlO14vwD-FZoZgLvti_pbLp8ZU3oyUsO2SsoHQLFsSOO3zubZp2SkfD51FDmarzYRmi4bdRakaZUdvKMIGzZ1A_aEjivyWSMAC9HmL-pR5Nt1EOKry3nle7qBgsDSe4WoWan7NkxIfEg48XgNlCIfDhrI7RY8yDtMbsil0Ar&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmXeUHPrdce0q1kdbQfBk3r9yGLyzjW7wywFu6VKlepmDkLdmhhbJDJFKlszOBxgHb1gKheqqH1KvW_SPsEQtpfv07scdsdm-6JAyeNWo8A24t5zQNhjYXhH--yflGMkBQ1FLjVAoa8RDaZZ2urAJKOs0Op_dzZZAzxhX1-PI9E7Kcl&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlECy-AY9kqyQEsPXED0H-EsU2ljSmJaHbNgIbedPPLmle3ZQ5u-sPKWkMJR2ZhdBVRpOWF7Qop0ob25DufzBIQupWviMnQhnSX0c8kfxKvudwJ39ab2l0-ze-K6CSPFKDJMeVslqxLEeUdMK5xcWZSG8994EU2QhUBc5M6j1x1-vxQ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Savor the flavors of Japan with expertly crafted sushi and sashimi.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 10:00 PM",
+    "nr_of_ratings": 2049,
+    "latitude": 44.451443,
+    "longitude": 26.09344
+  },
+  {
+    "restaurant_id": "68",
+    "name": "Yuki",
+    "type": "Restaurant",
+    "cuisine": "Japanese",
+    "address": "Strada Puțul lui Zamfir 5, București",
+    "rating": "4.7",
+    "price_range": "VeryHigh",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnlMTR5ZvrefhYVIhGgDj6LsJV5cBk3Pncke15dy3HUzXxILdKHrnc4kX5ULFJ0I6ZiBeRRSkMYTgBSrlpea16eX-sLvo74TUrj3dlAuTRy9DSxmEVQ3dp6SiUOyqxN902Qk0BQgZaI2lJcaPypdMC33zg-kWTtt2pXVGZgoL3gSKqy&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZladnbdUqDgN4HFCjjKpdaDL0UIhqxwmM62hpwZhKH6LnOXQQ8bHapzFBB_VUBbiGLNwPziiNzFk7oWf3HsMd2555PBuk6dErRhPMehfg0kZNJMs9x6uNYHyFh1NUmHaquo-vQ7NMXT6d6tFn3-TPe_WBQKRywFWxAyr1VsI7DZEuza&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnXGpiiWl0vtClk76S7qmP__IypMkabmx9csNKGrc90gNVimmtSxQXxZONCVh-ADu_n0kK8gLwBEmb4ePDiiBYhATwfjc3XhCxozafiAA7rGyu_I1KpCgPQsqstXxPxnPUgmv7EX1iDiDACm0LAUyu3xWZVdzx6o26aOEf5rZWYMl88&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmB8nBsKYSbjgr8dt8llluuj8H1SegQQEyfVNIEB1xbnM8D3KIABpIntkjD1dCBWM0I7Iu5UCUwwwg58S_mGf9KUcVes_IfO6HBsXwid_kcZvwXnv3-E8Pq8pTFeUGBJicMkuwwEYLb9HWh4Reb5DgntPR43G6LAKL0U2K98eojFgKU&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnRjZSBGIcNH003Go0ocIbtbINmasnQmSuJ2XL_Oi7GJSTjrBTTIy3dbwmCy-lKDtU-7eiPHVYmI2GTfMKdVgGNwTHnonCF-rW0XYt2G6-tWw89W9cZ_15hje_sBDevGDpNg4XgRxa9tbtt29mn-d55d3cWpohem6EQrfmAHRmDsj4&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkzFKDcWEb_KozWwe9Y-AIe1pbKIlVNEs17zohOgcfBt09DEpTTF3vj1pdYRuaXjjSi4dHjJPqKz85QJ6KyDeo_8igBtERNYvURQ3tcwuasgdcH39THTNlhZcPlszxfegNvNnWzXhaubwpJIALiNen5gMRuXIVmv70m17hV6xjKkEf_&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Experience traditional Japanese dining in an intimate and elegant setting.",
+    "working_hours": "Monday-Sunday: 11:30 AM - 10:30 PM",
+    "nr_of_ratings": 912,
+    "latitude": 44.46078,
+    "longitude": 26.0952
+  },
+  {
+    "restaurant_id": "41",
+    "name": "Maison des Crepes",
+    "type": "Brunch",
+    "cuisine": "French",
+    "address": "Strada Mihai Eminescu 38, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnFfWwx8JFD-mZ12eLijwL1SDtp-hroq3Ue4yp5KlsJYD6JNBDPBm_7EJGRIDmqbgm4ksZNypCVix0O_YuG3fhu2FsToXfvVqi0y_AiqgM3QceFYi6BaFUZSn6hzlJSXSUg-HlYVCidafGr3V02-UEfJCZEa8E54mhZFgMyUfor236X&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnRVXRFog3Sq4ZVGjle0rlsNE3VsVfCdOIwZ1UrYRigrEH0UlO2wE-yYVbMR-hjd0WBK71pMUChgb54x9H9fgipWuYBab8_aw04ZQzbFZp4ib1mUEJDqxuTzyaoocmyyfowgW1c6gQtLOQMXk1PubDk6KPX4a1df5pHCmCMglQEYLgH&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkft5h1o-09BmQTSpy5wm_RPT5m06Tk0uCVkZAe0R68bHiT7E9DWElc5B0pqxL3dZIPVy8p03IikWbXV6TeS6xiLVmbBxn2EuGAOutI8HcA5TbF5HHxmLfe75af4jTItZPPT4tL9nM9gioCY4-Ucs2SwZUALW3VwCtuV0keRL_EK8gr&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmuaSH1vSBAMzJ97qUUj6Cgu5_8b_xSOrED8O4ud2KfXveO1dT_nddnABnbFFXVNJisPNOsZr7K-VS07QO-yyfeOGDaV02-B6UJwl5THRLqYRXiGdlL25P9-DvkwDXey5F-bM3gtKUZfmFXwnVjlDQkVR4NA0TsvOAtxR0EPLm4ierf&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlyWGV9YotblFvMELeCZrzbjfzyrfs7-ks8EXzmyVRHeFHEDNbvIA3Ihg0RgbngJ55bCT42pDRyK1u0Sc1hhTZ9r2cBgHh9SNbbgztZyAI79cayIHbBiD1ePiEMVRQCG65holaV0-4-gV_x1Xsqq0mb95NK8r_tIfX0JD8rpFsKg4Sy&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm1EDbCb9qlpNBeO9wcnkBjZ5cAtCPOCKGgoXju_t6My_xnzYaiNNky6NZSzWxgr-7Rnhx9s463pEdmBaVlRSWJ5BFfpGVgs_5KIuddEeMLWxqX0HrWGcD13-6HswtKCvFkbvPvvAYyM21d17V8OCj1zFBleJ8z2DaRcwHk6OAWgMEd&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A cozy brunch spot offering a variety of delicious crepes and French-inspired dishes.",
+    "working_hours": "Monday-Sunday: 9:00 AM - 4:00 PM",
+    "nr_of_ratings": 2788,
+    "latitude": 44.447086,
+    "longitude": 26.100752
+  },
+  {
+    "restaurant_id": "42",
+    "name": "Frudisiac",
+    "type": "Brunch",
+    "cuisine": "International",
+    "address": "Intrarea Bitolia 4, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnItJJK280Jkv0RnvledNQn_lSZatjnePo6VNjsvBQREF2GIg3tqNtrcQ9KBH3gWyuwm93vvLKrgLr1q7bUj7Fa170-U3noWyoiSBbcy9IxfcgHDr3gDFyUt1txiL3I5L8taNSrAW8QNb5K9y-89VUhbPhgFqTjr5jbiaiXRPBEffNR&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnjsntACA8cGpCM5tI7OUPNqMZeuFbgvy3-Iny7pCdyBVlOsh3HAuqVQFWp8joPRJ9sa2farA6uJbUHoL0KUCP_Gm2mTPVtyTq5zQG70qe5DzKh-F7zxGAB3IGFpGHOx8c5p2HYDH9l1MnjMwaLwA2Gn6nBczzCAgffBJ-7701X_RQF&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk8SAQD7GW72ivlcz0kISeWO04s07a8r__c3zav1C86v1mN-oBAvR65HruRqx8sDdCjFZGck0g4yy51BLTCdNMIFJIGepA-ucop9np3lPFBv4SXUfJr8S8vJ8LeLdo_BWuwge8Ss4aBi3vB8DtmtDO6hskhJvijKpWQNe-D2MQF3iWu&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnKfWzmnhZoMnk49yY8mT5ZsBI7dJTczQnIp2vB11yMLVkxUQcB53KAfWUKPHOF5Hq4OsYgMJaByB791mso9tqiE7L7rtYXF6x-DbCC5UXFgeDlG0D0N-F2KpvdcfBq11ttKpQVYVnAG_L7-vBja8hdE-c5NBpInAeaYmVw4BBfYKnz&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlhPrqdCwNYPwoZMpthiWWmkvkrRfrux4S_7vrwNN-BK1VCNBPIobLaWQCjpTz464IbgQRCBze-2Gub-XZ9ppySeflK-oo7oZRuEWJwIDwyepk8Un6z0MVSHwoPv3Rc_pNZz8yarbcC1rT8xkxzI1veEDuo0q9mTUgWMUliW1BbIbtL&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk0M7qj7gKj3AsIJfdsQb-OMRGZHKV92Of0-q6AaAmO2wtLbZiVOPeHUYCpFtU1LQ-1RCms9kl8atyo_oMiDlIJtlS6YDSZsvGViKfW0kkYEpo8mnVcbI4aFvl5a9cqDqLr0OonUoWASyvMW2zGW_vb_ip01AfLk-yYrH-pb48wXQFL&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A popular brunch place known for its healthy and fresh dishes with an international twist.",
+    "working_hours": "Monday-Sunday: 8:00 AM - 5:00 PM",
+    "nr_of_ratings": 2330,
+    "latitude": 44.460106,
+    "longitude": 26.095097
+  },
+  {
+    "restaurant_id": "43",
+    "name": "M60",
+    "type": "Brunch",
+    "cuisine": "International",
+    "address": "Strada D. I. Mendeleev 2, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlXecQH8uFhIBZdjrCB59QdChN7eQ3ukd4adePFdbUpwnK2N5tZdgjGaUFnVN6TZYKzJ0FrMjHTNX9nWM6YQapyrd7wi78ZTX4FnX2Y295A8llp34GDlSKMzDsbWSX2KDKDg8VxWJamJ_c1lbFQTJVjfPZR9SksNtTi5AN9slDPo-tD&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl7rWEjVGDfBdOex9NDeR9sEC6FGjveGSRWGbY92Q0_-1aGvFM-60STFHBRrcEXm6MSFYB61QMW__g-A18okplsl6MSmlg2UYKUBj7ioSYndFmM4MDRjLCcnmec9h0H8EwNzQBIW3w2IQjQzLmPCGChdZpYunjIs43qtGHP5jBTxRq3&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkp_rpQRGnkmHpyuhhpTkmRWpJiPa4sAWAvl12JqMdqfL32KrecKLR250FsUz4m11rGC2r1QS5yXVvoa2Q014t1dSjUIjC7QnAnH0KoknKjRuVprxPpPrKSTmNnuPwoYxfmkdp6ypiTbNEBCS9mIxOwhqGIJC-D3qIW8PV24d0utHN9&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk0ypZ96SJLBXZoMyIBgqDl2Pd5fANhY-CQ0xj9VwPj-IoVofTTXo53VbOX_5dGHz8saebubrVa_6Ci-5AIrU89FfNwZKF6b8mj2rG4pj8_RGOdXKkkCoacfiCWSahvltdPj5RXftIhcQW3_Ot1SlexV8CbkhhR5nOxvFFsBXimzZuN&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkTyyXqqI62BimB7vmxFXPz8PDjjkaI72HeKDN61MtDrRJNzAXNs8oRKq43a-8WrOV9nG42MM3XEufya55PrebDSONjwgTvSItdXw0gG-zWVmit8C4By5v4a6ouNo-MywURgDsYIumdP5oFl35P8gE6lJezAQTTH8bhsmRe9fSx4SKm&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkdM-jHUPkM3NRO3_PJ3lI1YorB29oBbYmMj0ZGtDiwSD7dMT-1FKIp6I0u4DEN0N0kL-JeryzQP64AxvHv1R3TQiO-zEyvFMyHh9-9vEr7PLsD8E1tvJaLgqjaSwRxt5Da2t0AGzKhXxGnogX9QprQ8LVIAK1_uuwWBuLn0YvEcqo1&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A modern brunch café offering a variety of gourmet dishes and specialty coffee.",
+    "working_hours": "Monday-Sunday: 9:00 AM - 6:00 PM",
+    "nr_of_ratings": 1894,
+    "latitude": 44.443172,
+    "longitude": 26.09671
+  },
+  {
+    "restaurant_id": "44",
+    "name": "Simbio",
+    "type": "Brunch",
+    "cuisine": "International",
+    "address": "Strada Negustori 26, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnH8ry-pjFezYqtngf0UZ3e6jGn_z_u8xahHLJGWGU3xkVEgRZzD09q9JDQhtYZQpUYDcuwfQNtkFNZjn9X0RE5C8F3ADvfTBvjwr3LuerQ-rgUfNaFEAqsbT_KidkhiXnMmBV9q33L-UL5Pw9iG4VZNNDIUZ2MUVdbEtsFbSZPxGb4&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm2HDQybWc0cK-rYv1SwpgerJroJvw-P6BGUbgCkrKvQl3b34BYrjSIRky7MJc_wJEpd56kQfswiwUsXHkwVowvRkNfNlR04ekhjxl-7iReky784g2Y12xVnmcOu08BZ_Jh1_5ktktdMsRY6CN4HxxDbfbX74n0ivR5JWQIlbhJIsUu&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlzVq8wQCU78rp9sy544npaRtQwRETwldCF6V4OBJuaIs6IydhTSS_XlpMBwa25o0S40X6H5HYfhgByaONkIEHrJQTYCDu5DI3842-a79X0HfPok_N4mfsB-Z-YR_ETPJgvmXOuHyDfjUYJgenERechXMjLvqL9pTjEEMZ5goOtErGE&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmHwbj_XfaG3njUE0aJqyMxtaHhC76mkg-jQm-PutY8yDMmaJPJszowDlCFj9q9p4NYvZGVZr_hIw2l9LthcIl-SWtw6ehDLN3sLKL9MU55z2aqi3nPNX8R1E5o0BvjW4u5VcIMdo4WBKdVrEXtL-oTRl-x2e8MZxwM7JLQF8mxY14I&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl_isi8gUAA8zP71vY37M4nDFfx5uCPwNzgIVxpV1DRy7MKsPRAs26k5Id3m-4fQYPxYYcznQxJRHYIuVYq2cDfb9HP3hYYSHm9wr6NRS24hP4quAE8rHX1Dlg7OnjuTsOZCyx35DRub4E-Z9ERVJDgKBuwCrxOmcP6a3gNOt0fUiBH&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnCDjrP_TAEE6uQoD7vmRWsDbQHKhe7_hCnMb2lx2sunT7cDO3_7kPsJnx7JwQgs0RQNVVXABVb5Dg40nj1xtG-OwnOY6Feck0VmWLSWTv1Y-mCXN9Onnxu-T7YTvGcfutPI5EHpJXj_0TzbO42aEwYxD951NrEmANLGhglWD3D54Jl&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A trendy brunch spot with a beautiful garden, offering a diverse menu and excellent coffee.",
+    "working_hours": "Monday-Sunday: 8:00 AM - 4:00 PM",
+    "nr_of_ratings": 4171,
+    "latitude": 44.43504,
+    "longitude": 26.111954
+  },
+  {
+    "restaurant_id": "45",
+    "name": "Arome",
+    "type": "Brunch",
+    "cuisine": "International",
+    "address": "Strada Luigi Cazzavillan 25, București",
+    "rating": "4.4",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkcop-Z8sLn25AnX8XqlLyKusx89OW5p8yfpydyWwckpOEDtMiBcr-ebfPWkS2IxzV4FOdPCKJaXoRuu6xGWetHWsAB0VFVOXvhobfq-83vKFxEvX2hgpuvEe2gzrx5PkBae2OMr0DK7ys62hHIMktfmGHnSmCHymy0wM0qWS0Dxwoc&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkEkvXWclzSwAhRPODEmgzJKFLMjkVFTzlbhPdBA36mLYh5beT9Yflgxorx3tw8Kx1PxVNdl9rf6qdcik6s4vAQ9cAOvhDUk8C3jJtOuv58X81CsD-wl8XNnOW6MKuOckTz8rLnb58yJewmyx1bZK3RsjtRn6hqDlIzJvFHTqvu1hXY&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmLxXmbWjTGhRdPUMWvSXLp0M6jBrx0vGsUis0H4qLj3OljRsHMDbjwAEqd0xLq4psQ8xW67_bJJ4ak4a-KSrjCGHt9GX0oakunzE1jQZG0BaD_eSoCzh8vkRs6n19gzCVYgVEOt97rg8xxqeOB8jKU3dIrbEbAUKPEiUrehph82WEJ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk0n7_emB0TpJusUkFGh8r6-xLAxG3ADYc8EMTHW4V66T2MnIJgD5IdfZdj14lVwebyZyZ2nzcB7JeNWq5P7T6hATsrfdiJuB4Df2r7NbmlOal-UrbGRmoewd1_WHrtA7PjrOHUFTpjsJm9U3q9s99BUc_kneEQAw1r3ReLVZ5Uzl88&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmwELx-EPNje6bkOrXTvJFkh7GBmpjMz8TcD-LSyCbuslty0h_s2xOsn890SYWdJo7Ar4iQKZSBO4j7fDqWbsqedsgS13BX43Pj6LjbxWSc9Ny3ogsKz-PcPkpqfKGpB3pNZRPnhMZqfKsA8Z2tEoNxrpXu2QwMVHalIW6ewb-oe07G&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm4yXR9tKiBfF5O7MMGlG2IWVjAptldpCJqVowdpNG9njH9na3-9ulBWyAXNymzVVfNDfSnP2CZBcTbLCFB_Io--T7NTrygpNh7YW1tl0uRYWVWPRw-yxFchQmcUYab_G9CbedXgScZsIeHjbhwL8A9EFsVMA2Y1NRLXR5fES7tTK_I&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A charming brunch place known for its cozy atmosphere and delicious homemade dishes.",
+    "working_hours": "Monday-Sunday: 9:00 AM - 5:00 PM",
+    "nr_of_ratings": 856,
+    "latitude": 44.442978,
+    "longitude": 26.0866
+  },
+  {
+    "restaurant_id": "48",
+    "name": "Panoramic Brunch & Bar",
+    "type": "Brunch",
+    "cuisine": "International",
+    "address": "Calea Victoriei 37B, București",
+    "rating": "4.4",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnDIXetrMA6UA7n0foTl-xHfy-Rj4vPk0GlMGYelrt2s59T0EAetXwglLsTUZYbZ73aveA3oWqQi2BqSvw-SyQfLg6LmQD1z-Kkr7PcrU1cGFou6ySLZkTpqNvS1M7en5KzhXKMRcPTJEdECb9Ey0_QKhJP8UZLfzR-Bpk-O0vugxlx&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnGtuS4Di-Ph-llZTuDOWE40RyyJBGxw0HvQOCT5QnG4tqDX6WWFN89C47alPX46rdUrDvPXyuB2dDEUEUOGP85CQjMs4Jiu1JL2q4eBD_a2BcsO1e7AyJUD6rTTWEB9oSaV9YCarxhntxfYr0sK9Yz6COZWjrhANi6RK_jIHBZ8ndx&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmzy2HcvrL2TxUOFtd0s-D2nZHRavhNHcDB95FAcJPJDQyuiE75ePLaphkNrdEhqmYHVN8W31jQvA8ph-ajdAu3NzrnmENahLeueXS6UWLNhK-tb7-r09yqtOiMsbx0_xOzb7l_4b5g_0nOjFLlun6weRygd5w5DqNefeN8X-Ow5eMA&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZngbapcJiVGNe4Zhk83cpj3fzr3kTfsjnGB7BPAq5D4fcB_dtl5OptEJ_zAz4bRcL0b6XEuoLgtaZjH3mkD__4FRkkuh5iDXc47lTNmLpOuoCqLxVKIvFeFRzij6bhDhA8_xsI0XBmiY3W8m7o6_lcEilRaDSGBrhERFfLRz0adhYT7&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkYsPTt3b9zBky6MpFApz9yAa0LPNHq7O3MRQqqkH6ZRoZ35D-fRAEaymygyMQtR0y5Iu91LjJpDGKTURAzAsR29G3IzrbUMIfaP6ztHRJUNK8Fr3iEhxVfq9QCfmmu7XDnpT-MC9dsrHMB8fuUHa88DlGqloqBLj2MbjgjJO1knjgz&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm0MzZS6va5x1gVWkMOvBIGgfQmpMZKRCfW9gsojc65zIMEIFQ2CQPb8eSF0uQSNeDKMlVMlK3dYab9XkexoAAYT6qjHmwvgAi-K6527eooB-FDceROFKa193Bb56Q1ehQPTc8mOC1exM-ZvXKDct8fSHl5T8C5q3SJZsFB5Xox0VXy&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A rooftop brunch spot offering stunning views of the city and a diverse menu.",
+    "working_hours": "Monday-Sunday: 9:00 AM - 6:00 PM",
+    "nr_of_ratings": 388,
+    "latitude": 44.447556,
+    "longitude": 25.996227
+  },
+  {
+    "restaurant_id": "50",
+    "name": "Yolk - The Breakfast Cafe",
+    "type": "Brunch",
+    "cuisine": "American",
+    "address": "Strada Ion Ghica 3, București",
+    "rating": "4",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlaOl_uTGsJig6bDZHXQrFBwmiZqSfNkE3B3Se6bqFHjBfyBxPTJ-pvqEm5Q5y_UizHNlPRoTTRKM_HBWL4Y_mUXcko4HxPtzyRUzc0megH72CGq-B5NFwSRipLx4cxyLr7HMI4ql4XQtptwubh5XylWvMV1ULxbyc-XIV44tf0b8y-&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmr3WYBhxbfRim4YQFHYfsqCjLatE9mha83NphWxvWDNSZwH19Wn9AJJ4Dzf8Olgx1c7jF6ycVTYOB3hxAOoMEckUpoAw6-zAPnAMuZJZBqoCJLra9y1ZExo1GTstkaXWZQydeYg_-Vtdw3vN5Qwl-9m965fMAB8oBMbKvplUMNSYZk&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkWHUiJr6TaZ9U3Oh7kDeP7jaULJxA08yQ0YSfgcuauT_bROJ4oV-DROPEh6EzAzJ_4q5I5Vmx6rTzE_WkUi7442ZZY_xNQWrxhXeNV7kDGejJVyUlMQtkYd_ltil2NVzT6WQIT4U3qVODYue9Liqa5no7GF4_OjSyALNLBiZDaqJHE&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkctPYlIIEwnqdzjvrkaz4MJ6mv4k2bpAv-KxO8rROsZU0GyJbyOvq3q8ZuGVeiyzF-NWYYnJ7NH2GFODxN9vIs7JeBx5dOpwisc5svg_e5J9EeZEwtSTWF5zt-6XDww5NtWzZTjltnngQURkhN3qCF0AHn_QDOBhR9YkGve8XLuEEX&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlYLL24Lagqfwg9AYT2u5JV8tiNZCJeBOcS3YeNbOvo3XwHl2e5rjOdQJt72y4NMSkivfXKa0ehdenDTCykqSyVW-gYBLam974WdZfVnhoFKGr9SE75b1rJTyS_v15uy7-7q8umeJJT8-paVpzxvSmhpHV2zuw1UcYMUZiwRIS4xZ1V&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkt_YHNBbvivMu0O1t99aGbmGu4qpJwcu_n2jUMIZV42O63NcwHPeYlZj-V7RMeg1exbJOafBuqOzHTaAtexnF4yaV1rCgh9ZFuXTgZbv72flpZo4nBT3f4_d7l0Hb7sxovJxlSqmIXTueWyISQorOYbXIEG96pEOfnIbMKLrD1NVqz&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "An American-style brunch café offering hearty breakfasts and brunch dishes.",
+    "working_hours": "Monday-Sunday: 7:00 AM - 3:00 PM",
+    "nr_of_ratings": 64,
+    "latitude": 44.440384,
+    "longitude": 26.10189
+  },
+  {
+    "restaurant_id": "71",
+    "name": "Alioli",
+    "type": "Restaurant",
+    "cuisine": "Spanish",
+    "address": "Strada Căderea Bastiliei 78, București 010616",
+    "rating": "4.3",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZncsJialZHpEa-7JHJOlGwevjivgFXVMg7WyRRaAfsLNdorj2KYI4NoTOdz1fqyQMc6s4iHiV5JaXPd03Q0suwoxnS0Lb2A0_FUoOI7bhN3kYKB9SJoUHl47QMgy0d6WXJDkzYKlcxLCxkcB80xuKr-TcT4Ql2XWGCP3ay9mvgIjJ1c&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkmeu6u-1W2wGAxGsjVC81ZDQWMnjYxIJrdL4PjONf-gYj5BAi_0lMrD2UuUd4zR-Y3Njh1GDWgLklNOAZNbmYgPgedKFecgSsDd80Wl5V2QgjxqGI3x7o3rNyvPfxVXTil9e9w8V1AGJgzPzLZPkxPkwZuT6dzbHzV5cwpFrJItjAZ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnc76a6Smb8vffOH4fSTHJx3ZGc9xPTJ1m7fVJ_3RV-dom4fhZo5-4B24_58a7GyOJ2iPXWv1Cg7cAMDSEo73ONBV_koF3EEBDuKifvKZgIbCZ3rOUXtj3HfL00tWIJSTI7agieA5AamDZWlRZHk8RhDczWpjlHiJtYB-3MELAf4qaA&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmevCZrVHyxE2lpsokFn7g_HPBqcWbCEEbXLbQaoeyHu90g4N9Lvf9j1NqvrvL1MSDqBEjqHqh13jnrDoWw5WbQ7tgvvJZhAwU7LHk_XNZGWFtt3CbVw64XR5f8SDYOFIEiIqT9xJNVqQjy8HL3PVSMPClK_6-dC5KqvEvvmHa34Di3&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl2-Bp78l8vQNOdEC2kssWiw2TmL5eU497Iq41Ok1QdNFdiqgBa9ObMzriLsO6QVgkSXu9ivkMKDfIZSJlsBumXF9_T_d56eDIXWGldE7j108liVbX3Oy0RVQVS-TbAPUAgiW6rGFiL4CuZRaZbmAfGdl3h5Eu8J7SbzJXjC3LeOfKe&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkAETdQsApxELrmGnLp2_oTlc2V8qCcmO5vHpVYKp9xY3Bic6fc5RctqVKDU8YCvkKVmF6Tr-G6vJ0ygxz2ki63JnabfCCA9wLpzksjOpMS5GKMkKJCUXnDyj15psEu6TJ2ZHdahZlntVzTgd5NuyEkt4fRAAyKxOISOZVq5PII-3xm&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Enjoy a taste of Spain with delicious tapas, paella, and more.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 240,
+    "latitude": 44.45171,
+    "longitude": 26.095476
+  },
+  {
+    "restaurant_id": "72",
+    "name": "Pata Negra",
+    "type": "Restaurant",
+    "cuisine": "Spanish",
+    "address": "Strada Washington 11, București 011792",
+    "rating": "4.5",
+    "price_range": "High",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlKS4kxX8XcITczGketwMtTq_9Bm0zjUkYGnjG7_Qapf6AF5-s99F6--YW9Y96OeMJAMzy1SSsL977fbVko8n26MtTteYjcsAoa6fd4i3gGGw8C7NO8uygPy71LlmdTEpWF9iM72YbuHZ42ttQaVuiMXdMWdm5iQKbcRtBDpmNwqmMi&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlpfKk6iZFqwstUHurexbZbedtwHg_yv_3IgohoFIgIbVCi9zOnd8HsiKkb2COhgS890lD5_cerlcU2VbR_U41z6aGgUKstFGwPe9Yli9fb-f2qKyzjXudOtapjjqZnUqCuL_jP3wopfdLX8Shzo0j0pqtQHc5jCUHUzLRlAeIkim4P&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkfbSLJ-xCgMctN3hOiiAIoPnuZhF0TyeUnEayVLJ1GEheThdENR1KbMMrrWHXt2TkTSeqHROOZjdjjaPOtUQoSBB-DiOKJu59fGqgzzD7NdlwrqBDB6yGJt3V4rwKL2KpJFzafIzDC5BSKD0MD9OncQeJx93CVgL72NFO4rMe-JgxL&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlLZb1W_HQ9CygQBUkgBi7UVFynAYRfB8NFF0L4PsouN-FWfO_voT-cmuZitrNVbNZbNSH-JIiaYEPXwZzQ69oLG30DDAbTCW18IZGSG80pRvRN3OYJUrkfnBLC3SmzBo0VH35WWzRgjBT3_4lgGPm3-GD2pjPtF90cK-5vnR3Ae1DG&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmdsvAcXWW4Vf7ttuJ97YJw7vgECe0yo2Ez52On0GejDyPG9PHnIQXei6_ewbym6OzCcHQWoGHGTzq2lkg3IEHHatA5efAjNov7Crkt7dc-8FiBRZnkr9OwzQQIYOr5AFMjeW4ouvQewiUVil_H61W47yjdME5tRfM_SIWOGWhsePyc&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlI8a_ucU_1IfYCVf-YzW5EN0qLG9aPpYabQ3vjMIccFHRESa9zXxF8uI5kgRk2jyKmy7Q7XR2XPbb3veRDQy4-obWuOY-xG9__qx9s__pFyb9uD7BLhPtF8z4Mhxg7O7BA9yvaZGaKW1uOwwBWO-iLGjdGKh6lxHcamPupNlYjMnoc&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A Spanish restaurant offering a variety of authentic dishes and a vibrant atmosphere.",
+    "working_hours": "Monday-Sunday: 11:00 AM - 10:00 PM",
+    "nr_of_ratings": 1043,
+    "latitude": 44.45563,
+    "longitude": 26.091553
+  },
+  {
+    "restaurant_id": "73",
+    "name": "El Torito",
+    "type": "Restaurant",
+    "cuisine": "Mexican",
+    "address": "Strada Iancu Căpitanu 30, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk1_VGmxIumrcgJyoxx2jgHhJoduWmlSUwbUOz5Y77xcXbnUlRtIyWWbtQB5A7OZE8CfSYrUgRHhajQrE2y-kJHVuUfysqU60P5jA9kF11fXr2Mwo4Rm9jZph0wxiPBuiJy9MyFa_tg1tOxt6O-egyi8IhNYimIfs53D7ge10PS6Z4v&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlTZLEXJAn1MIZdL0ra9WoRqUoOZTGUbeyWp7NblQUECM7iiwe1BKnu7EgoAnuHQ0wNxO3RYaoa0iIqULQIsEUO4tuRkCS_VeMlAZadmgLfjj4RsWjeHBZ3_HOMUEXohVXdSlfRizKvbTqrXY7FyK-REHtxVbYeTlmt3EhvFwguFeet&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnkAsxl0i3ibV2g-G5xPhNxrblJ-Psm1c5ml65IIcR6XwnMTILI76vBQrm34Zo6dMsPWxZmqm9qIWQWSDD29nf5FmGnQPJphrfrzeQCS4oIPnca0SIUqzufruZ-wENomEUqVhpB5-qcQtSyToe5PNNLnY_yyd3HRWJiDphg52bmYfaD&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkn6VkinAv_Ku9ogcUYWAbYXAEh7GuTVBu6cIYp1-oMpz8R-WMlYLhihizR7aIhepKGcj7n0OyXs5hwLBkCtBiAmhGyI2hW-MIFk21a4wb7YnmqyOx4_sCZZ8w-je-xr7nhc8puvH88cXbpcAfbjohNqsNde2CnTYPyyiVA4nppeG7D&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkSNe1Jhkp4Pnm56SiG7b89x_Mmxr20ziUyHlzNLwtV-MB3XEN7XnpKgkYkUvQuutk0u7rDprKq710FTBjsUMZjAoHnU2wvOhctBgZ2djcF5GLS6bs2Y5pyk5OLpbNeMrF2BJq-PfR3u3ogLcIGOn4-IBFsDIxGHEkv956ZINDEaZjJ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmH5QFt2ceMzvLonoXAv8o4ouEf37DP3D0mHmD33WLP-LV09cEKkFh8tTN5HeR2RHQ_dyDU_SR2nqczectJDs11LysEv7b3O0PFfq2igNADFj_UQj-AWWI0tVGaNmlbPrnUKik_sfBDb0bX-Q0QrE2Ldg-EBLoN9YbYuZ4ztbUt9hAf&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Delicious Mexican cuisine with a lively and colorful ambiance.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 4330,
+    "latitude": 44.44289,
+    "longitude": 26.121458
+  },
+  {
+    "restaurant_id": "74",
+    "name": "Taqueria El Torito",
+    "type": "Restaurant",
+    "cuisine": "Mexican",
+    "address": "Calea Floreasca 246B, București",
+    "rating": "4.5",
+    "price_range": "High",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkY2zSRC7NGIfjWATGmxSKNgUQtuZzXl02kBo1lJOcAx56y-rF9Td0VSoalPrvGky_dz3p-arqG81LNnJb8i4dTIkCaJCCqVKPh7WZlYkLnhmr3WMMmEtp8W4Oqml9HpyBQ5BKAnqbrmHeXQuv3u0WiYyWjlmUlFZfSWLBU6IWmFsob&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkADkMETsf_MRfTh_3ym3LF0nAaYXx_YY90o7cscfLrRw6GMSnLChTXIlH2GWEyE3_qw7J_-5omUFwbFEhGBCMuhYwi4PiudrLV7QN5j_tADRSJe2FhcsxLKiRvU0hQYhYUjnrsvZSpztKYAkKbbcvVriKS7dnZVgYT6jNy0pjPYRds&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmBu3jnr5qQYUm5PjB04O7abTqUXvMJTlrqvNBensN9IKvYauZyznijYqf8Rm9LtuPuyhTEs4W4l6KXiELnFnnmvLfbs6F9lI7W2fYMD-Uan7M8heno1fsG5lTUBlkBc954UdI46z5eKqatGZJkeHr884Spg8NEPe22rqKZSO1kkbl6&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmmLxgugCCJ9h2xWxchfqN6tOW8nBMidocIvGPI7Lq6uo1tN04riryFCPtTmkfLK3T1NWKYTUHh7Y7WvFgr6Lg4uWLTD9jYhBVVS2zj4mOxlIvDPEIDW8m3pKKw3lZR-mAsDIwWSzx1x_h5_h1HQG6lJr6gg7Tk0CKpz4y1L1K-9LHD&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZn4zwPzUAJZirXx94hvs6_sQn11xid86S49TXop6WDY6fnVkEPL3uqaTjVNdw_CYAY2EtClOOnvw1AuMIF5Dv3dRUVuijpKsHVCKIHQBmC5b9xlhVKp3j86-HAZiL2MlbNNVIT9jJhGvGEOizh5R3bhntVWh66wCAzJX3N-AjCagNM&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnBY1BKgjtVyoeW90X38GyKfeYHi_vwy1cXjR3PcwwZmrvD-VlrZgJ45mUe_BV-IN-YFvB7YbWY65Djt_BJYMM33KICbSKWxcv6cEYGvdfI0RwoDN90DIAaI_wD-BZDxG-Lk87SQO4FScQpt1cJRP4KUsQgh-lnVUWQlFIw9sQhoOMo&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Experience authentic Mexican flavors with our range of tacos, burritos, and more.",
+    "working_hours": "Monday-Sunday: 1:00 PM - 11:00 PM",
+    "nr_of_ratings": 4237,
+    "latitude": 44.42842,
+    "longitude": 26.094606
+  },
+  {
+    "restaurant_id": "75",
+    "name": "Divan",
+    "type": "Restaurant",
+    "cuisine": "Turkish",
+    "address": "Str. Barbu Văcărescu 241A, București",
+    "rating": "4.4",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkB34NJg6b5ONrpVxqoVgrquFDEY2Da3Bqh1mQRRYE6X-d3igf_b0QksbZYf6pgq9_AeP_5s8yI11FnGHBsUxKrnm4aQw3YT7yhoe02IBXmQ6iAjQ1P4X1b7wS81alHtbOqJ9IX3k1byBGVYK0W0WUnttUmzsW9mDHtfXYypMd_sbpg&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZll_fJ3gOI8c7b5M2C8l57miOCSrewCTEWUxglQscS-QAvoARoV-RZ-2R2HAuyIxcCsOEXQeP1T7wITwn_Ld81j4f5ucOeOAfJososH3E6buWRXhhvRixSoZgtAs_gs7ywE-WkJQv0IBBm0nh5pH3E4aypRyiTDGxkxx66mfosxLxnU&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZljUsehXmXVyfCALPTny3aEKzUBadHh3X4svHVxi8698rGZNoa4KZuchvNWs7JlNhNGoT-n7VJZ_v_cxW6w74RkKz4Nw6_jGxN0P6y2bcY5Ywj_9j3KT7RtEcVEYKoHncjKmvM1-RpLOTBbZJYm1ArL8bHRYQs3kX___Y72_g28xPmn&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkHei6jESXm6Gf7jDjAex3i1mztStaxHp9u8OzPLvdO0hKKD9kwpK0-s5n83bN8fOIZSRULT4xqb0PGWoFyBpZmUZKQXC20Dv6qs5zccInqXtYL8QLVtOJGwg_c6OEUzf-PBxyc_PlZBe3zih0wpPvHXfDWf4O1pq4MPA3DxOjwoyYj&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmdykznsdAbiDAqPkqIukkvMF-pIsvfwtax_OefBN4bYiTpWiMENNu0NQAkyjwLGmHzcqgjms5j63hDIApdyWgRsdB6iKNZSqAq8QxgHviKvszSvb-lC5i5y-NPh8MEs0FcShd69skU4iH2VPXjQ6P61OgLpCDlLZspTBGT7uY5-d9z&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnBYQD7jyTe81qr1lrrQkuvbKKhWGVjUSO0lUf5GUbAG-CfYprUN8xcMrZF5v0tAZCOxWRtVpo7Xj2jnokM69xMcVQ3z7daM7hfE80hDRLdL0XAYlKrb2xEPckVCOSh8Jy35B3Vh8JMTQwyBAVJ9DTCRzbchEkaKR4bbumrvWyOgGRn&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Savor the rich flavors of Turkish cuisine with our wide selection of dishes.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 2165,
+    "latitude": 44.47083,
+    "longitude": 26.109161
+  },
+  {
+    "restaurant_id": "76",
+    "name": "Saray",
+    "type": "Restaurant",
+    "cuisine": "Turkish",
+    "address": "Strada Lipscani 21, București",
+    "rating": "4.1",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnlSH64dbcsQOG6DsElH4i3g8tnvx6kMOo77EQUYXT4PtukCzqLkHml92VuZaW5_aR1GkYZCstwO1r2Vlo0g-sIw90gpl8hOfxDk62e7e8SImJ8K01791k9hduYmrXeCpyQOyfXb5ZyY3o1NZAsfBhUjGwsZRf1bMQ0XU21SW7ylQxv&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkaLeLUJam4CqYcN0tqUMOiHPOr-VsRLB79z4Vj3R4YWJrcz7PYETCseG0ysBqW3FJI3P9jgwxXQ-uW5E6n2jVEzy6_PKeU6VbX-WlKTAyXWQUcDJhlhULnhzvK-EkRYLCYG7yi6hSyrxAEVg_GDLL3ifrUTpMorlu5OKs5Ef5v8kGI&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk6GVWJWqE0TJKgRlDYumCPnOvusqKYJXJheRpT6-Q8Lo03O9ByVTjEIt2eosdBKwZwggzyB0zXhWZFdkBIO-3zNxnPlNpjU00ce78I7KE-cUfhtsra9v6Kh8OY_cHRcnUZXJax_Tqh-F_r2pAPsDsw8fzJJSNluF_PO4EjEY2qrLU&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlmYXeVumWJLWbZCzj7gDbtgdw0yCyzOt75LpXQNZ3JFj5ke4DyNSNIM0-wgBizyCeqmxcj4NtavibNhgdEga2QiDxQqJIjye7QnXxpxFEzL8BEVjqfOl2z_GZkkMfDGUkb15NXTkmZVxWcHGVNkgpnqhZV-VvYeYehiNS2khLMr34e&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmABU61fQj9DLR5QMJTtY-CeFjCEecT3J_E7p-OGtgtJvnMr3SwReXq1-Ptajxk02Bh5BwqEKhV9TQpbxwTnIVInL_BB-OgYmoAVrhvFSw7PBCVT0tyefCGKOFO_rSXZ4-CN3TKGx2Ri1n855vBoJYapEaW9APzodLyS7xncOv3EYbQ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZn-zCN1CZbvxwmKOgjdQuu5hxnq-tje7a9OZ3hGnHTvDeVTGWyocRxrJgX-jEiZdQfU74oA6BchIABWPHZTvu1KyzPSFtenNgwRxQjy88lYkD3gX3CaihouRgR5NQ1z1eFoYJDAx2l8pFco00WG0ldrcIUn_RF3GlSMZ3iiSgAYn5mF&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Enjoy traditional Turkish dishes in a warm and inviting atmosphere.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 10:00 PM",
+    "nr_of_ratings": 1680,
+    "latitude": 44.432526,
+    "longitude": 26.098392
+  },
+  {
+    "restaurant_id": "77",
+    "name": "Haveli",
+    "type": "Restaurant",
+    "cuisine": "Indian",
+    "address": " Strada Episcopul Radu 3, București",
+    "rating": "4.6",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmjHj1J69ItIgyyyomfXpAP3GddkWqwkJzGn9KCafJUh5hub8rKVWAW5inEpri9YwUfkqKnVeW55_-KJ-ZzNkb66hJ-xvOcrGfu6cXuCeEiAMJiI8Xa0yQo2rfFzHFOZm_-NgsUzNFtEZevbcFoHfga2pR1zJxV4pT880fzIhpd26ST&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZntDURID9ZzUn52Zs-eCOeGxbg4XV1_gpOEwzU81I682Y1xVeKHaomERo5s8KjIG7Aw2KMC4Lxh32JLbd40Zw4lxKGFwQyHCrwzR9MaC0u6X7Q7rMXRH-uRaDdxs8EbHuMJ-UlLdeL7gwuf0cfL6R4Emlh5unMV09PtiaXSjxAqcUZS&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkozwPnp5TSpyHpt1nixg0avxn33mzOqhkY8791EB4SoriOYG86SOm7VAiohA6WMs4rLrW4cH1Y0DmIMyawreFGFAqksAmBBm0dpU4X5KkinzgmevlrmlJ5NgUSzZcpL-7NiNCgkvu5Hqa0tmtjseTM_yA_rJCnscbYTe9a9BBOdsGm&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlQNC4Om1ENyiSW0H1BNVkwtgYxqplC2Cp9BdhX5I6C2J26lbal_LkByTzytCVIvzDdgWUU3SK_KuxYoYZYCQTZnsfkAXGEHcT91cEK-OdQyuo2IOJ0yhwjLxBlLLAFWcpi-eikTZyqs36YvC_652NqPmXagd3kswq7VXBhTv6kQuWZ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnUhW6vHhKgOy68jCOq5uCki3zdHeIi3tyhcahNEkFmXIJ5rsjnkUgzYb-dsNRZld025m_hjOWtx2B6zhYC2mEXffARzKGUnf2sSbab8zuIHPMBA-EWKmU2602OuEuM95Z3mlvlBNOcIUWTbsMocPoaiIYvtXqPjuidvypEIvwPaxF6&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmURl51OY018htF2BOFYD8Q96i3EqDBpm9dYX6qlbj-VOY1Dz-07iT0u4bQgZsXtyN3dLUHMk6-aK8vJnuLHq0k5CWV-WiGXsDOO4aDXyOlbUURvsNz5dZcGlqH7qwyT65tv_FdcWJFGDtpk2oOK9UdUTQDywn2FF44myuL2HdvLs_x&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Delight in the exotic flavors of India with our carefully crafted dishes.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 10:00 PM",
+    "nr_of_ratings": 1788,
+    "latitude": 44.44501,
+    "longitude": 26.117796
+  },
+  {
+    "restaurant_id": "78",
+    "name": "Taj Restaurant",
+    "type": "Restaurant",
+    "cuisine": "Indian",
+    "address": " Calea 13 Septembrie, București",
+    "rating": "4.3",
+    "price_range": "High",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm7YOweZpBVoDOWrWB1uCXbX9fM-TXRzK8uUfydm53k2H9dbhW5XB7KIe3QIoTGkizETBei-stoFMryb3j8dOiVRfCIGFCJP2UJ1CeCBUE562pLWcXs9iPuXb8pVLcfoE36ZV5kMSqtdBBT8KqtMn8AGjIlzd6KYDfDP3aMfY6cNA-W&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkpHHMnds-gDbRemPEwdEIZtGHeosst4R_8pzRwVf19jc9rbiOeKlkZHOEjVnvB4hJtHi9Gmn2_fIueh6XEA248nNkK80Yzswut-QIhZSJHRGBvlmV6BaFAd3k5KtO-Ro-L_t5rRBfeL8vsuGqpMGXVmGv8qWAcq2XQ6h5auTVYeCmL&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlPMSZMQ6R2vF3GXhg6E82DDPILOAab9MPzYFeyHXDGLbyF_7z7bedd7oYgCtpjgEAK-w0fK9UKn16ac3cn4D-pRgUwGtn4DGKkXBheCFsbiOoCcqQXuo__1nm0dZV5S-SUXYj2R66quv0cDCr1MDC8yDNQyttbdksXNDD-G_5MqQDw&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmVxfvrqSCf0LA6jrriovy2aynQalG2fMZ807y-0TVleSMx5NJisTdL11gS9VY8cybjcO719EQwsFCDMzea09S_O31GsLmSlCCv_1Uhr0gpw06PVkonsRwqjo5G2sv2hScbPlgSRoOYuCddd8NIhHq6ue7p7jMdFLhvK59iuGqXhxhC&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmkj1JawRuwuC3w9AgOnWgSPUgSjoSp-DwAqB-X8KlUa9zDbmqAVBo8g_nt9J8C-lAv5Txq4XwBvWgpjJuYVHSiSI2MwScb-XfnUHZB8AP0Uv9FcOaSyHP3GO5FK1rH5Vsa1A6DDgKCVPCytGybQHtdFZP03RxYFL9eyF2tWntLszKE&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl5mXRZ--iJN2Xe9kPVJpHacafUQrOy8l6jGcrulHUwOS4X_ZDtdwyc6NAO-zMaCyO_K1DRqEpgkMyZBIrluFiMTRFYaMOClhKcTQ8CrCdGyabnTV9gnc_wVQtKsXDRGviEbGvcbCSTg7RzPy4TK2AiXPVt9WE6YZjNXUnlqwljzHt9&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Experience the best of Indian cuisine with our wide range of traditional dishes.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 2305,
+    "latitude": 44.423008,
+    "longitude": 26.07414
+  },
+  {
+    "restaurant_id": "80",
+    "name": "Zaitoone",
+    "type": "Restaurant",
+    "cuisine": "Lebanese",
+    "address": "Str. Nicolae G. Caramfil 2, București",
+    "rating": "4.4",
+    "price_range": "High",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlnoefPveZNIIdF-5TW-Kux0Fh68VTp8p37vLWvR2s32gRn8ckeEC_SWfizKKPpYBQFjPXnAegy7Y9xPHdVgiMlOf_EQRcgipdjh43BJU2dI4GEd5ovWrfR5t6Yvec3Ml3DAOhsoSXjvwNBD8ljpPLd92LI9sHeFbEUsqTn7rb8ZSgS&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZn_TrnYQPaWGcFhXDe8rNw6qUlezbYHFSZJoxkWknxCoL7VugyOU4vUg95m4BU6_suphIqBtz-_fKr5vaghuwWhju9Aadhhq_9xx1DYpouMBgQeTyJHYurSZkkr-w6oj3oJYe4TXZ4RXKgy7z-dHCKEIIjl_6S9Z7rDdz5ZK4QKNhBj&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmmyTucE99qOYq2PlGm-OkjygmbQkb_YzbttnmXtzcocz4OEFE-Y0zg2R6Tg5bVwaZb8UwBzeQvJjgC2mioHJO1KBmpkTBgzBULAUtASmkusmZgQawJPF_hH1p5166ZAmcGgWViKlI8-MHupXm6-3xzVf32IgTPCIko_40qInwOMbyk&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnEUhq6R7kUh2sMQx7F4i592mUYR5_O9aoj1L0FpiNtxasJOCPhmty-7-n7UXoHgrxuq-mMEZAq0aH19G2xq0IKgCty8QI0-N8fi1g5qx4Zp8fA3mFjF8waKbPzgdZ2x-uuoT_8YrEA-CreqkSeuKRZLCzzB_S_9IznJY1vyBKJxLnL&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlcQaGUIBgwe8nkrAy86Od7WHLS-cCoWxqN4k7ZWgfZqd6LNJSEL4JyHkZcYxq-7_AAPWHsu92sbNwnaUdknT8og0UgJ7y-6UWDBYMswrE73oDkLMP3ZXQ15YAqqzv1tpynV2y3aPpU3kj2-YMhPiaPgA-lZkQEa2quoPwaATZQueOc&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnw0hP5rukKvbVphFOOm3783tWdxWHSI7R81opoNZUeZjhxG1HuV-hcaWyUjffjZCOX7WpjVo9xF_joPsMN13ZpWuGo950wgqDAfJKk-3VE4swjxehMrcIeYz5BM-KxQmoOejSr26fLtGeqGDLnG8ZOdqszrYdO_qSZdgayrt8oGpkV&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A Lebanese restaurant offering a variety of flavorful dishes and an inviting ambiance.",
+    "working_hours": "Monday-Sunday: 11:00 AM - 10:00 PM",
+    "nr_of_ratings": 2411,
+    "latitude": 44.475574,
+    "longitude": 26.092257
+  },
+  {
+    "restaurant_id": "81",
+    "name": "Sara Green",
+    "type": "Restaurant",
+    "cuisine": "Vegan",
+    "address": "Bulevardul Lascăr Catargiu 43A, București 010665",
+    "rating": "4.7",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkreha-GNoJxNFHWUFsPtZ-U-qxIlEjYTYGp1dLySvAzTOThgiPMsg7bIVQv7aBJdpCCNYlWcYo9nc_OJFS6P6Y-pvKRkTPv118bFxhy4ckXgK_S8H6dEEQUE05OgjTv8vBpuJUKNhMvyNDGT7Ttk3ynbQQLciLX0tmGFrsn84zBgbL&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkIIk8P6k20JGBYLUm9UpkXF5Op_PWZCkApPTn8Bnw7w-V5eRQXnT_iXKCw0UROFcclGWvpeU7_7fSKaDZ_s9BfeOGyPxV17ywh2mesI6gIH1K8P7zcReP8HFHT3odXfJzT4H3RjwVb2zXuVIoSyNSVtUbiOYrzpygyNCDP7OlluFv9&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkmpygjkRGxie45_X12jmm2oz3cqlMvHcb5a0DS5mrR5j0CjpoH1MIB5TVyjlI9K_-G4lfyeUyKfGSKA6Ix6f59UZ1Oo2aMqV3iQXw6kuBb581wII2ReBoE0F-OPUCjE2Gq-w2QsLzCf-iPuwm1D2qW2GNz4dYEYpcZysCS4gLS6Aqw&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnZOvqTOkTZKDWB9_6efYlLi9RrSasaMJP7nz9YfKdSUK9vInupLvn92a-Y48iWuLp9t3266Ch0WBA0tCXK_kaJCY6IPWr6dDyRO034aLNQNqT58nEFIg3-MsiY8t2rEc_ZQN9I4ccN6U_p04RNoJeIL11Y-npV6w2gebPX1ucsHz9K&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkOqUzuI9JmPqbiY1AdITffSEDGIjXj6X-zlZla831h3vkd9pTr4Col7SQrz16a8roR-RWTf-kcczY_NwUXmL0ZXN4BjMsMafEtKUQ_HehFuBdgl5ZeLuO5LC26d7-aFclQ5fo-5nWSkCuM6_thJaJWCqeu8oovXJ8ayUX1AoJ1bas7&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm_rW7Cmu7DTSmQJdvpdvLlYmzze4VvmtC7h1hyOvxApBAQAJTescKGvaRXOdsq0VaL9xnpqYAAkjOnGnE8fhPTtLV9tEv3THo_dAkJHx2QjqJKUVGVVv-lsMw5B-IjetkBT0lA3x9hgu4u-Dv-n-YV3uHHK0n2bOe1Byo0YgawY-6K&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Delicious vegan dishes made with fresh, organic ingredients.",
+    "working_hours": "Monday-Sunday: 10:00 AM - 10:00 PM",
+    "nr_of_ratings": 640,
+    "latitude": 44.4504,
+    "longitude": 26.089382
+  },
+  {
+    "restaurant_id": "85",
+    "name": "Hard Rock Cafe",
+    "type": "Restaurant",
+    "cuisine": "American",
+    "address": "Șoseaua Kiseleff 32, București",
+    "rating": "4.6",
+    "price_range": "High",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlzeSFUmQYteVX4-fcCPZWU30m4nC4DkzD83L-ZiEt4D4RvsvfTPMDjEo-FaOjrn3FsusuCXYz3MuuhoBnh4A-zYrRNpem97BG0jmPj93E2PAzW4agx6CAvWdtzI4Pfku-d9qdCKl-uVlUXrcqWsmsnm6iglI0Etf0JnRC63T4n-gHV&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZld_j-h8aRjpNicdVmQlXq3lAjzAldcYnN6lEak12KYNpItBedwRbVQLRGHkC_mGkaD77CQFzIzV93Eu69kl6XBVpzSoPFmU7HroYzulfCGW_O1GBMaTt91V0bY6CXhXzzRVCRMTiQi_gOFk3FbDKETBoO9886s5OBCfA38AeisEHET&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlWTSYs2AlACH7zYYtDe-Sgn_vGdEDRpR08qeY99K2IcdkCqRMBiIxynVrp4BwhdZORSu-eICsWk4b587N6rVVpnDOoQ6IX5doKSUvXwo25XjaREkPvXZCDueft2kxEAhnqhQqWeouS8zs1IX2zUIgNYL9lZEH7DW48Tke6NoIAAapQ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm_Ak6OQCVyLkCL37YypgUdty0zheRfEKUK2FTNA23kC3IDzCpX6T6dwFkr-ciuJOW0yeHbRiDrPUsJD37W-kreQOYNrFDsQUSkDgIyTObGrhicgxua5hap4kzw2HLTMcuAKHs63TukoF7iuFUluM8DTasQQV7r1g45-BfJjs5HQ0ft&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlOtDsSZyL4VNrHbE94rVbRP_2kRlc9gEaipYl6vFbgjxquCfJ3kWtxz4mQQYKAbCCsOqc1UfwSilCsJ-UIsrS0DzcApeVoNJj_9T7NPWbmhP5wKxlYCW2A7mAvRxBQ9z-PUkgcScdblw9KVWXw9PtNH-ndH5FWnUYaVHneBTvf35Cq&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlhgqRuaCes-9P4K7k1I7UhWHu1ga-S45gOytTJ1sO2TQNo3IxndxnNYWO3VEQHiiFxSzlwKS5lxLz5ni9z8XM_sGyKlYs41reat1nrAetC9GndmmfesNuVOc6nxPAuRIwxFZLhm9CIByuDWPU9U8zjvahgJXOvPESwLw_0NV32tlqf&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "Classic American cuisine with a rock and roll vibe.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 11:00 PM",
+    "nr_of_ratings": 12444,
+    "latitude": 44.47553,
+    "longitude": 26.076262
+  },
+  {
+    "restaurant_id": "87",
+    "name": "The Harp Irish Pub",
+    "type": "Pub",
+    "cuisine": "International",
+    "address": "Strada Bibescu Vodă 1, București",
+    "rating": "4.3",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk7b-3imk2oYtfFbdr8LMQjnbvPlROnqclvxOnvUBHaW5T4cEGE8dzFHh8gTypTHV_90hh_JUZZA1Rl74GBMxDPCnehp3okO3mpLbVK0R3cHQSpewHzfthGYbWmVfbontrESdsKUlBv_27He1_nI8KozsupVew46Syr4pzGbPpr3sW3&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmyeBJh4z4w0aylq621lJVKN3hC9WN-1VTjryCLI_sVa-J5Pq-Hz7LAV4YXoQHeoXvx3vXWWMOcmluQO-_QGLzCK4CTC54i-s0FQzJzwXjGbzKg1HU-0E-b_2oP4Yp89px68ImyXvOoi05JHD1uSPk8CVSWLPbPRhTTnLsUOZLf-RaG&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk5TqgDOIq3hfsPqNm0Z3O-EULdk2RFzG3TspuzQvJyLKZ5qlxjRV4vsF-FMI1UDoxfrN7J1GA1YNzeIlFDv7p_2LpieLLlN2b_do_qfEI8DZ3qkrrlMk2wB3tbXk_oANLeoRJnsDhwoePo4I8MsKx6Ee8ILrGAOpGB2J9jixT4SM56&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZncXGRXa6dDACw5Ao29ktm85eDBRMpZiJXtsO7kiYL1Y57C8XJLjmgQI-15oyjFibi1X8gZY3ZRpK5GEDitsH2nRMsrMoy5ZRAaSTpEo1NDWOoxwvL2E260ybbd2tTSugRH4GowIMpKYaLqhgr1xCllCUMd9DeeRVz0aQZoma8v0qCO&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZknxvQ4RnVupEmMJXnUfMMC-AYWSbyTIK9xo_Rt5enj2gPKt43kOqdmHXREbLY4KoqpQZhtLSAbldGWaOf8rovX7qdjO-Viuj2lTYtr6iz6EPJXDdVaEqBQBiwDCETT4DOm8GPLqDH42TkyetfH4h6leQ0N6mpfBy-HhxN64wyy_BCf&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlCHbKIp46DbFn6XceG0s-truq5XI44a2XD3dzOM7BcNciHhsudugGFKs_0gFzbKEbV7f2go6eJrGBKOrqEhBEgHBd-ItpzmVQlpYniWjayOWQ7SZ1j6JfjWpAhf-aEV1DQeJ97XT2aWNk5tfhXOLJA7tlFCcjm5Ns8kJEYDLFpc1fB&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A cozy Irish pub offering a wide selection of beers and traditional pub food.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 12:00 AM",
+    "nr_of_ratings": 4322,
+    "latitude": 44.425632,
+    "longitude": 26.103062
+  },
+  {
+    "restaurant_id": "88",
+    "name": "O'Hara's Irish Pub",
+    "type": "Pub",
+    "cuisine": "International",
+    "address": "Strada Lipscani 34, București",
+    "rating": "4.1",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlqi03AI4c9Zu3X4vhWCW_IjcVip_3e1tQVnryQf4J3IH2OjBH_42WHQv6U-rOU06XHkPkmk7V9TaSIatXo6La_Z4CvYR76BmIBR3RnrkUBtY866ptV8du20SfWmqiNeV6DmgwxYvArzTaUjYmvmPJo8ymrJ1Ogj0d1oanpLWXHUCCD&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkZcQdli6qTqf6zOWweS7zinvUjGPtvLou-IFfnbi6zk-PePxgDGcXFd7pw0yYjoXLYCapnG23kkKjB7ZQ0doTkzUtRKLaW-61lZFCrqQQEIC0mHjjlFvVkTrGz5e5d2z0QcAmOseDY3eYOIraU9RmU2SUfuoe7JUCHLaiKdstnnWvD&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkmFGEZ5r_h01P-I6KhCKqfcntzv_2QqPg0LREObdAYmR3m8tu72N2srTlPbOY__HEX_LrtpGRPo7llCrKAi6WCNDvx6RPzetenyrNAiMivZDGLkXgrZHEyryIhbbk-gcwBSbih_QrBR2VFXplRXF-w-bBG4y8_ZEI0S3IAIhWH1_BM&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmXyFVbmF61OTu2sQwgDlPxb6MgI9CLoPikICCpO63n6qJomk1vFX7cYHuk09wjfLxdvj3iM_E53Zxm-TymHHqJZvIecZW1DQ0OZ9wcIZCTq2HR-gE4_jWn8znsoX1BJFuk9YIkPnh2eqDsgADexPq86VpJmQlaAgxfH_AwftlC82Bx&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmufmt5jfSiL_uqoKIBK04Tw_e_KOcmlJgRC9BW0tovmCTIsHJb9HW1-3b93AKlUE_qpTE29iflgTtDqEY5FotejLnDaKFDgd7mPIMngKA_7lUW3noVPVpipZgPBJ5RL3kv4LBqnpgMST1PEhBTX3zSdpdhJ9vQHJOsCpAM-NmiLj2B&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk1PEJuP_iUr989DnfDL5X88SzdrM3Z6HoXzpI0WosHxD9XVTZbd1bHIJ0h3YWz-3L1NJv4-3ang3OMqxWvLDwsgK8Us-89wysNQ8XO5HuTeRfKrhZu42tQCkSzhD0m54VRlvjBD7Br-NLSU5HuMjWtQxW6CPXK7VTrNQclDLbPcwg2&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A popular pub with a great selection of beers and a friendly atmosphere.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 2:00 AM",
+    "nr_of_ratings": 1971,
+    "latitude": 44.43195,
+    "longitude": 26.101051
+  },
+  {
+    "restaurant_id": "89",
+    "name": "Shift Pub",
+    "type": "Pub",
+    "cuisine": "International",
+    "address": "Strada General Eremia Grigorescu 17, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnZDTrwFg6dfz2Pi9cIWfhcQgvHX0v8xLLe0jCQbPY0F8C9r_G7bFqxsDunbh0EunZEM8prBZBPefe_Q-v1LrEyO9Vtx3u959BFln0jZE0M7SfdbCZZUlT4NNx0V2IdS4WZMREOfxjH9JaTejsNRS0D3JZ4M_uMVnl1ORxcwFc1gNwi&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk3ky6hdE5v-pDu8_vRbJyQUX-xbtSuR3LqMfeNpM1pD1_DsbK6Z4MIAQyShbEYFU8zZmeGnvgXS8IjUG8se1Sxzg5wyD2h4uMLNg770YaBzqKiESqOM_Rq0iV9kG65TQ8_084K3aR7KAwuhoCYxtbX-snxpEUN74EkQmNb7OHDRxYk&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkqxhbJI8Gl_PsRLCwPd53OUS4L8V8k7GdgsK-vB0-2OnE57X9gl4PiZirqdaZK5TvCn6QnphHd6aqme5N9RUMH0Z6ftAJwE0ecpgvlc3Z8A6Ws1MsWahzgQgIXeb-Swyk1vbKC8898rkVHwshGgzMCaja9XGCTA6pSYrjrWnQ5iXAF&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl222d-IUi_Y8x0OJ8ic0zveZ57V9wcFZKGNj-_Re-V9vwksaF42t_CbzBMTSAftOYgPROYMEiSThaGSVcZFK_-rtXFHOK19WA-wuQh7l8JmrWNrJq_qaQv1nVHZAfHEUF9HrDktniBVzMRL0bhgJJ1LOgxpfRsQrnXbvXryGQsAYnr&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmVNqjJj-ETWnGqJw9fbHiM7cOpd1BO5xH4w5cn6LBllQ1dCuQpjJ7IB0SVK1L27CYKv_Dn3-gcJQlERPZzRTyZvRWtf0Y8-IWjooYUOPvYiXWiWHHeazEZ3j4XvdcqDt7aG3yE3tPevGeo1EcJ4XJsjc5R-ItP9YSwRWSz6ktvIoef&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk7cFaZsFwa7HZYBEuaPlHxrxbsh3f4ZJCN034nAPqV5wcN3A_Sj55jZDnHmg3A0KdpICIXwKz-Nhe00kLgQS4450j8MpMoqAH8rpgyKuPU1DJTu4LmCHJiIe9VJhWiQi5OkUmYdtgWuvFDMVR7vlal5IANI8Ewo_HdOYWCM8kO2eU&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A trendy pub with a relaxed atmosphere, offering a variety of international dishes and cocktails.",
+    "working_hours": "Monday-Sunday: 11:00 AM - 12:00 AM",
+    "nr_of_ratings": 4619,
+    "latitude": 44.4449,
+    "longitude": 26.101633
+  },
+  {
+    "restaurant_id": "90",
+    "name": "Mojo",
+    "type": "Bar",
+    "cuisine": "International",
+    "address": "Strada Gabroveni 14, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZko2MI3QHqLvmdUfbzCewmIWqZ7Zr6Y6y7VjQ70n6w7pat8jch0G0d5grzPOUGM73C6mX_dAvmpXEbVlWmpAl6buz9tPie3TyHyZ-WjvJmVvTCPrlwfPCsu7OzttJgn7ImN-fltYwn6rn1HYHiJZjvezz0Lym_Xpn0eZ8xTeMs8yH4s&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmr81zlMnc-Qc1l5ardEQt77GqPkGVmQZk05scL4xPfbtgggnD_QzeOdRopgxZdoGt6ic7olucB5UkSpeLkB-1CM0poYGtf1aOSb00xYL0Oafd_o643Zt2GyQpapGQvvFJcGcxv-3Rxd44xQekxR429NA-TbOOUK5gZuBxFkKI8hWJn&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl2gpKDWeZuQgJ1vpTh0LneyzFVAi5RvLTRjqvCi76LMPvtmkcjn9yUaX8brm0F5t6loeN-M18BI5GVd61p1k6KTQFXXMsn_PZnprtm0YtrQHj0QRy1awyYAqmGMyAgH0N41wfSTCfeQTX9PLPrXMNfTorL5nkw1cKb67H8Y1dKzG-j&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnMBRC04yK4ldmMcv3wXs9exerJmCvogcu7BhmRTHbzoBtJzX4c-9jYmCn2d-TM1srP3q5JOC4UeCByqnoOet_yhXaMaLYWS9ViWk55Z9XPYH8F24mv4ZHm3GRy9J2oIyASfrPuc-mj6kDTWz7qHZGIWjpD71fyNLcu6BxEDYOc_XSy&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmhIAgiG13TYhJnSoPOBLgwLug6FojPv-QQIVwhr6NMxTOHzeQL3a4sYa5DLT_kN1lDHJozVIQdea3KZHqh6jNj0QUe77yx79RK8ApVHbeTbCuyJz162rBxzhKgf6B_ZWv9FuGQwq7nAeeaCWqO-W5paG_bhAc8Zi2-c4hrGzMdWXAo&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk0WI7jD0vBYK084SwAjQfScb6P8xmIdqRgUO77sXS01esJIo085lEnVrPehro5LLvmWFd_iPnyW9UFueNdiOxr7oS2HJ7sLKjo_dhNfMspSLBp9nIlRbiso-NqTXWeEtMwnHffgOCvaoZpFLmC4RE_g0Kem8ClVO9fBvBPclr3mZQF&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A lively pub known for its karaoke nights and vibrant atmosphere.",
+    "working_hours": "Monday-Sunday: 6:00 PM - 4:00 AM",
+    "nr_of_ratings": 2358,
+    "latitude": 44.431202,
+    "longitude": 26.10233
+  },
+  {
+    "restaurant_id": "91",
+    "name": "Beer O'Clock",
+    "type": "Pub",
+    "cuisine": "International",
+    "address": "Strada Gabroveni 16, București",
+    "rating": "4.5",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmcaG-yuDdbRcl10IhDN-8u5Pmac9KfcWFpaQyFZaJdn5jjGRjF8a2cf0E9p-gPQMF-wEx_4plFQ2w83zXnQywdERcbkhLzU4N_jy1GsWpgSKDUXTi_MMImH1iRZe8xdxY4zp5IUtbKDSJ9E68rfY2TJs_U7hFAVrrCeMjwHpS5LC-l&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk5pvPC0uNZGDJsI5NJp-0zxyTzFlf96AmNgKO-eOe0HHGV3SdybH6XvSkOzEkgQJ41MHumUFVSEDfwjYtnHItRCMMb4WK4u3eyJdaa7BZeJXWMLgpgjKfESiMmQkMF4kaE6KQziSgXQQ8jY3TLRPXTZfDGqzMVkr3HNqm2EndUw9Yq&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk2emgVn1So-G8LQzRK8mutW9QX59x-Bw-O3LjtWV9j97r0YfDQF6XSDaxjDeLPmFTPxXKJLETBGOPgoRS8YwkI33RDkh3eJNit95mb_6Nd-Y82uk_qivNdzJ1M-b2KKd-85AoWgYmYHUAin4Jq8kRnnkVsji21moTP-kHo2jkP-_8y&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm2U_uTNYDhSzX5REg7qBxFZbe6UOODPY1TwNRsVnbaBEkzqTDc2mGI8HbDID9ns6nCjChInxIqSi5AT1eazllqKiHlkbMtijo7L_4hOyMKl24n-jO0FV4qUD6ZRq85wsobsKw9lIieXK26iWiJeDAfcQdrPzf9NODD1D9fPTlOQcR1&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmMfJt-veXQz1zNhR0OnUHJ-zMk3t1Vu9UVE1VVZL-GWwO_ocC9Aa-sjoMmj2RRcicAiAMXRgZKT8zCLWFkz2Y3sFUV0as_pZuyQ7MlIotz4OZbJFzkhBIRSs511r6s3wmOMvGLfw8oon04JMQUax3p-_j96LEOSZDDa9F9pw6gMVUW&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnolYmaWNjFx7uTounuU4Na2yEXd48MX2kOw3TWdjTpowPkj2qxK7_YxsoHEG455owQbKwX23Qc1UhnxoncvLXWiGhGbdJ3O7V6BUhFD877pnaPiYndCGmlk_UJ7V2eb3NWURERSXfFeMUxExggQPibJ4eWPPOC4zPFsIyCdPhHDDrD&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A great pub for beer lovers, offering a wide selection of craft beers and snacks.",
+    "working_hours": "Monday-Sunday: 2:00 PM - 2:00 AM",
+    "nr_of_ratings": 1943,
+    "latitude": 44.431442,
+    "longitude": 26.101389
+  },
+  {
+    "restaurant_id": "93",
+    "name": "Green Hours Jazz Cafe",
+    "type": "Pub",
+    "cuisine": "International",
+    "address": "Calea Victoriei 120, București",
+    "rating": "4.2",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkaEIFIAwMco5jVmLY1vs_fXzeibRrVoPXydiG52_BS2dqvuWR1RFBGXer4eAsKTuQrpWd3GF00YE_kDffgZjRbOE5wiG2Zo-4MMnvBCUOYAXh_M1lMREdx1s-QtLf0n6qDIUmqqwpZmIPj4e4ekxlv33UbkCZqCMJHi-3zI5PSBuju&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlujgfpyUJrWm4tDNbU92Ut1M7N4nLojlHSgZ8xHYflC4vCBzaDpaxLh5n1EnRewuabDy0dDixL9XPu5iEuoC47o3aZ8wJnanARZDPepAcOezkKIrW5IxE3XX_aiP7DGpr3ARvx-ArlLm3xEL2xQ2f7lEPna_8O2tMjbXWA7751o4Pg&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmjjOnw1KpuONUqONDQmcsj5dKmevIrhyUHZ7qq6ZSkxx17X80Fu5qLEX2iz_y35CTxWGApGqaRPHYCu5rIyyzxDOlaFA5f4FVy-OcKJsukV6L-hzams5dkIXawYV4cTj6PbQb3A9XauxqsFjFjAa0uT4cEzD5DGvTNtYtTr1SIrn2Q&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnPWqVTyxvXcEYhExc4ER1ng2EGthFS-KqTnqIQ4Vc3LW-FnfRwBigq8Yt8H4jboGFlWN3KhI0-OqMgt3w7dHrAIvSlSyMYBsrsr7LkhWtaHqCPJBmRuac7BcwL0SYFvmYV5ZNejfQqZKzperyfUhy-iI3cGSgKxX_Xbeu0XYChpppJ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnYQB9aLx6ULh-OX0MIpIKcxY_drRkBUtgbFEkbcAEzzoduy9OlrQAWdtW_IMU0Uw7EnZhcLtrlJdUDUmfjmMHmlzx2AHtZ6wS4bZoJRpP5Zfb1MV2Ariz25zo2sXralP3Gmx50QHRUyioBkwbx2bQDBvkUcEAoz_8GDQ1FiuwceS2O&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlVBYO9soz8nAIlp8EmJH_wKFyBCVauT7MTyK4JbtZ3Q_vajZ2FdX19-_UFmwjUlR12kmLZwKawgqmhqRHmPAckFjz2D5sRK0j4srCTdTMwHDTl0YvrSnp2kMvNmvvoVRmZYNKF4LHQs0BN5eILSaJK_FeMp5wl5YrhW7gdyYKplsGY&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A cozy pub offering live jazz music and a wide selection of drinks.",
+    "working_hours": "Monday-Sunday: 4:00 PM - 2:00 AM",
+    "nr_of_ratings": 2643,
+    "latitude": 44.44301,
+    "longitude": 26.093895
+  },
+  {
+    "restaurant_id": "94",
+    "name": "Curtea Berarilor",
+    "type": "Bistro",
+    "cuisine": "International",
+    "address": "Strada Șelari 9-11, București",
+    "rating": "4.3",
+    "price_range": "Medium",
+    "img_src": [
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnEX1_1psXNZEt8DfYmpcgcX6JlFSRM1hxYd4P517bxbFmqh6aAr4i7Lw5vJnS-4ePBVWnJlrjDrM7sJEBQijMl3DCzO9ogpOGNWSJGIFtdswOaLzI-wyg958HdhugePy3RJ4aP0ZM4BPphAOC3g5bdbPVbc7mkWiXpHf373uFAoavR&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmQWG8KFWNce7WLxfhB8Asaqupckz9v3P-oja3UCpyjkyjorCVW7Vad_a98Bf5HDG5-oFLrRH1rhBWNh9Qa9agLfcTD3Tzu_ZXixUnUZWh2nfLCRb2fdg3VjgO3_H9mu7BvG0DCDfkLaUr_PFiB4jyIMhA1s_RUz-jFDvAPYe8zw5kd&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkgvCV6gXXSuaBdAKyUtW0t7VATm6LH1ZpYYlnvtGiAxoP6nnwtsMtF_v0CtZwCwuQsOs1YiQalNTxOTQBQSBgmP-gksYCVi2gsaUlNxXq2LC0e8bWb7zda0Iiu4SeGeiK9pDknaJ6I5pV8x0N-WGpL37kNsrna3RFITTexBdQYNfbr&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZn4DFlovit4s57kcK6nihGQKtjS_MtQJ7DBUKqsfBp97i4IYkAXZiucj9mCRK2J4kddM5FRH4-yQbL99TyZjVE1jYuKmqMRpJjlozM-AkPHdCDEzUxl5z4pypcdy4wIBXr_eDSgZ0M1cKxlNo1nRFA6Zg3uANmE6SNmnlv2XGe0P1tm&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlIjeaA9ayk-3aeLDfgqO5YbcLDQ4MIaXp9wo26bAB4vmfmDd5a0ljanEV6_NXLqU_MH6JDIq_D47XVitECkZ4P3URTp1qU0p0HIVy2IR6i3eGC_4uxO1v4Vw-urGPhyim4My0K4W4un3_kH9EDGCDEENV_GNZ0r0abMBilso1zwfB-&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnoD5AMXgIOZYjJmpgJwfuSAkdM75dmRQK2-NQ0XPmI8L2ZuomUjPi5oIpInipJVMg7KQEAXBuCOQCsqohFBsWxP8bLFrY7XO23mXBUm0FIISqmbMcsnFp6V2OKnm33LPr__C01d1HoTj_q2gL2HAFdaDy2i0o8DG7GsRmqDfhDi2QB&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
+    ],
+    "description": "A popular pub with a great selection of beers and a relaxed atmosphere.",
+    "working_hours": "Monday-Sunday: 12:00 PM - 2:00 AM",
+    "nr_of_ratings": 4758,
+    "latitude": 44.430553,
+    "longitude": 26.100733
+  }
 ]
-
-
