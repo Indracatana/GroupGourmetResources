@@ -220,28 +220,6 @@
     "longitude": 26.101633
   },
   {
-    "restaurant_id": "ChIJQ5-O-kj_sUARSR2ZNRncG_c",
-    "name": "Lente",
-    "type": "Bistro",
-    "cuisine": "International",
-    "address": "Strada General Praporgescu 31, București",
-    "rating": "4.4",
-    "price_range": "Medium",
-    "img_src": [
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkVAe1cnvdKt_nyONgzejRLo0wBzjcsEhqpSbYmtZ6h_QzJ2VeZx6UzpRUl3MqRSqys_D6XIVTdbCu_gJzctBbB0lzhJcSsuqnBpdcr5Z990BFQQ2xgZuf-O2c-L9qSubmQRokfT2PkealOh3BNgAvC0g2sks--HrOrIXUycaY1hgIk&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmgYdFCgnnEvrfxg_9MLMwZ0V6FrCEiziUUumxmE0bFN3DDLe9VyzoJPqYSnZTS3-6E6Af608ejlRK_xceWRfRFXDuk6vwGHFUI_ibI_iexOoiJKiNobSA938Jr4nEYFxBZu9Tzbc3plZTrtiHrYqFtGgHb5-IBh-5Eth0a87sqpQ8j&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnySubQppruRwo_e-2W_dIqjNl6SKUGlC54Yjv9LuH7ijVbhmhrvb_oOezUEnvTIbGj4m7F7dcKmxGuGa1QIUfMt79wPmAIKbK-S14X9djJB1Tp_CLFBgLHFq6MTR_KyK8m63Bx-B9OG8lIQitvmKqAPP3YXzkq13D3sda_wc2yAj6B&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmfINdlQ1r3MzI1UgOG0kORouIF0kpErOavraakQ5eKk9X6_Fyui1aFxiNSmQ-uDksajISF1R_mDCVELzvfeV_Gcd6Y7I2DHME6StFxWWGT6kRprJugDagLIMr1Nuknjt0DP7nBxrr-71xAIjpko-V9X5RVHXMD-C_DYjDFfkUTJaME&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZn6Ol8HGKuuk4kOfXjaaXDmB36zSgvGFbD-njzIAeqb8ZxLpdmnS0mn0xV_DY-NPrKV5iRfNwu8zTHp215yjGEPJd9zJkkVGYg3x9Q7y0RdbdMhPGyPjMQ4tdZ4LhFt8GYgJqO4nItiJQZUC_vwnIre3oaNd-sPZFTdsv6APiSnykxs&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm1KgX_kFEV9cP4TIRZmh_3CWTZIXyC_wBc1sMIUQsUDnfqS4V0j0Rz29kfaOHRlZB2WJKmsQYouItrzkPINUVIiM3PnCftsoM2ahOzaP6Y-hk5n0WO4RAstMqraa68N8oL5k2Tm47_5TjFtxyttaAi1DGJ2NqHEZ99tmC8fY8ta0aw&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
-    ],
-    "description": "A cozy bistro with a garden, perfect for enjoying a variety of international dishes in a relaxed setting.",
-    "working_hours": "Monday-Sunday: 10:00 AM - 11:00 PM",
-    "nr_of_ratings": 178,
-    "latitude": 44.440983,
-    "longitude": 26.103712
-  },
-  {
     "restaurant_id": "ChIJQy94OSn_sUAR0SFsT5W8yac",
     "name": "Modelier",
     "type": "Bistro",
@@ -438,28 +416,6 @@
     "nr_of_ratings": 4323,
     "latitude": 44.433212,
     "longitude": 26.095345
-  },
-  {
-    "restaurant_id": "ChIJ98XtUypTskARPnxjnRcAeHw",
-    "name": "Bean & Dots",
-    "type": "Brunch",
-    "cuisine": "Brunch",
-    "address": "Strada Horei 34, București",
-    "rating": "5",
-    "price_range": "Medium",
-    "img_src": [
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkqhvNLT_IH-Ykv9Xd04rp9zrD1n_HH1PYr0XRORBFPQGcSaT3qIKf4J3EsKKRDSik5HqXjS-fNdUkTcpeBdXuAgMxIX6E7M6G62C3d4hB9S-lD00mvRqBMi9-GMbMfVz9NVEUOoLGLcD4Kk-oBNlo_vYaFYciqKuoRk0qPq38V_fru&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnpuY3E4Jr3sZKjjpfqau7nEOWod9hjJPOlwd3IzaDt09GZ8JbBH3pXxFtL67Wx5T9HipYxl10FQAbxDHT22tV9NFpdUmZxs5Tp5POQJQJKjql93mlOBylyX9DMWQqjcGNOUs3TZsxeqjZs9IYi0HyPoa6RbmFhVR8zbWmNOh1uvkhN&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlP_3G3taSIBp05ArNXM5pp1IbwBL64Kx-OxvVuEQsxb4GMKIZ9OkIIYgssdpikBKlx8zpS5JEpAzvY37Vld944iPVnoQwSAv9_Zg0bYGXDopDfZ3fayswvwDIHGuIJU0BiXa66cTX1IbvnLh7aTHiZvS7m3AWoYv5Q85irYh_1_cRa&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm_QU4JopN8Z0bj_fcINtX8PymXqUIDAPr6Pscr3qafJ8T_lFph3gxxS42pKrVTa6Qrt2-AnedtZijMXGuRMZo-Towl-7mU9ptl_wOLci3tzD_tIjuwS3UqaaW8jCUIHW-yQtuJFY-AF6fGgdTJ1TdjCT9l-wpj7-bRsekERpwPiNfy&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmmcGD7yzVTrP9aPV2cCgh_jkFrswBBA0VrWDDPrxnF3MKKHz1D9bIZBdH8ezx1bQEJegKzl62HogOCzgCLpf0I-doFE1P-r2q8zQ_zo4L912ypSFD7utc1I1NzlIK9VoqAxiQXxNWWWf_TOzsgNEXawThw0Zzz3A0HO2PWQvRg7rzg&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZly9CABJVziDX-FyZR7mawlFcsuSPx5XA-ztF41TTuCNig5Oi17qK1sG4BbANwKke2rrMsvpHbn18tx1E4TqHBR8ZI3xwv09jz2QVTumQNuGpdioJ7bDK5avbtve1Uvg0A76WdQRl46KySFuotWP2_namSrij5_pP1hxOaMptNobBtA&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
-    ],
-    "description": "A hip coffee shop offering a variety of specialty coffees and a great place to work or relax.",
-    "working_hours": "Monday-Sunday: 9:00 AM - 9:00 PM",
-    "nr_of_ratings": 9,
-    "latitude": 45.03438,
-    "longitude": 25.8784
   },
   {
     "restaurant_id": "ChIJVX7ZJXX_sUAROLkZGmqT3RE",
