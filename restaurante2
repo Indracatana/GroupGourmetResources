@@ -255,57 +255,6 @@
         "longitude": 26.105
     },
     {
-        "restaurant_id": "6",
-        "name": "Restaurant Hanu' lui Manuc",
-        "type": "Restaurant",
-        "cuisine": "Romanian",
-        "address": "Strada Franceză 62, București",
-        "rating": "N/A",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZn2IM79kj_-vi9p6jSw3CHNXS_ZM2WgzMlWrKQIjKkwF5uHLh0McEgr1Xcw43aJIRK4EijHDP1ORXO5_1TiFdeIDD2vaaNosCnRQvnfnDCZp4qSxJ7PO7jNqCMibIMiivJBJaoptkIRoy-sHYxy_a0ZP-8pZ-5MkeSs0aCNlO1iKB8t&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZk5IqdVuUBOnAd7hq95QoWDRfEW5As1EJ96X912NK7kmczAlX5Cl3CR04zgMQq1aZa-u6GiMCOZ92lXWIZWitiWe0iht37Ploqemi_-_WEkHoq2ogthUm2opGxKMdSwy72fbJpb46Bgqsqcd0nVLszuOdedyS3TQmoRyjUxJT3iXwtW&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnwiPcqHbzMTY31lde2xvwLhieTMc63rXM7cw9GXCAgHXLC_42DQK6bYY5G0yaf5SuG56IbK64vH4TpqDiFdrXf0z559Z9RY5E4IdTBSZuaiwLdq-KED2CUptXTt5u4WOBPKw6qB0joIS8sFtZ6OhZkLna2mghDjR1x9c8LEbD3DCvJ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnRZ4ZtL7RCwHXazUf9TtJtFA2KW1N4r-r1Zq5o8UnQ-e84-Ym_wEzp5iZn9RyKxdUmVOyKOm9lKf4cBYwdIajcq2EHqcVf5xBGA2DqIpXvzrz8VH97_TfuVruYOy9TDOjh_RCOT3vefAdlIRlAIEXqUwMLvDM9jYebs5UDUtzjZyvw&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmg2z-KwQXzy3f1e5-LE2ISzy9xeA8z9t88O1TdQc7Ufwe4bwl2DU5449eQ_T8ZFV2TVozauvIEyXEhp507zxvOBpKe7z9eSLjgZQ5j9OYDr1o1S9dlBh2yxxfcpbvmW5bCejeGNmw7Q0O3RtdtsoWeBaB1-yU_ZLJjUp4TNi2fgmVl&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm5vg0JyDiHGAcb4hNwEW_KU-CpO9ABkMEmWklM_PbFS4beEAKvrqLBW8DFL3Lm3EyI0dFA5VVGQzxTOjW86Pt7urx9xy0RvcHdUHO7ub4VDoU6YzzHBJdso_WyJW2NBpkCTIFeCN_luzpPtIIdAe7MaK591UIECc4DJh4XA_YamHsj&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
-        ],
-        "description": "Experience traditional Romanian cuisine in a historic setting. A popular spot for both locals and tourists.",
-        "working_hours": {
-            "Mon": {
-                "open": "11:00 AM",
-                "close": "11:00 PM"
-            },
-            "Tue": {
-                "open": "11:00 AM",
-                "close": "11:00 PM"
-            },
-            "Wed": {
-                "open": "11:00 AM",
-                "close": "11:00 PM"
-            },
-            "Thu": {
-                "open": "11:00 AM",
-                "close": "11:00 PM"
-            },
-            "Fri": {
-                "open": "11:00 AM",
-                "close": "11:00 PM"
-            },
-            "Sat": {
-                "open": "11:00 AM",
-                "close": "11:00 PM"
-            },
-            "Sun": {
-                "open": "11:00 AM",
-                "close": "11:00 PM"
-            }
-        },
-        "nr_of_ratings": 0,
-        "latitude": 44.429592,
-        "longitude": 26.101906
-    },
-    {
         "restaurant_id": "7",
         "name": "Alt Shift",
         "type": "Restaurant",
