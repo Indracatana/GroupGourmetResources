@@ -274,31 +274,31 @@
         "working_hours": {
             "Mon": {
                 "open": "12:00 PM",
-                "close": "1:00 AM"
+                "close": "11:00 PM"
             },
             "Tue": {
                 "open": "12:00 PM",
-                "close": "1:00 AM"
+                "close": "11:00 PM"
             },
             "Wed": {
                 "open": "12:00 PM",
-                "close": "1:00 AM"
+                "close": "11:00 PM"
             },
             "Thu": {
                 "open": "12:00 PM",
-                "close": "1:00 AM"
+                "close": "11:00 PM"
             },
             "Fri": {
                 "open": "12:00 PM",
-                "close": "1:00 AM"
+                "close": "11:00 PM"
             },
             "Sat": {
                 "open": "12:00 PM",
-                "close": "1:00 AM"
+                "close": "11:00 PM"
             },
             "Sun": {
                 "open": "12:00 PM",
-                "close": "1:00 AM"
+                "close": "11:00 PM"
             }
         },
         "nr_of_ratings": 3804,
