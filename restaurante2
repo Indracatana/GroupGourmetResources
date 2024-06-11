@@ -51,57 +51,6 @@
         "longitude": 26.098122
     },
     {
-        "restaurant_id": "2",
-        "name": "Simbio",
-        "type": "Restaurant",
-        "cuisine": "International",
-        "address": "Strada Negustori 26, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmlICoVvesGAMGJjgsJ6R5oaninlzEqbjltEXLMSGQ54aoLDDvmU0cRCmJFQKnipWOFGeK_iAgKkG7Lyu9xKsJa4t1nAw3JeI7OgaH0pNgiDnDmeQOXevFHkaRw6yzbFSgw08_U3Z6ON7-dPgcpGZ3eRNP5Wpt4dNKPt2N2P47rjd-0&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZl1APbaER_WF0NFxiljLdqEgIslgalq2ADzXGBb5d26y5ydpqSlA4q0AyrV-plu6JB_yI-qUSS1FrrMr7vnJa6sNRvdB006hZukwEGHk02R86xUnJcF5mYJRwgioYmCCxmBPryfG73meS5Dg-mpn2qGLLwa3HbEAgAjfnDc_DdCqn8w&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZktHIDtKZxGcK3_FRNKR2d-RReHmSp3mPSncyxuPdAcuWuSyLbaYFUzcf4OpnTePu_O3knZgDw75GEHP1mbYntqGWm_LsYWBmyePHctfKM_TKewwpzHBYSKHHxJqsYwOkMMguPucfG_-V4TYHeDcd-3V6czTwAZSphGHlMh6txIFeVJ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZkpPnE96ONlr5Jt60z0TbagvvhIUO2bpuRPQrUBCZj2M4g2NB5uGUUgR-QUurfnWujGMg4q0MGp2Wq7Rqac5ccCDVgY1ckjvNeby5PCYdLjAgs4SH9RdBXClNmaiDObgqsLM3Psay_5zA5fYNpgcdpj7SZ5RcFMhpb6N5V3KbhAzo7N&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZm-wCva9COE7H3JD_BkhuyUNo_7y_PHB_W-dNcqC-P8vR3VHE8UIMLjhO4arpN90h7RXvN22JQToE57KgX7wlsNa4ohmTKP73Q5SjPF2r6L8LwGcd5Db6BWr7L6hBTBc3CyQpVT2wjsPM3Ub9APP6t4lNhl9h2plsOe1fNheqY0BdG3&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlVqIgS9NJb8xIxCEF0A2GM08cbFWpJKv5JAl0napDh7eJNcGYuoRHc1S9Muk-m0u5baDKULQJex8AlrjDMDbPPlbi0_UY_EjaHNy7nKoobOjYTKEEd7hHsLZhnQt2BELFMNJa3IiEoV1rocJnL1T9ubaXOteO1JU8KNxUqxXs_FQys&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
-        ],
-        "description": "A cozy spot with a garden, offering a varied menu with international dishes. Perfect for a relaxed meal.",
-        "working_hours": {
-            "Mon": {
-                "open": "9:00 AM",
-                "close": "10:00 PM"
-            },
-            "Tue": {
-                "open": "9:00 AM",
-                "close": "10:00 PM"
-            },
-            "Wed": {
-                "open": "9:00 AM",
-                "close": "10:00 PM"
-            },
-            "Thu": {
-                "open": "9:00 AM",
-                "close": "10:00 PM"
-            },
-            "Fri": {
-                "open": "9:00 AM",
-                "close": "10:00 PM"
-            },
-            "Sat": {
-                "open": "9:00 AM",
-                "close": "10:00 PM"
-            },
-            "Sun": {
-                "open": "9:00 AM",
-                "close": "10:00 PM"
-            }
-        },
-        "nr_of_ratings": 4171,
-        "latitude": 44.43504,
-        "longitude": 26.111954
-    },
-    {
         "restaurant_id": "3",
         "name": "Energiea",
         "type": "Bistro",
