@@ -1,4 +1,4 @@
-[
+    [
     {
         "restaurant_id": "1",
         "name": "Caru' cu Bere",
@@ -9,8 +9,8 @@
         "price_range": "High",
         "img_src": [
             "https://lh3.googleusercontent.com/p/AF1QipORbhYwwFGV5odIjHRzc18WjTfZZGMRqHDn_jJX=s1360-w1360-h1020",
-            "https://fonts.gstatic.com/s/i/productlogos/googleg/v6/24px.svg",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnaWkwMeH7-otOfKiKRTM4DTwv0gIA3eUalSrJBlmt0cR6_FEBqaLKJ4N8ITL3DwWq1R2tEqdDfxWmqjh5HsnLmE9dmW7fS59VV8ahavh-wxTHxnYub2mDeLmOt1yndSs2KKD0iDyDL532UaLzzGj-qq_HDynk-iOfCddzbS0ts-_Y9&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
+            "https://lh3.googleusercontent.com/p/AF1QipM1dkDt55xnmeMqcRGOAE3p0v41uguy9rca0mwl=s1360-w1360-h1020",       
+            "https://lh3.googleusercontent.com/p/AF1QipN41FzEpu6ahn5GMpuNsqn7RyB4kqzzaP3QhJOx=s1360-w1360-h1020",
             "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZn9enJWxxyowMpL6pWxdW2kRBUTHyqP_q64_13mvhTTM-QIrBSYqaGDCpFM5Talc_waP4bcnlXVIqbkht0iCQiHsVF_RRfSTQ9YLUOYNhvvSs4vuUwSdd-Vzpn-ncUU66hi_snM-sSvwHFPo7U9JRhBr22g8iafB3RmLq6aPjBktkQ&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
             "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlRU4xrzQvkQxhUnftz4jIfLx-4X7jaBG0Rx1qoXehLZ-YsMaqfdlNFxPbQRW2dj3KrebxtlUfyBV332E3PKFqcFSNJDiRDBO2hug4LGwk-L3n1ckHQIeSL8mX_BQdR2JyWNPgoMPcGhIx0wkUdyDzEoBSYBG6rUvwf4WRMS2SYF5ua&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8",
             "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmpKhVJpvIDtyGmzdoLYbTzvWY_YIFj85oDHkie9gVpjsc6jjn_OfYCUmJ6_fdPQFIvwA6t9kQRr9DYHw7gbyuz-Fm5i4nIwDFeocvqH4VG3kqzi7Wopy0pEunqUt4lNzGt2Uw3pZhP4x54zTxP_Namg_bclldwiyBIfjGpsOwu4UBR&key=AIzaSyA5iEerh4oWn9VZ9GmXGQnrl1cPyBB1sH8"
