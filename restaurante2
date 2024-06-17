@@ -411,7 +411,7 @@
         "restaurant_id": "11",
         "name": "Modelier",
         "type": "Bistro",
-        "cuisine": "International",
+        "cuisine": "French",
         "address": "Strada Duzilor 12, București",
         "rating": "4.7",
         "price_range": "Medium",
