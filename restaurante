@@ -7,7 +7,11 @@
         "address": "Strada Stavropoleos 5, București",
         "rating": "4.4",
         "price_range": "High",
-        "img_src": [],
+        "img_src": [
+             "https://lh3.googleusercontent.com/p/AF1QipORbhYwwFGV5odIjHRzc18WjTfZZGMRqHDn_jJX=s1360-w1360-h1020",
+            "https://lh3.googleusercontent.com/p/AF1QipM1dkDt55xnmeMqcRGOAE3p0v41uguy9rca0mwl=s1360-w1360-h1020",       
+            "https://lh3.googleusercontent.com/p/AF1QipN41FzEpu6ahn5GMpuNsqn7RyB4kqzzaP3QhJOx=s1360-w1360-h1020"
+        ],
         "description": "A historic beerhouse serving traditional Romanian cuisine and a variety of beers. A must-visit landmark in Bucharest.",
         "working_hours": {
             "Mon": {
