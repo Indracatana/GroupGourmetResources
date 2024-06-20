@@ -336,54 +336,6 @@
         "longitude": 26.10289
     },
     {
-        "restaurant_id": "10",
-        "name": "Shift Pub",
-        "type": "Pub",
-        "cuisine": "International",
-        "address": "Strada General Eremia Grigorescu 17, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmn1jJsVlIHCsE6ebzqGMmQKhorLpnHdkdV9C0y9vbM_37Dd3KZGDVWMf33hke3Lp5pZwUgoJ_iebLVYikW2umkpxisAh6Tq_pIdim4xp3zASUTKbL098M1h1L-DzjqCLb_2_o3vjD_YMess3nkrwF0oDsBZkEJ0Qv4Mev1T4X0NCcJ&key=AIzaSyBTnda-EYvRkTskY_fmaxDeGBBBj9FCTMM",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZnSTlD5KGrYOYzNAn1Hg30bQJcKEhxX0dnRSEHWUW6141sNT8Dk2Aqk647hyC9ApSoV2s9MxUrxSRdd8NkmzOk_kY02NRRSSX9DYDCAfTfHB8RS11hLUe_XKKYkIHGgSAcOSSgMXQlzzCM58bIUGT3Q_Nlh5z-bUMvFLvxdQ7sp4123&key=AIzaSyBTnda-EYvRkTskY_fmaxDeGBBBj9FCTMM",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmVg8h1UaraOEdW-8tXK3GwqZMpAH6ybAxQ9DHV_xtj_Wr5Hi2y3a0xr0ILis4sx3VbeW-Dz83x9A5e39HsR_coRyZwpZbXIcCPrSZBYLSxnRWPNlKWY3_VYI0qndL7ZW9iI1VenmivqKfZBAqLwNhKraKkWRR15LfF4vpepkahxcHf&key=AIzaSyBTnda-EYvRkTskY_fmaxDeGBBBj9FCTMM"
-        ],
-        "description": "A trendy bistro with a relaxed atmosphere, offering a variety of international dishes and cocktails.",
-        "working_hours": {
-            "Mon": {
-                "open": "11:00 AM",
-                "close": "12:00 AM"
-            },
-            "Tue": {
-                "open": "11:00 AM",
-                "close": "12:00 AM"
-            },
-            "Wed": {
-                "open": "11:00 AM",
-                "close": "12:00 AM"
-            },
-            "Thu": {
-                "open": "11:00 AM",
-                "close": "12:00 AM"
-            },
-            "Fri": {
-                "open": "11:00 AM",
-                "close": "12:00 AM"
-            },
-            "Sat": {
-                "open": "11:00 AM",
-                "close": "12:00 AM"
-            },
-            "Sun": {
-                "open": "11:00 AM",
-                "close": "12:00 AM"
-            }
-        },
-        "nr_of_ratings": 4619,
-        "latitude": 44.4449,
-        "longitude": 26.101633
-    },
-    {
         "restaurant_id": "11",
         "name": "Modelier",
         "type": "Bistro",
