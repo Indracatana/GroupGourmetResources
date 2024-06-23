@@ -1248,54 +1248,6 @@
         "longitude": 26.09671
     },
     {
-        "restaurant_id": "30",
-        "name": "Simbio",
-        "type": "Brunch",
-        "cuisine": "International",
-        "address": "Strada Negustori 26, București",
-        "rating": "4.5",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmWTEv2Ww2uV4LxuG5nfEvhvpDbeRDshIguR3qdDHOBSEhdEwLeeUTHSVuqb-qCGq-RO0zP5Og32Jk9zUyvZsd_IKB1586bvK_DzpSV1BaE4vI99XCKef3n7_WNu0taXq8aopGJ4tBTmfMkacUzGYDCQ_A1e9Yy-LUxYyvYhczLXKU4&key=AIzaSyBTnda-EYvRkTskY_fmaxDeGBBBj9FCTMM",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmeON5JwdmTikeIkUwoPZQg1oXyDpPqOeSduWwmkcUw1gQhfwECfCSUavl2NB8QPtzZEZkKzyHzgxtK_xgUK--Q09M60MoJaU4WQ-ekU8Qbinx6GaoKKTaiI-e2qT-AXaLRCNotUd1IB57rsFbRl9ithACzSiXMmHj0UL7VTXqHLYf4&key=AIzaSyBTnda-EYvRkTskY_fmaxDeGBBBj9FCTMM",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlzmrrIYv6QjZNKa3IuSD_2VAwbnwzcf1E7AR_wUfJAh-3xVRMToqODw4tzG0tHwaVeCvYUR6iZspN8yWiQ1J8_BxEhpCfiB7dwSVUXW32fXDksz7noua-xqNUnj_aOxfF7Du24rCaod8HrKK_hHZO7EhdVle2SuDwD0mhtqq5Xf0XE&key=AIzaSyBTnda-EYvRkTskY_fmaxDeGBBBj9FCTMM"
-        ],
-        "description": "A trendy brunch spot with a beautiful garden, offering a diverse menu and excellent coffee.",
-        "working_hours": {
-            "Mon": {
-                "open": "8:00 AM",
-                "close": "4:00 PM"
-            },
-            "Tue": {
-                "open": "8:00 AM",
-                "close": "4:00 PM"
-            },
-            "Wed": {
-                "open": "8:00 AM",
-                "close": "4:00 PM"
-            },
-            "Thu": {
-                "open": "8:00 AM",
-                "close": "4:00 PM"
-            },
-            "Fri": {
-                "open": "8:00 AM",
-                "close": "4:00 PM"
-            },
-            "Sat": {
-                "open": "8:00 AM",
-                "close": "4:00 PM"
-            },
-            "Sun": {
-                "open": "8:00 AM",
-                "close": "4:00 PM"
-            }
-        },
-        "nr_of_ratings": 4171,
-        "latitude": 44.43504,
-        "longitude": 26.111954
-    },
-    {
         "restaurant_id": "31",
         "name": "Arome",
         "type": "Brunch",
