@@ -1536,54 +1536,6 @@
         "longitude": 26.121458
     },
     {
-        "restaurant_id": "37",
-        "name": "Taqueria El Torito",
-        "type": "Restaurant",
-        "cuisine": "Mexican",
-        "address": "Calea Floreasca 246B, București",
-        "rating": "4.5",
-        "price_range": "High",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZmZuYNuqYmk_juT6bEKnsuKDtq5gTfZPU0rYuKvV8XEvJJRgekzunmBHz2E_rdBboRW8rx9zOAHUZGi-hUB8_qpSJQqcdUW78kVhnLQ2Xe9BOrEd6L8i99EE5cQZgwTYMVYPYIsl8ti76Dv3WqsvUYHis1znw3ts1rSCfcb9C5FhN9E&key=AIzaSyBTnda-EYvRkTskY_fmaxDeGBBBj9FCTMM",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlG4ydyKrxmCe0VfGpspjkVuTxoRMGz__cQF2LLuKPRdqCTh4gOMrR8Jv8-cdegFcREnersPNtUWKX7OsbNClIFIZwb0e1CKSiUcXxAGuHJgn44qbNkLdFLunewPDkNTTXgYah0eEBvcBG3jwYZ0IVu5uxmGFpOmlnOJBn1OCm1Cn6O&key=AIzaSyBTnda-EYvRkTskY_fmaxDeGBBBj9FCTMM",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUGGfZlGHPS_cr333YFCHBjqYFA24vqr6Cttrl3zOLKO912iA2Lx_k9RwsnLGp5c2d4qnRhhbp8fd9Jrpq-_EFW9r9yR9CtBdNk-rCxZef-ez2l8VqapXSD_7QHLwzQCEc8hujol5G0hs5LDEd2sORZq4Jtf5Hvx52pMOlTooxiS_ft3JXYs&key=AIzaSyBTnda-EYvRkTskY_fmaxDeGBBBj9FCTMM"
-        ],
-        "description": "Experience authentic Mexican flavors with our range of tacos, burritos, and more.",
-        "working_hours": {
-            "Mon": {
-                "open": "1:00 PM",
-                "close": "11:00 PM"
-            },
-            "Tue": {
-                "open": "1:00 PM",
-                "close": "11:00 PM"
-            },
-            "Wed": {
-                "open": "1:00 PM",
-                "close": "11:00 PM"
-            },
-            "Thu": {
-                "open": "1:00 PM",
-                "close": "11:00 PM"
-            },
-            "Fri": {
-                "open": "1:00 PM",
-                "close": "11:00 PM"
-            },
-            "Sat": {
-                "open": "1:00 PM",
-                "close": "11:00 PM"
-            },
-            "Sun": {
-                "open": "1:00 PM",
-                "close": "11:00 PM"
-            }
-        },
-        "nr_of_ratings": 4237,
-        "latitude": 44.42842,
-        "longitude": 26.094606
-    },
-    {
         "restaurant_id": "38",
         "name": "Divan",
         "type": "Restaurant",
