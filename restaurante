@@ -1200,54 +1200,6 @@
         "longitude": 26.095097
     },
     {
-        "restaurant_id": "29",
-        "name": "M60",
-        "type": "Brunch",
-        "cuisine": "International",
-        "address": "Strada D. I. Mendeleev 2, București",
-        "rating": "4.4",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=Ab43m-ui8dsW5HTi0NOEaXYLYAXcMIQI6bDZuTti7kScBV4sq1VIDqcxP7Y5Db6ZD-CgpAevQ7IdB1iY1z-xJ14-Huz-ZkZD0hwBJT-emWbaBAPjJRXKrmt9GacMGLaWqvb0jbw5jgSd2PzDluJIqwVL--IMl_7Sy2WJ5zObd5pZXbU8GlAH6Gd1GhaaB7tVWv2SzYjUqfuO5hLseeK42EH6-qv2lirrGC-DlYG4ZmZCcOzt5sE4KilJBHVdXNRONAD70_BmY_2iRjTBPY69CVqu3NpvqA5GZo0Zu4TUHGMyE4TT_wY2eXFdsBcpHwhsZCJ98MQFI7e9KHj4gpMCya8vbTr-zAGDPbOVKtRf2Ur8hlJbKtkuMCnMb4XOhndqg4YctN2ngcqQIzos2fnT6aynmO-QzQswdtk8GhUhAlM6ezI0UdHur-6QQR34reF05p74&key=AIzaSyD3ujTGKn8FJ0cd_ckpAG4jcfKk8sdZ4bs",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=Ab43m-vdFiltkjDCOaq8wR8xZNSujJQ7QrkGzC05vRa9dU8R9HllO-FqSikiubwauxspcLbS5mZxd2_rYblKr6wX5TXoUk4zK3qW_nZ0wPZSBDjf7mjzntZg0H5cz5tyS_ovjTarOKwqjd8dB-UR7LTvHoYUlex78MfG1Ox59SXwyxdOgWfyykZN42BWy3JDpK-kys4dZ1LYpYG8RedQmr61g4vL6DUCzG9llAjzC8eadpzyTqk66OSr5nYUCq7Qd_DTSwbO0NUdKWA3B9x7F8BiK-zDSltsNQnqVtcIpxJj8px2oVcS97HYXm1m68kgSGg1XO_w9-8G1ZDkU5uVV8hlwVIYklIxu8SLmE2-ZtHLxCOS0Ab4aS0wJOX_xfeQXfDLBjW0VusoWbzojsirJEoCu9Gy6gymE8fzEEu3TUIeSLbfiMQ0&key=AIzaSyD3ujTGKn8FJ0cd_ckpAG4jcfKk8sdZ4bs",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=Ab43m-sWdOkuSULU9qfRSwbDGlmxVb708r2xUZ3VK9RdIWnmMao-qcBGYhgFolZTBkgO2MxlMlb5A9VJa27ogiJDGuRHHcWcw6ZUzSrWgBS5KTGsxKqyVNbOUlHtzgv-k7zcwHH3QUA8FzxHOXTk8Q_bpPAcAPl7LBNDAR8lH3_erEMZbw_pNdyrAXGnDqvWUrZGzJGmbDHxa5DB266f0BFbEVjMD85ql7i-gugOAJqqscomC8zEJdChcKLeRsMfuGhj26u7jw_9b1unSfkBElOCMYaKRvVd29W0qOGI1JNx1zMFwh2p_BI49vSn3VzPU3Vh46lDtaxGlc3Ct7YL3j1pLHcDjEx-MEEG1edFiqWvVjhOZmXYzrSokA7VZ4ZjGYkD1nZrPMWhwRKSkOUYBc6QAcmSaZm2PdyjHcH0k48Ax8cp6CkMyROiUnWFJ-j7XArd&key=AIzaSyD3ujTGKn8FJ0cd_ckpAG4jcfKk8sdZ4bs"
-        ],
-        "description": "A modern brunch café offering a variety of gourmet dishes and specialty coffee.",
-        "working_hours": {
-            "Mon": {
-                "open": "9:00 AM",
-                "close": "6:00 PM"
-            },
-            "Tue": {
-                "open": "9:00 AM",
-                "close": "6:00 PM"
-            },
-            "Wed": {
-                "open": "9:00 AM",
-                "close": "6:00 PM"
-            },
-            "Thu": {
-                "open": "9:00 AM",
-                "close": "6:00 PM"
-            },
-            "Fri": {
-                "open": "9:00 AM",
-                "close": "6:00 PM"
-            },
-            "Sat": {
-                "open": "9:00 AM",
-                "close": "6:00 PM"
-            },
-            "Sun": {
-                "open": "9:00 AM",
-                "close": "6:00 PM"
-            }
-        },
-        "nr_of_ratings": 2094,
-        "latitude": 44.443172,
-        "longitude": 26.09671
-    },
-    {
         "restaurant_id": "31",
         "name": "Arome",
         "type": "Brunch",
@@ -1918,54 +1870,6 @@
         "nr_of_ratings": 4957,
         "latitude": 44.425632,
         "longitude": 26.103062
-    },
-    {
-        "restaurant_id": "46",
-        "name": "O'Hara's Irish Pub",
-        "type": "Pub",
-        "cuisine": "International",
-        "address": "Strada Lipscani 34, București",
-        "rating": "4.3",
-        "price_range": "Medium",
-        "img_src": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=Ab43m-s5MSnZegkrXjX1Wmx2YHkeOX7Wf0lGkHbbvtOkscMYyZrsGyCON4ccWGeDMczvF2mbsGz9nJvtVO3SEKQGOkODitJyzCqlAHGOQTXpgaBXH0Gs4OYM5lfvDR389680KsLnWWQUkjWA1X9A_AHimU28jO0OARxg3EyItKDG9gS2diteXpDhNrhhqe5qba6d6-quGElqaWsENTt8gfOPRNu0vWQXJprsF-h7HIqUc_E4vxwnlIHNhbJD-gfeFJRJzNSV_1PcBDB59eg3LAcA5ycMNtjyN2iiU9Y49YpMJmLSf-TLG2oUyia2A8XG3mVjLALIhtci-4wAzX80B-HQM2_i-hJofvaca8gb_vr7J8PnTQUw-5FwXA1xVYmCw_ptplLTiWlO30Hz2XchLt0dXFvE3rv7rANEs2tUYwBfz1foEA&key=AIzaSyD3ujTGKn8FJ0cd_ckpAG4jcfKk8sdZ4bs",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=Ab43m-stE3w1sG2MiYkKn3d6Zq3MEg0ZEw_qWSFS4IpKsWTF8CpmbRgwquWl4u8m5XN0AovkmcpLeQwrIwgUZgSr3qx3WUKPGDnsdr7tgmFd0YdaT1WQeD88hnagmybzQsEOQWrl-o-fPRKgJqI2oo3flnU3lCh6sz6i4G9-1KezZ_FzgtX-XkHrFCyLjmqCWo1bD2U7FlHtuNIXRm57Fl9n8Q1J-TvjZzI_aArYTfR5LAQXJ-0qFtbWoiHtdexsMmT-VqSDJqLdT55cZGY7s2rfD0pDHvr12UtiieDn7rhJFVVipVvcGot1Mhzy3aPcJE4KnTlKKV7t-bNPcT4wL498DJJb43WbhJd8VdegD3cNl7mDMtdGLHWkpZ9VM7v9EfdSQja2LbDeFOj2uR_XfnNbV-qLw16tNEiVkx-aP0yGL7yXkLOxbHUWKuCA-wsVe6bk&key=AIzaSyD3ujTGKn8FJ0cd_ckpAG4jcfKk8sdZ4bs",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=Ab43m-tqHgwD1CeUll92fX7xcxefkL-Hu54bcKshuex-9J96LDkQjY1rrNQZgh5GQAQOu3omtt46toslx6FqEsgquUE19FcK2dAhut0vbebNDkFX4z9JrCkLKvDTCjK5pnEQgVFtBiblc18Lr5yqTvWRBo1CZleUFzoI0fDW5I6UjSsnGmfzLuRMVHCIosRB06l-csU6mxu-GaNdhbzxjAe9CaPc2k9uTlsJT9qSsQA2F2DSy1QL2iWsCsdI8dR-RGXWSQpF5PrE5mOd8zi98glh6SOwkc9q62yq8QLBWx_ylqAl9eHxlLmS0W0z21uBa6vHqQ0wG88-uUFDyddpALS6P9h4eCbDMrXoVZrP2_zH5z_RLINXwfgponJi_wqfOR7ZuvSzwkmJJnnJGuq30YPSxr0VnK_W_F0TmCIG5KDV72kwvkLXEr5-7vJs-HktkA&key=AIzaSyD3ujTGKn8FJ0cd_ckpAG4jcfKk8sdZ4bs"
-        ],
-        "description": "A popular pub with a great selection of beers and a friendly atmosphere.",
-        "working_hours": {
-            "Mon": {
-                "open": "12:00 PM",
-                "close": "2:00 AM"
-            },
-            "Tue": {
-                "open": "12:00 PM",
-                "close": "2:00 AM"
-            },
-            "Wed": {
-                "open": "12:00 PM",
-                "close": "2:00 AM"
-            },
-            "Thu": {
-                "open": "12:00 PM",
-                "close": "2:00 AM"
-            },
-            "Fri": {
-                "open": "12:00 PM",
-                "close": "2:00 AM"
-            },
-            "Sat": {
-                "open": "12:00 PM",
-                "close": "2:00 AM"
-            },
-            "Sun": {
-                "open": "12:00 PM",
-                "close": "2:00 AM"
-            }
-        },
-        "nr_of_ratings": 4957,
-        "latitude": 44.43195,
-        "longitude": 26.101051
     },
     {
         "restaurant_id": "47",
